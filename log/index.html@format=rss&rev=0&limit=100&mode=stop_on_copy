@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>Revisions of /</title>
+    <link>http://hackathon2.dbcls.jp/log/?rev=0</link>
+    <description>Trac Log - Revisions of /</description>
+    <language>en-US</language>
+    <generator>Trac 0.11.6</generator>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/log/?rev=0</link>
+    </image>
+ </channel>
+</rss>

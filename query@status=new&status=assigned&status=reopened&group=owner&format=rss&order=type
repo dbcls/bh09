@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>BioHackathon 2009: Ticket Query</title>
+    <link>http://hackathon2.dbcls.jp/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;row=description</link>
+    <description>BioHackathon 2009</description>
+    <language>en-US</language>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;row=description</link>
+    </image>
+    <generator>Trac 0.11.6</generator>
+    <item>
+        <link>http://hackathon2.dbcls.jp/ticket/2</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/2</guid>
+        <title>#2: Prepare for the BioLiquorthon</title>
+        <pubDate>Fri, 06 Feb 2009 12:48:53 GMT</pubDate>
+          <dc:creator>ktym</dc:creator>
+        <description></description>
+        <category>Results</category>
+        <comments>http://hackathon2.dbcls.jp/ticket/2#changelog</comments>
+    </item><item>
+        <link>http://hackathon2.dbcls.jp/ticket/3</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/3</guid>
+        <title>#3: Select a journal for publication of the meeting report</title>
+        <pubDate>Fri, 06 Feb 2009 12:58:51 GMT</pubDate>
+          <dc:creator>ktym</dc:creator>
+        <description>&lt;ul&gt;&lt;li&gt;Arek Kasprzyk for "Database"
+&lt;/li&gt;&lt;li&gt;Alfonso Valencia for "Bioinformatics"
+&lt;/li&gt;&lt;li&gt;Alex Bateman for "NAR"
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+&lt;/p&gt;
+</description>
+        <category>Results</category>
+        <comments>http://hackathon2.dbcls.jp/ticket/3#changelog</comments>
+    </item>
+ </channel>
+</rss>

@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      WikiStart (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/WikiStart?action=history" title="Page history" />
+        <link rel="next" href="/wiki/WikiStart?action=diff&amp;version=24" title="Version 24" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/WikiStart?action=diff&amp;version=22" title="Version 22" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/WikiStart?action=diff&amp;version=22" title="Version 22">Previous Change</a></span></li><li><a href="/wiki/WikiStart?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/WikiStart?action=diff&amp;version=24" title="Version 24">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/WikiStart?version=22">Version 22</a> and
+        <a href="/wiki/WikiStart?version=23">Version 23</a> of
+        <a href="/wiki/WikiStart?version=23">WikiStart</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/WikiStart?version=23"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="23" />
+          <input type="hidden" name="old_version" value="22" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2008/12/31 22:46:17 (<a class="timeline" href="/timeline?from=2008-12-31T22%3A46%3A17%2B0900&amp;precision=second" title="2008-12-31T22:46:17+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          ktym
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/WikiStart?version=23">WikiStart</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 22">
+                    <a href="/wiki/WikiStart?version=22#L9">
+                      v22</a>
+                  </th>
+                  <th title="Version 23">
+                    <a href="/wiki/WikiStart?version=23#L9">
+                      v23</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>9</th><th>9</th><td class="l"><span>The hackathon (hacking + marathon) basically is a camp where invited participants discuss about</span> </td>
+                  </tr><tr>
+                          <th>10</th><th>10</th><td class="l"><span>current issues and implement software to solve the problems on site collaboratively.</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>11</th><th> </th><td class="l"><span>This kind of meeting is very effective for the intensive development of projects<del></del> because</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>11</th><td class="r"><span>This kind of meeting is very effective for the intensive development of projects<ins>,</ins> because</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>12</th><th>12</th><td class="l"><span>face-to-face meeting of developers, who usually spread around the world, accelerates</span> </td>
+                  </tr><tr>
+                          <th>13</th><th>13</th><td class="l"><span>communication and collaboration to exchange their ideas instantly.</span> </td>
+                  </tr><tr>
+                          <th>14</th><th>14</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>15</th><th> </th><td class="l"><span>In addition to gather database and service developers, we will also involve semi-wet biologists</span> </td>
+                      </tr><tr>
+                        <th>16</th><th> </th><td class="l"><span>working in an area where high throughput gene annotation is required because they are primary</span> </td>
+                      </tr><tr>
+                        <th>17</th><th> </th><td class="l"><span>consumers of our infrastructure. By knowing their demands, we can find what kind of resource</span> </td>
+                      </tr><tr>
+                        <th>18</th><th> </th><td class="l"><span>is missing and prioritize our action items.</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>15</th><td class="r"><span>BioHackathon is a hackathon to implement bioinformatics software towards domain specific goals.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>16</th><td class="r"><span>This year, we will focus on end user applications to make our previous standardization efforts</span> </td>
+                      </tr><tr>
+                        <th> </th><th>17</th><td class="r"><span>to be fully utilized by the primary consumers of our infrastructure.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>18</th><td class="r"><span>For this purpose, we will also involve semi-wet biologists working in an area where</span> </td>
+                      </tr><tr>
+                        <th> </th><th>19</th><td class="r"><span>high throughput genome annotation is required.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>20</th><td class="r"><span>By knowing their demands, we will be able to find what kind of resource is missing and</span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>21</th><td class="r"><span>to prioritize our action items.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>19</th><th>22</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>20</th><th>23</th><td class="l"><span>== Objectives ==</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/WikiStart?version=22#L134">…</a></th>
+                  <th><a href="/wiki/WikiStart?version=23#L137">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>134</th><th>137</th><td class="l"><span>=== 3/22 (Sun) ===</span> </td>
+                  </tr><tr>
+                          <th>135</th><th>138</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>136</th><th> </th><td class="l"><span>&nbsp;* 成田着、ホテルや DBCLS まで各自移動</span> </td>
+                      </tr><tr>
+                        <th>137</th><th> </th><td class="l"><span>&nbsp; * 成田国際線到着全便一覧 http://www.narita-airport.or.jp/ais/flightall/inter_arr.html</span> </td>
+                      </tr><tr>
+                        <th>138</th><th> </th><td class="l"><span>&nbsp; * 朝か夕方が多そう</span> </td>
+                      </tr><tr>
+                        <th>139</th><th> </th><td class="l"><span>&nbsp;* 17:00-21:00 DBCLS にて適宜レセプション</span> </td>
+                      </tr><tr>
+                        <th>140</th><th> </th><td class="l"><span>&nbsp;* 外国人は都心のホテルに収容</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>139</th><td class="r"><span>&nbsp;* Arrival to Japan (Tokyo-Narita airport)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>140</th><td class="r"><span>&nbsp;* Check into the hotel</span> </td>
+                      </tr><tr>
+                        <th> </th><th>141</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>142</th><td class="r"><span>&nbsp;* 17:00-21:00 Reception at DBCLS</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>141</th><th>143</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>142</th><th>144</th><td class="l"><span>=== 3/23 (Mon) ===</span> </td>
+                  </tr><tr>
+                          <th>143</th><th>145</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>144</th><th> </th><td class="l"><span>公開シンポジウムを開催するかどうか高木先生と相談</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>146</th><td class="r"><span>&nbsp;* 9:00-12:00 Symposium in Tokyo</span> </td>
+                      </tr><tr>
+                        <th> </th><th>147</th><td class="r"><span>&nbsp; * Invited talks</span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>148</th><td class="r"><span>&nbsp; * Lightning talks</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>145</th><th>149</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>146</th><th> </th><td class="l"><span>9:00-12:00</span> </td>
+                      </tr><tr>
+                        <th>147</th><th> </th><td class="l"><span>&nbsp;<del>* 基調講演 1〜4 本 (30〜60min)</del></span> </td>
+                      </tr><tr>
+                        <th>148</th><th> </th><td class="l"><span>&nbsp;<del>* ショートトラック 1〜6本 (10min)</del></span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>150</th><td class="r"><span>&nbsp;* Flight from Tokyo-Haneda airport to Okinawa-Naha airport</span> </td>
+                      </tr><tr>
+                        <th> </th><th>151</th><td class="r"><span>&nbsp;<ins>&nbsp;* JAL: HND 14:40 - 17:30 OKA</ins></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>152</th><td class="r"><span>&nbsp;<ins>&nbsp;* ANA: HND 15:30 - 18:15 OKA</ins></span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>149</th><th>153</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>150</th><th> </th><td class="l"><span>会場は東京駅か品川駅近辺</span> </td>
+                      </tr><tr>
+                        <th>151</th><th> </th><td class="l"><span>&nbsp;* 東京ステーションカンファレンスセンター（サピアタワー） http://www.tstc.jp/access/</span> </td>
+                      </tr><tr>
+                        <th>152</th><th> </th><td class="l"><span>&nbsp;* 東京コンファレンスセンター・品川 http://www.tokyo-cc.co.jp/access.html</span> </td>
+                      </tr><tr>
+                        <th>153</th><th> </th><td class="l"><span></span> </td>
+                      </tr><tr>
+                        <th>154</th><th> </th><td class="l"><span>お昼ご飯は会場でケータリングかお弁当</span> </td>
+                      </tr><tr>
+                        <th>155</th><th> </th><td class="l"><span></span> </td>
+                      </tr><tr>
+                        <th>156</th><th> </th><td class="l"><span>羽田までは空港リムジンバスを事前予約しておく（チャーターより割安）</span> </td>
+                      </tr><tr>
+                        <th>157</th><th> </th><td class="l"><span></span> </td>
+                      </tr><tr>
+                        <th>158</th><th> </th><td class="l"><span>&nbsp;* JAL: HND 14:40 - 17:30 OKA</span> </td>
+                      </tr><tr>
+                        <th>159</th><th> </th><td class="l"><span>&nbsp;* ANA: HND 15:30 - 18:15 OKA</span> </td>
+                      </tr><tr>
+                        <th>160</th><th> </th><td class="l"><span></span> </td>
+                      </tr><tr>
+                        <th>161</th><th> </th><td class="l"><span>着いてから那覇で食事？バスをチャーターして会場兼ホテルに移動</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>154</th><td class="r"><span>&nbsp;* Transport from Naha airport to OIST</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>162</th><th>155</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>163</th><th>156</th><td class="l"><span>=== 3/24 - 3/27 ===</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/WikiStart?version=22#L174">…</a></th>
+                  <th><a href="/wiki/WikiStart?version=23#L167">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>174</th><th>167</th><td class="l"><span>=== 3/28 (Sat) ===</span> </td>
+                  </tr><tr>
+                          <th>175</th><th>168</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>176</th><th> </th><td class="l"><span>&nbsp;* 那覇にて解散</span> </td>
+                      </tr><tr>
+                        <th>177</th><th> </th><td class="l"><span>&nbsp;* スタッフは後片付け。ダイビングとか。</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>169</th><td class="r"><span>&nbsp;* Depature from Naha airport (taking flight for appropriate destination)</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>178</th><th>170</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>179</th><th>171</th><td class="l"><span>== Misc ==</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/WikiStart?version=22#L196">…</a></th>
+                  <th><a href="/wiki/WikiStart?version=23#L188">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>196</th><th>188</th><td class="l"><span>IN PREPARATION</span> </td>
+                  </tr><tr>
+                          <th>197</th><th>189</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="last first">
+                          <th>198</th><th> </th><td class="l"><del>== TODO ==</del> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>199</th><th>190</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="first">
+                          <th>200</th><th> </th><td class="l"><del>&nbsp;* とりあえず議事録をメモしておいて、この Trac を近日中に英語化する。</del> </td>
+                  </tr><tr>
+                          <th>201</th><th> </th><td class="l"><del>&nbsp;* BioHackathon 2008 のミーティングレポートのドラフト（今週末） -&gt; 片山, 荒川, (中尾?)</del> </td>
+                  </tr><tr>
+                          <th>202</th><th> </th><td class="l"><del>&nbsp;* Hackathon 事務用の Twitter を作る</del> </td>
+                  </tr><tr>
+                          <th>203</th><th> </th><td class="l"><del>&nbsp;* 日程調整を終わらせる</del> </td>
+                  </tr><tr>
+                          <th>204</th><th> </th><td class="l"><del>&nbsp; * 2009/03/22 (Sun) -2009/03/28 (Sat) が今のところ最有力（まだ確定ではない）</del> </td>
+                  </tr><tr>
+                          <th>205</th><th> </th><td class="l"><del>&nbsp; * 農芸化学会と重なる</del> </td>
+                  </tr><tr>
+                          <th>206</th><th> </th><td class="l"><del>&nbsp; * 事務方が３月最終週で問題ないかを確認</del> </td>
+                  </tr><tr>
+                          <th>207</th><th> </th><td class="l"><del>&nbsp;* 残りの参加者を調整する</del> </td>
+                  </tr><tr>
+                          <th>208</th><th> </th><td class="l"><del>&nbsp;* エディターとのコミュニケート</del> </td>
+                  </tr><tr>
+                          <th>209</th><th> </th><td class="l"><del>&nbsp;* 顔写真を集める</del> </td>
+                  </tr><tr>
+                          <th>210</th><th> </th><td class="l"><del>&nbsp; * 自己紹介を ML で済ませてもらう</del> </td>
+                  </tr><tr>
+                          <th>211</th><th> </th><td class="l"><del>&nbsp; * LinkedIn で繋がってもらい、いつでもプロフィールが確認できるようにする</del> </td>
+                  </tr><tr>
+                          <th>212</th><th> </th><td class="l"><del>&nbsp; * 名刺をあらかじめ作っておく</del> </td>
+                  </tr><tr>
+                          <th>213</th><th> </th><td class="l"><del>&nbsp; * http://g2.trac.bx.psu.edu/wiki/GalaxyTeam</del> </td>
+                  </tr><tr>
+                          <th>214</th><th> </th><td class="l"><del>&nbsp;* ミッションを説明するスライドを準備しておく（初日に 30 分くらい喋る）</del> </td>
+                  </tr><tr>
+                          <th>215</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>216</th><th> </th><td class="l"><del>&nbsp;* TogoWS を web server issue に問い合わせる</del> </td>
+                  </tr><tr class="last">
+                          <th>217</th><th> </th><td class="l"><del></del> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

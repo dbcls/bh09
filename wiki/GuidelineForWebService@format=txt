@@ -1,0 +1,118 @@
+= Guideline for Web Services (Manifesto ver.2.0) =
+
+This document is a guideline to design web services toward integration.
+
+ * REST
+   * For a database service, REST services to call entries and search by a keyword should be provided.
+   * To unify query formats, the query languages should conform to Common Query Language.
+   * A method to get the number of hits for a keyword should be provided.
+   * A method to get the list of hit entries for a keyword should be provided.
+   * A method to get the entry from an ID should be provided.
+     * If the entry does not exist, the method should return code 404 and an empty entry.
+   * Path parameters (/foo/bar/baz) should be used for a REST URL and query parameters (param1=value1&param2=value2) should not be used.
+     * Lower-case letters should be used for path parameters in principle.
+     * If a URL ends "/", a list of possible strings after the URL should be returned in principle. 
+   * When a method returns a list, each line should correspond to an entry and each line should be divided by tab into fields.
+     * As REST web services can be called from AJAX, an alternative could be [http://www.json.org/ JSON].
+   * [http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html HTTP codes] should be used for error signaling. It is allowed to also send in the answer some text.
+
+ * SOAP
+   * A manual for each method should be provided.
+     * The manual should include examples of parameters such that the method works well by them.
+   * Each method should be verified to use Java (for instance, [https://jax-ws.dev.java.net/ JAX-WS] or [https://jaxb.dev.java.net/ JAXB]), Perl ([http://www.soaplite.com/ SOAP::Lite]), Ruby and Python ([http://www.ibm.com/developerworks/webservices/library/ws-pyth5/ SOAP.py], [http://pywebsvcs.sourceforge.net/ ZSI], [http://code.google.com/p/tgws/ TGWebServices] or [http://trac.optio.webfactional.com/ soaplib]).
+     * Providing sample codes for the common SOAP toolkits in such languages is recommended.
+     * Providing test case projects for free testing packages like [http://www.soapui.org/ soapUI]
+   * For asynchronous services, a job ID should be provided.
+   * When any unrecoverable error occurs during processing at a server, a method should return "SOAP Fault".
+
+ * The following data types should be used:
+   * [http://www.insdc.org/page.php?page=home INSDC INSDSeq] for sequences,
+   * [http://www.mged.org/Workgroups/MIAME/miame.html MIAME] for expression data,
+   * [http://glycomics.ccrc.uga.edu/GLYDE-II/ GLYDE-II] for glycans,
+   * Tab format for key-value.
+
+ * REST or SOAP
+   * For retieval methods (to get an entry or search entries by keywords), REST is recommended. For methods of analysis service, SOAP is recommended.
+
+
+= TogoWS Guidelines =
+
+== REST ==
+
+TogoWS stated the rulers to design the services  to call and search entries as below:
+
+ * http://togows.dbcls.jp/site/services.html
+ * http://togows.dbcls.jp/site/rest.html
+
+=== How to call the entries ===
+
+{{{
+http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format]
+}}}
+
+If the name space of the databases are in URL：
+
+ * http://frnadb.example.org/entry/id instead of http://frnadb.example.org/entry/frnadb/id
+
+How to add the name spaces for the institution, release_numer of the database: 
+
+ * http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345
+
+NOTE:
+The default fotmat for the entries is “.txt”, and can be in the specified format by adding the suffix, such as “.xml”. 
+
+Calling a part of the entry：
+The method to call the part of the entries by field names is the extension of TogoWS using BioRuby/BioPerl
+
+=== How to search the entries ===
+
+{{{
+http://togows.dbcls.jp/search/database/query+string[.format][/offset,limit[.format]] 
+http://togows.dbcls.jp/search/database/query+string/count
+}}}
+
+The format of "query string" to be based on “Common Query Language" [http://en.wikipedia.org/wiki/Common_Query_Language Common Query Language]
+
+=== The conversion of data format and ID ===
+
+{{{
+http://togows.dbcls.jp/convert/data_source.format
+}}}
+
+=== Metadata ===
+
+ * The list of the databases
+
+{{{
+http://togows.dbcls.jp/entry/
+http://togows.dbcls.jp/search/
+}}}
+
+ * The list of the fields
+
+{{{
+http://togows.dbcls.jp/entry/DBname/
+}}}
+
+ * The list of the formats
+
+{{{
+http://togows.dbcls.jp/entry/DBname/formats
+}}}
+
+== SOAP ==
+
+ * Required test environment
+  * Perl: Soap::Lite 0.69
+  * Ruby: SOAP4R 1.5.5 (Ruby 1.8.6 bundle)
+  * Python: SOAPpy 0.12.0
+  * Java: Axis 1.4
+ * SOAP version 1.2, at least
+ * Calling a method with asynchronous
+  * The name for the method with asynchronous end with “Async” and return job ID
+  * Rerurn job ID to “CheckAsyncStatus?” method and give either RUNNING, COMPLETED, or ERROR
+  * Method name for the method with asynchronous mst be” BeginInvoke methods＋Result” and stae job ID as a parameter
+
+== History ==
+
+ * version [wiki:Manifest2.0_e] (2009/03/20)

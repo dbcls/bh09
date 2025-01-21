@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>BioHackathon 2009: Ticket #3: Select a journal for publication of the meeting report</title>
+    <link>http://hackathon2.dbcls.jp/ticket/3</link>
+    <description>&lt;ul&gt;&lt;li&gt;Arek Kasprzyk for "Database"
+&lt;/li&gt;&lt;li&gt;Alfonso Valencia for "Bioinformatics"
+&lt;/li&gt;&lt;li&gt;Alex Bateman for "NAR"
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+&lt;/p&gt;
+</description>
+    <language>en-us</language>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/ticket/3</link>
+    </image>
+    <generator>Trac 0.11.6</generator>
+    <item>
+          <dc:creator>ktym</dc:creator>
+      <pubDate>Thu, 05 Mar 2009 01:50:34 GMT</pubDate>
+      <title>comment added; summary changed</title>
+      <link>http://hackathon2.dbcls.jp/ticket/3#comment:1</link>
+      <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/3#comment:1</guid>
+      <description>
+          &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;summary&lt;/strong&gt;
+                changed from &lt;em&gt;journal&lt;/em&gt; to &lt;em&gt;Select a journal for publication of the meeting report&lt;/em&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+      </description>
+      <category>Ticket</category>
+    </item>
+ </channel>
+</rss>

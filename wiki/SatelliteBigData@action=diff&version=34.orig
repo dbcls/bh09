@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteBigData (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/SatelliteBigData?action=history" title="Page history" />
+        <link rel="next" href="/wiki/SatelliteBigData?action=diff&amp;version=35" title="Version 35" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=33" title="Version 33" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=33" title="Version 33">Previous Change</a></span></li><li><a href="/wiki/SatelliteBigData?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/SatelliteBigData?action=diff&amp;version=35" title="Version 35">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/SatelliteBigData?version=33">Version 33</a> and
+        <a href="/wiki/SatelliteBigData?version=34">Version 34</a> of
+        <a href="/wiki/SatelliteBigData?version=34">SatelliteBigData</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/SatelliteBigData?version=34"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="34" />
+          <input type="hidden" name="old_version" value="33" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/03/20 13:46:44 (<a class="timeline" href="/timeline?from=2009-03-20T13%3A46%3A44%2B0900&amp;precision=second" title="2009-03-20T13:46:44+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          jan.aerts
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/SatelliteBigData?version=34">SatelliteBigData</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 33">
+                    <a href="/wiki/SatelliteBigData?version=33#L3">
+                      v33</a>
+                  </th>
+                  <th title="Version 34">
+                    <a href="/wiki/SatelliteBigData?version=34#L3">
+                      v34</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>3</th><th>3</th><td class="l"><span>== Topics ==</span> </td>
+                  </tr><tr>
+                          <th>4</th><th>4</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>5</th><th> </th><td class="l"><span>As more and more projects are spewing out datasets we might have to look at new <del>paradigms of working with them. The conventional way of storing everything in a database and querying with SQL has become challenging or just impossible. Data are now more often stored in their original data forma</del>ts.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>5</th><td class="r"><span>As more and more projects are spewing out datasets we might have to look at new <ins>ways of working with them. Really big datasets (e.g. SRA) require technical expertise other than what we can provide. But we can still try and learn from each other on how to handle our own datase</ins>ts.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>6</th><th>6</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>7</th><th>7</th><td class="l"><span>The object of this meeting is to exchange ideas on this topic and discuss possible solutions or practices.</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/SatelliteBigData?version=33#L16">…</a></th>
+                  <th><a href="/wiki/SatelliteBigData?version=34#L16">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>16</th><th>16</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>17</th><th>17</th><td class="l"><span>&nbsp;* Jan Aerts</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>18</th><th> </th><td class="l"><span>&nbsp;* <del>&nbsp;</del>Jessica Severin</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>18</th><td class="r"><span>&nbsp;* <ins></ins>Jessica Severin</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>19</th><th>19</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>20</th><th>20</th><td class="l"><span>== Date ==</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/SatelliteBigData?version=33#L64">…</a></th>
+                  <th><a href="/wiki/SatelliteBigData?version=34#L64">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>64</th><th>64</th><td class="l"><span>In contrast to the above, diffraction results, microarray results or next-gen sequencing reads involve a largish number of objects which become more difficult to query. They are typically still stored in RDBMS but might require some tweaking that digresses from a normalized relational database model. Apart from obvious things to do such as creating good indices, further optimization can be found by using as few joins as possible and therefore organizing the data so that it can be stored in 2 or 3 tables/indexes (e.g. eeDB).</span> </td>
+                  </tr><tr>
+                          <th>65</th><th>65</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>66</th><th> </th><td class="l"><span>Several attendees are looking into new ways to store their data because they are hitting the ceiling of their storage capacity. Several technologies were mentioned, including <del>OGSADAI which is a grid-based solution where you can setup several databases that then can be queried as one. Other technologies like the cloud might also provide part of a solution. Amazon S3 and GoogleBase allow for storing very large amounts of data (large numbers of large objects) and are relatively cheap. The upload is however very slow to these systems</del> which must be taken into account. In addition, these services are commercial and it might be dangerous to store non-public data there. A possible solution mentioned involves creating an encrypted data image to be uploaded instead of the original dataset. Another issue is that these companies might in the future decide to increase their prices or even stop their activities. Using the cloud for data storage therefore means that you still need a local backup in case this happens.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>66</th><td class="r"><span>Several attendees are looking into new ways to store their data because they are hitting the ceiling of their storage capacity. Several technologies were mentioned, including <ins>[http://www.ogsadai.org.uk/ OGSADAI] which is a grid-based solution where you can setup several databases that then can be queried as one. Other technologies like the cloud might also provide part of a solution. [http://aws.amazon.com/s3/ Amazon S3] and [http://www.google.com/base/ GoogleBase] allow for storing very large amounts of data (large numbers of large objects) and are relatively cheap. The upload to these systems is however very slow</ins> which must be taken into account. In addition, these services are commercial and it might be dangerous to store non-public data there. A possible solution mentioned involves creating an encrypted data image to be uploaded instead of the original dataset. Another issue is that these companies might in the future decide to increase their prices or even stop their activities. Using the cloud for data storage therefore means that you still need a local backup in case this happens.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>67</th><th>67</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>68</th><th>68</th><td class="l"><span>[Jessica: can you add your vertical red line to this as well?]</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/SatelliteBigData?version=33#L70">…</a></th>
+                  <th><a href="/wiki/SatelliteBigData?version=34#L70">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>70</th><th>70</th><td class="l"><span>==== Querying ====</span> </td>
+                  </tr><tr>
+                          <th>71</th><th>71</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>72</th><th> </th><td class="l"><span>Several approaches to make the data accessible to others were discussed. For smaller datasets regular SQL can be used to get to the data (example: the Ensembl MySQL server on ensembldb.ensembl.org). If the database schema has to be tweaked to allow larger datasets (e.g. using a minimal number of tables such as eeDB) an API becomes necessary. A RESTful API where a<del>n object can be retrieved by URL was mentioned as useful in this case</del>. For even larger datasets you want to try and limit the types of queries people can run. This way you can build a toolkit to ask this limited number of questions, but optimize that toolkit so that latency is reduced.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>72</th><td class="r"><span>Several approaches to make the data accessible to others were discussed. For smaller datasets regular SQL can be used to get to the data (example: the Ensembl MySQL server on ensembldb.ensembl.org). If the database schema has to be tweaked to allow larger datasets (e.g. using a minimal number of tables such as eeDB) an API becomes necessary. A RESTful API where a<ins>&nbsp;text-representation of and object can be retrieved by URL was mentioned as useful in this case (e.g. http://www.example.com/genes/BRCA2;format=bed)</ins>. For even larger datasets you want to try and limit the types of queries people can run. This way you can build a toolkit to ask this limited number of questions, but optimize that toolkit so that latency is reduced.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>73</th><th>73</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>74</th><th>74</th><td class="l"><span>Streaming</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>75</th><th> </th><td class="l"><span></span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>75</th><td class="r"><span>{{{</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>76</th><th>76</th><td class="l"><span>&nbsp; [SQL, File indexes] -&gt; API -&gt; toolkit -&gt; [web, clients, mashup-analyzers]</span> </td>
+                  </tr><tr>
+                          <th>77</th><th>77</th><td class="l"><span>&nbsp; &nbsp;^&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span> </td>
+                  </tr><tr>
+                          <th>78</th><th>78</th><td class="l"><span>&nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |</span> </td>
+                  </tr><tr>
+                          <th>79</th><th>79</th><td class="l"><span>&nbsp; &nbsp;+----------------------+</span> </td>
+                  </tr>
+            </tbody><tbody class="add">
+                  <tr class="last first">
+                          <th> </th><th>80</th><td class="r"><ins>}}}</ins> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>80</th><th>81</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>81</th><th>82</th><td class="l"><span>==== Processing ====</span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

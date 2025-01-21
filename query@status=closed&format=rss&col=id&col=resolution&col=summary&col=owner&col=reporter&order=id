@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>BioHackathon 2009: Ticket Query</title>
+    <link>http://hackathon2.dbcls.jp/query?status=closed&amp;row=description</link>
+    <description>BioHackathon 2009</description>
+    <language>en-US</language>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/query?status=closed&amp;row=description</link>
+    </image>
+    <generator>Trac 0.11.6</generator>
+    <item>
+        <link>http://hackathon2.dbcls.jp/ticket/1</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/1</guid>
+        <title>#1: Create the Hackathon Poster</title>
+        <pubDate>Fri, 06 Feb 2009 12:47:45 GMT</pubDate>
+          <dc:creator>ktym</dc:creator>
+        <description></description>
+        <category>Results</category>
+        <comments>http://hackathon2.dbcls.jp/ticket/1#changelog</comments>
+    </item><item>
+        <link>http://hackathon2.dbcls.jp/ticket/4</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/4</guid>
+        <title>#4: Prepare KML file and/or Google myMap</title>
+        <pubDate>Fri, 13 Feb 2009 11:36:33 GMT</pubDate>
+          <dc:creator>ktym</dc:creator>
+        <description></description>
+        <category>Results</category>
+        <comments>http://hackathon2.dbcls.jp/ticket/4#changelog</comments>
+    </item>
+ </channel>
+</rss>

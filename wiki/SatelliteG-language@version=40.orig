@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteG-language – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteG-language?version=40&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteG-language" title="View latest version" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteG-language?version=39" title="Version 39" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteG-language?version=39" title="Version 39">Previous Version</a></span></li><li><a href="/wiki/SatelliteG-language" title="View latest version">View Latest Version</a></li><li><span class="missing">Next Version &rarr;</span></li><li class="last"><a href="/wiki/SatelliteG-language?action=diff&amp;version=40">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 40 (modified by gaou, <a class="timeline" href="/timeline?from=2009-03-26T22%3A35%3A21%2B0900&amp;precision=second" title="2009-03-26T22:35:21+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SatellitemeetingforG-languagedevelopment">Satellite meeting for G-language development</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+Development of REST/SOAP web services for G-language Genome Analysis Environment
+</p>
+<ul><li><a class="ext-link" href="http://www.g-language.org/"><span class="icon"> </span>http://www.g-language.org/</a>
+</li><li><a class="ext-link" href="http://www.ncbi.nlm.nih.gov/pubmed/12538262"><span class="icon"> </span>http://www.ncbi.nlm.nih.gov/pubmed/12538262</a>
+</li><li><a class="ext-link" href="http://www.jstage.jst.go.jp/article/jpestics/31/3/282/_pdf"><span class="icon"> </span>http://www.jstage.jst.go.jp/article/jpestics/31/3/282/_pdf</a>
+</li></ul><h2 id="Participants">Participants</h2>
+<ul><li>Kazuharu Arakawa
+</li><li>Nobuhiro Kido
+</li><li>Kazuki Oshita
+</li></ul><h2 id="togoWS">togoWS</h2>
+<ul><li> <a class="ext-link" href="http://togows.dbcls.jp/"><span class="icon"> </span>http://togows.dbcls.jp/</a>
+</li></ul><pre class="wiki"> Name: togoWS   -   runs togoWS REST web services
+
+ Description:
+    This is a wrapper around togoWS REST web services provided at
+    http://togows.dbcls.jp/.
+    
+ Usage:
+    #search
+    @ids = togoWS(-search=&gt;"keyword", -db=&gt;"database");
+
+    #entry
+    $entry = togoWS(@ids);
+
+ Options:
+    -search  required option for keyword searching. 
+    -db      name of the database for searching and entry retrieval
+             required for searching, but not required for entry 
+             retrieval, since corresponding database is automatically
+             selected from the ID format. However, majority of the 
+             databases simply use large numbers as IDs, which all
+             result in "pubmed" as the databases. Therefore, use 
+             of this option is necessary for IDs that are only numbers.
+    -field   field name for entry retrieval (optional)
+    -format  format name for entry retrieval (optional)
+</pre><h2 id="REST">REST</h2>
+<ul><li>Base URL:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/"><span class="icon"> </span>http://rest.g-language.org/</a>
+</li></ul></li></ul><h3 id="genomeflatfileaccess">genome flatfile access</h3>
+<ul><li>list of available genomes:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/organism_list/"><span class="icon"> </span>http://rest.g-language.org/organism_list/</a>
+</li></ul></li><li>Syntax:<br />
+<ul><li><tt>http://rest.g-language.org/[genome]/[gene]/[feature]</tt>
+</li></ul></li><li>Genomes (nucleotide composition)<br />
+<ul><li><tt>http://rest.g-language.org/[genome]</tt>
+<ul><li>examples:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/ecoli"><span class="icon"> </span>http://rest.g-language.org/ecoli</a> (G-language preset genome)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/NC_000908"><span class="icon"> </span>http://rest.g-language.org/NC_000908</a> (NCBI <a class="missing wiki">RefSeq?</a> accession)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/B619CD"><span class="icon"> </span>http://rest.g-language.org/B619CD</a> (G-language REST temporary reference id)
+</li></ul></li></ul></li></ul></li><li>Genes<br />
+<ul><li><tt>http://rest.g-language.org/[genome]/[gene]</tt>
+<ul><li>examples:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/ecoli/recA"><span class="icon"> </span>http://rest.g-language.org/ecoli/recA</a> (common gene name)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/b2699"><span class="icon"> </span>http://rest.g-language.org/ecoli/b2699</a> (canonical gene name / locus tag)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/FEATURE5804"><span class="icon"> </span>http://rest.g-language.org/ecoli/FEATURE5804</a> (G-language feature id)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/CDS2646"><span class="icon"> </span>http://rest.g-language.org/ecoli/CDS2646</a> (G-language CDS id)
+</li></ul></li></ul></li></ul></li><li>features<br />
+<ul><li><tt>http://rest.g-language.org/[genome]/[gene]/[feature]</tt>
+<ul><li>examples:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/mgen/metX/gene"><span class="icon"> </span>http://rest.g-language.org/mgen/metX/gene</a> (gene name)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/mgen/metX/translation"><span class="icon"> </span>http://rest.g-language.org/mgen/metX/translation</a> (amino acid sequence)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/mgen/*/translation"><span class="icon"> </span>http://rest.g-language.org/mgen/*/translation</a> (amino acid sequence of all genes)
+</li></ul></li></ul></li></ul></li></ul><h3 id="fileupload">file upload</h3>
+<ul><li>Base URL:<br />
+<a class="ext-link" href="http://rest.g-language.org/upload/"><span class="icon"> </span>http://rest.g-language.org/upload/</a>
+</li><li>Syntax
+<ul><li>POST a file to fileform=file
+</li><li>File types are automatically interpreted by the system. Supported formats are: ABI, ACE, ALF, BSML, CTF, EMBL, Entrez Gene, Exp, FastA, FastQ, GCG, <a class="missing wiki">GenBank?</a>, Phd, PIR, PLN, raw, SCF, SWISS.
+</li></ul></li><li>Return
+<ul><li>Returns a unique reference ID for the uploaded file. You can use this ID for the rest of the analysis so that the large file is not transferred over the network.
+</li></ul></li></ul><h3 id="genomeanalysismethods">genome analysis methods</h3>
+<ul><li>list of available analysis methods:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/method_list/"><span class="icon"> </span>http://rest.g-language.org/method_list/</a>
+</li></ul></li><li>Syntax:<br />
+<ul><li><tt>http://rest.g-language.org/[genome]/[method]/[required input (if any)]/[option1=value]/[option2=value]...</tt>
+</li></ul></li><li>Genome data access<br />
+<ul><li>examples:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/ecoli/before_startcodon/recA"><span class="icon"> </span>http://rest.g-language.org/ecoli/before_startcodon/recA</a> (5' upstream sequence of recA gene)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/get_geneseq/recA"><span class="icon"> </span>http://rest.g-language.org/ecoli/get_geneseq/recA</a> (nucleotide sequence of recA gene)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/cds"><span class="icon"> </span>http://rest.g-language.org/ecoli/cds</a> (get a list of all feature ids)
+</li></ul></li></ul></li><li>Analysis methods<br />
+<ul><li>examples:<br />
+<ul><li><a class="ext-link" href="http://rest.g-language.org/ecoli/gcskew"><span class="icon"> </span>http://rest.g-language.org/ecoli/gcskew</a> (GC skew analysis - produces a graph)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/gcskew/cumulative=1"><span class="icon"> </span>http://rest.g-language.org/ecoli/gcskew/cumulative=1</a> (cumulative GC skew)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/gcskew/at=1/cumulative=1/output=f/"><span class="icon"> </span>http://rest.g-language.org/ecoli/gcskew/at=1/cumulative=1/output=f/</a> (cumulative AT skew - output as csv data)<br />
+</li><li><a class="ext-link" href="http://rest.g-language.org/ecoli/gcsi"><span class="icon"> </span>http://rest.g-language.org/ecoli/gcsi</a> (GC Skew Index analysis - single double value)
+</li></ul></li></ul></li></ul><p>
+ 
+</p>
+<h2 id="SOAP">SOAP</h2>
+<ul><li>WSDL:
+<ul><li><a class="ext-link" href="http://soap.g-language.org/g-language.wsdl"><span class="icon"> </span>http://soap.g-language.org/g-language.wsdl</a>
+</li><li>argument value
+<ul><li>based upon G-language original
+</li><li>you can use some species ("<i>ecoli</i>","<i>bsub</i>","<i>mgen</i>","<i>cyano</i>", "<i>pyro</i>" ) ,file contents or USA format instead of $gb
+</li></ul></li></ul></li></ul><ul><li>Taverna 2:
+<ul><li>example
+<ul><li>workflow 
+<ul><li><a href="http://hackathon2.dbcls.jp/attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow">http://hackathon2.dbcls.jp/attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow</a>
+</li></ul></li><li>Screen shot<br /> <a style="padding:0; border:none" href="/attachment/wiki/SatelliteG-language/pict5.gif"><img src="/raw-attachment/wiki/SatelliteG-language/pict5.gif" alt="ScreenShot  (Taverna)" title="ScreenShot  (Taverna)" /></a>
+</li></ul></li></ul></li></ul><h2 id="AJAXCGIgateway">AJAX/CGI gateway</h2>
+<ul><li>URL: 
+<ul><li><a class="ext-link" href="http://www.g-language.org/gbi/frontend.pl"><span class="icon"> </span>http://www.g-language.org/gbi/frontend.pl</a>
+</li></ul></li><li>Usage<br /><a style="padding:0; border:none" href="/attachment/wiki/SatelliteG-language/section.png"><img src="/raw-attachment/wiki/SatelliteG-language/section.png" /></a><br />
+<ul><li>(1)Choose genome file. You can search the species our server has (see following figure) , or load by temporary reference ID or preset genome ID. File upload will be available.<br />         <a style="padding:0; border:none" href="/attachment/wiki/SatelliteG-language/incre.png"><img src="/raw-attachment/wiki/SatelliteG-language/incre.png" /></a>
+</li><li>(2)Select analysis method from functions list.
+</li><li>(3)Results come here and automatically added to History section.
+</li><li>(4)All of the analysis you did are available here to check the previous analysis results.
+</li></ul></li></ul><ul><li>TODO
+<ul><li>[Data load] add file upload form
+</li><li>[Analysis] categorize by function orthology
+</li><li>[Analysis] hint tip
+</li><li>[Analysis] parameter input box
+</li><li>[History] 'Send to Galaxy'
+</li><li>[History] 'Get analysis result and pass to Galaxy'
+</li><li>[History] design improvement
+</li></ul></li></ul><ul><li>Galaxy Connection:
+<ul><li>access to AJAX/CGI gateway from Galaxy =&gt; ok
+</li></ul></li></ul><h2 id="PerlWrapper">Perl Wrapper</h2>
+<ul><li>Available at CPAN:
+<ul><li><a class="ext-link" href="http://search.cpan.org/~gaou/Bio-Glite-0.01/lib/Bio/Glite.pm"><span class="icon"> </span>http://search.cpan.org/~gaou/Bio-Glite-0.01/lib/Bio/Glite.pm</a>
+</li><li>simple install with "sudo cpan Bio::Glite"
+</li><li>Bio::Glite has all of the functions G-language API, and very efficiently handles data through REST web service of G-language Project. Source code is extremely lightweight (&gt;100KB), and requires very few (mostly standard) modules. 
+</li></ul></li></ul>
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/SatelliteG-language/pict5.gif" title="View attachment">pict5.gif</a>
+      <a href="/raw-attachment/wiki/SatelliteG-language/pict5.gif" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="24076 bytes">23.5 KB</span>) - added by <em>t07122ko</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T12%3A58%3A06%2B0900&amp;precision=second" title="2009-03-20T12:58:06+0900 in Timeline">16 years</a> ago.
+                <q><a class="missing wiki">ScreenShot?</a>  (Taverna)</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow" title="View attachment">getFasta2gcskew.t2flow</a>
+      <a href="/raw-attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="22740 bytes">22.2 KB</span>) - added by <em>t07122ko</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T13%3A02%3A55%2B0900&amp;precision=second" title="2009-03-20T13:02:55+0900 in Timeline">16 years</a> ago.
+                <q>G-language Taverna Workflow (Example)</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteG-language/incre.png" title="View attachment">incre.png</a>
+      <a href="/raw-attachment/wiki/SatelliteG-language/incre.png" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="40967 bytes">40.0 KB</span>) - added by <em>t07505nk</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A53%3A26%2B0900&amp;precision=second" title="2009-03-20T14:53:26+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteG-language/section.png" title="View attachment">section.png</a>
+      <a href="/raw-attachment/wiki/SatelliteG-language/section.png" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="79895 bytes">78.0 KB</span>) - added by <em>t07505nk</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A53%3A55%2B0900&amp;precision=second" title="2009-03-20T14:53:55+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteG-language?version=40&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      WikiStart (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/WikiStart?action=history" title="Page history" />
+        <link rel="next" href="/wiki/WikiStart?action=diff&amp;version=41" title="Version 41" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/WikiStart?action=diff&amp;version=39" title="Version 39" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/WikiStart?action=diff&amp;version=39" title="Version 39">Previous Change</a></span></li><li><a href="/wiki/WikiStart?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/WikiStart?action=diff&amp;version=41" title="Version 41">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/WikiStart?version=39">Version 39</a> and
+        <a href="/wiki/WikiStart?version=40">Version 40</a> of
+        <a href="/wiki/WikiStart?version=40">WikiStart</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/WikiStart?version=40"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="40" />
+          <input type="hidden" name="old_version" value="39" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/02/06 21:32:50 (<a class="timeline" href="/timeline?from=2009-02-06T21%3A32%3A50%2B0900&amp;precision=second" title="2009-02-06T21:32:50+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          ktym
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/WikiStart?version=40">WikiStart</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 39">
+                    <a href="/wiki/WikiStart?version=39#L5">
+                      v39</a>
+                  </th>
+                  <th title="Version 40">
+                    <a href="/wiki/WikiStart?version=40#L5">
+                      v40</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>5</th><th>5</th><td class="l"><span>[[PageOutline]]</span> </td>
+                  </tr><tr>
+                          <th>6</th><th>6</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="first">
+                          <th>7</th><th> </th><td class="l"><del>== Hackathon ==</del> </td>
+                  </tr><tr>
+                          <th>8</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>9</th><th> </th><td class="l"><del>The hackathon (hacking + marathon) basically is a camp where invited participants discuss about</del> </td>
+                  </tr><tr>
+                          <th>10</th><th> </th><td class="l"><del>current issues and implement software to solve the problems on site collaboratively.</del> </td>
+                  </tr><tr>
+                          <th>11</th><th> </th><td class="l"><del>This kind of meeting is very effective for the intensive development of projects, because</del> </td>
+                  </tr><tr>
+                          <th>12</th><th> </th><td class="l"><del>face-to-face meeting of developers who are usually spread around the world, accelerates</del> </td>
+                  </tr><tr>
+                          <th>13</th><th> </th><td class="l"><del>communication and collaboration to exchange their ideas.</del> </td>
+                  </tr><tr>
+                          <th>14</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>15</th><th> </th><td class="l"><del>!BioHackathon is a hackathon to implement bioinformatics software towards domain specific goals.</del> </td>
+                  </tr><tr>
+                          <th>16</th><th> </th><td class="l"><del>This year, we will focus on end user applications to make our previous standardization efforts in</del> </td>
+                  </tr><tr>
+                          <th>17</th><th> </th><td class="l"><del>[http://hackathon.dbcls.jp/ BioHackathon 2008]</del> </td>
+                  </tr><tr>
+                          <th>18</th><th> </th><td class="l"><del>to be fully utilized by the primary users of our infrastructure.</del> </td>
+                  </tr><tr>
+                          <th>19</th><th> </th><td class="l"><del>For this purpose, we will also involve semi-wet biologists working in an area where</del> </td>
+                  </tr><tr>
+                          <th>20</th><th> </th><td class="l"><del>high throughput genome annotation is required.</del> </td>
+                  </tr><tr>
+                          <th>21</th><th> </th><td class="l"><del>By knowing their demands, we will be able to find what kinds of resources are missing and</del> </td>
+                  </tr><tr>
+                          <th>22</th><th> </th><td class="l"><del>to prioritize our action items.</del> </td>
+                  </tr><tr>
+                          <th>23</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>24</th><th> </th><td class="l"><del>== Purpose ==</del> </td>
+                  </tr><tr>
+                          <th>25</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>26</th><th> </th><td class="l"><del>Main purpose of the meeting is to continue global efforts to standardize</del> </td>
+                  </tr><tr>
+                          <th>27</th><th> </th><td class="l"><del>biological database resources and to improve usability and interoperability</del> </td>
+                  </tr><tr>
+                          <th>28</th><th> </th><td class="l"><del>of bioinformatics services, which were proposed in the previous meeting.</del> </td>
+                  </tr><tr>
+                          <th>29</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>30</th><th> </th><td class="l"><del>The agenda of the previous meeting, !BioHackathon 2008, is available at</del> </td>
+                  </tr><tr>
+                          <th>31</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>32</th><th> </th><td class="l"><del>&nbsp; http://hackathon.dbcls.jp/</del> </td>
+                  </tr><tr>
+                          <th>33</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>34</th><th> </th><td class="l"><del>Additionally, we will collaborate with</del> </td>
+                  </tr><tr>
+                          <th>35</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>36</th><th> </th><td class="l"><del>&nbsp;* Organizations which have similar mission with us (e.g. ELIXIR) for the complementary efforts.</del> </td>
+                  </tr><tr>
+                          <th>37</th><th> </th><td class="l"><del>&nbsp;* Developers of integrated platforms like !BioMart, GMOD, Galaxy etc.</del> </td>
+                  </tr><tr>
+                          <th>38</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>39</th><th> </th><td class="l"><del>to make our previous efforts to be utilized by the scientific researchers effectively.</del> </td>
+                  </tr><tr>
+                          <th>40</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>41</th><th> </th><td class="l"><del>== Topics ==</del> </td>
+                  </tr><tr>
+                          <th>42</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>43</th><th> </th><td class="l"><del>Technology: Infrastructure and standardization</del> </td>
+                  </tr><tr>
+                          <th>44</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>45</th><th> </th><td class="l"><del>&nbsp;* Integration of the integrated databases - Unified API for distributed services</del> </td>
+                  </tr><tr>
+                          <th>46</th><th> </th><td class="l"><del>&nbsp;* Agreement on common exchange data formats, ontologies and semantics</del> </td>
+                  </tr><tr>
+                          <th>47</th><th> </th><td class="l"><del>&nbsp;* Provide stable and interoperable services with SOAP and REST</del> </td>
+                  </tr><tr>
+                          <th>48</th><th> </th><td class="l"><del>&nbsp;* Manifesto and guidelines for the next generation web services</del> </td>
+                  </tr><tr>
+                          <th>49</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>50</th><th> </th><td class="l"><del>Application: Mash-up and user friendly interface</del> </td>
+                  </tr><tr>
+                          <th>51</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>52</th><th> </th><td class="l"><del>&nbsp;* Improve end-user applications like Galaxy to utilize integrated databases and services</del> </td>
+                  </tr><tr>
+                          <th>53</th><th> </th><td class="l"><del>&nbsp;* What kinds of resources are currently missing for science?</del> </td>
+                  </tr><tr>
+                          <th>54</th><th> </th><td class="l"><del>&nbsp; * e.g. Genome-scale analysis: pipelines and visualization</del> </td>
+                  </tr><tr>
+                          <th>55</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>56</th><th> </th><td class="l"><del>Promotion: Outreach to the wet biologist</del> </td>
+                  </tr><tr>
+                          <th>57</th><th> </th><td class="l"><del></del> </td>
+                  </tr><tr>
+                          <th>58</th><th> </th><td class="l"><del>&nbsp;* Hands-on seminar</del> </td>
+                  </tr><tr>
+                          <th>59</th><th> </th><td class="l"><del>&nbsp;* Documentation</del> </td>
+                  </tr><tr class="last">
+                          <th>60</th><th> </th><td class="l"><del></del> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>61</th><th>7</th><td class="l"><span>== Objectives ==</span> </td>
+                  </tr><tr>
+                          <th>62</th><th>8</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>63</th><th> </th><td class="l"><span>&nbsp;* Solve several use cases and summarize in tutorials during the hands-on seminar</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>9</th><td class="r"><span>In the [http://hackathon.dbcls.jp/ BioHackathon 2008], we have focused on the standardization of bioinformatics web services and the exchange data formats to create bioinformatics workflows. To make these global efforts to be fully utilized by the biologists, we need to integrate these services into the various end-user applications.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>64</th><th>10</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>65</th><th> </th><td class="l"><span>&nbsp;* Discuss about the guidelines (manifesto) towards standardization of</span> </td>
+                      </tr><tr>
+                        <th>66</th><th> </th><td class="l"><span>&nbsp; &nbsp;data types and protocols for the integration of databases and services.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>11</th><td class="r"><span>For this purpose, we will organize the second BioHackathon gathering software developers of mash-up services and web service providers. Additionally, to solve the real world use cases, we will also involve semi-wet biologists to apply their data for testing these services and applications in combination.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>67</th><th>12</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>68</th><th> </th><td class="l"><span>&nbsp;* Improve Open Bio* libraries and other tools to apply real world issues.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>13</th><td class="r"><span>Our goal is to develop stable and usable platforms for emerging demands, such as</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>69</th><th>14</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>70</th><th> </th><td class="l"><span>&nbsp;* Publication of a meeting report.</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>15</th><td class="r"><span>&nbsp;* Workflow for the massive sequence annotation (Galaxy, BioMart, Taverna, MOWserve etc.)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>16</th><td class="r"><span>&nbsp;* Automatics genome sequence assemble and mapping (GMOD/GBrowse, UTGB etc.)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>17</th><td class="r"><span>&nbsp;* Visualization of the large scale data sets (Cytoscape, Processing etc.)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>18</th><td class="r"><span>&nbsp;* Interoperable web services and database resources (BioMOBY, TogoWS, TogoDB etc.)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>19</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>20</th><td class="r"><span>and test these infrastructures with several biological use cases.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>21</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>22</th><td class="r"><span>For example, the Marine Genomics Unit in OIST equipped with Roche 454 sequencers and they are hoping to start environmental genomics of the coral reef in Okinawa. We have been working </span> </td>
+                      </tr><tr>
+                        <th> </th><th>23</th><td class="r"><span>on the integration of our database resources into the Galaxy, and would like to offer them to use the services provided by the DBCLS. Additionally, we will start to select some suitable use cases to deal with, based on the discussion in the mailing list.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>24</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>25</th><td class="r"><span>BioHackathon 2009 is sponsored by the Database Center for Life Science (DBCLS) and Okinawa Institute of Science and Technology (OIST), and will be held in Tokyo and Okinawa, Japan.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>26</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>27</th><td class="r"><span>&nbsp;* BioHackathon 2009&nbsp; &nbsp; http://hackathon2.dbcls.jp/</span> </td>
+                      </tr><tr>
+                        <th> </th><th>28</th><td class="r"><span>&nbsp;* BioHackathon 2008&nbsp; &nbsp; http://hackathon.dbcls.jp/</span> </td>
+                      </tr><tr>
+                        <th> </th><th>29</th><td class="r"><span>&nbsp;* DBCLS&nbsp; &nbsp; &nbsp; &nbsp; http://dbcls.rois.ac.jp/en/</span> </td>
+                      </tr><tr>
+                        <th> </th><th>30</th><td class="r"><span>&nbsp;* OIST http://www.oist.jp/</span> </td>
+                      </tr><tr>
+                        <th> </th><th>31</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>32</th><td class="r"><span>The DBCLS is being accepted as a national center for the sustainable life science databases in Japan. The OIST is the graduate university of science and technology and aiming to create a leading intellectual hub in the Asian-Pacific region.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>33</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>34</th><td class="r"><span>== Expected outcomes ==</span> </td>
+                      </tr><tr>
+                        <th> </th><th>35</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>36</th><td class="r"><span>* Improve end-user applications like Galaxy or Taverna by testing with the use cases.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>37</th><td class="r"><span>* Document how to solve the biological problems using these softwares and resources based on the hands-on seminar.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>38</th><td class="r"><span>* Issue a manifesto and guidelines for creating interoperable web services with SOAP and/or REST.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>39</th><td class="r"><span>* Publication of the meeting report.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>40</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>41</th><td class="r"><span>=== About the Hackathon ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>42</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>43</th><td class="r"><span>The hackathon (hacking + marathon) basically is a camp where invited participants discuss about current issues and implement software to solve the problems on site collaboratively. This kind of meeting is very effective for the intensive development of projects, because face-to-face meeting of developers, who are usually spread around the world, accelerates communication and collaboration to exchange their ideas.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>71</th><th>44</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>72</th><th>45</th><td class="l"><span>== Mailing list ==</span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

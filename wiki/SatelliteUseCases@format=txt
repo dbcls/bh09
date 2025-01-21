@@ -1,0 +1,147 @@
+= Satellite meeting for Use-cases development and documentation =
+
+== Topics ==
+
+Several examples of the biological data are provided by users.
+The service developers explained how to use their programs for the data.
+Finally, users described the several potential work-flows for the computational part of their research.
+
+== Participants ==
+
+ * Toshiaki Katayama
+ * Young Joo Kim
+ * Keun-Joon Park
+ * Yunsun Nam
+ * Arek Kasprzyk
+ * Syed Haider
+ * Shuichi Kawashima
+ * Takeshi Kawashima
+ * Raoul JP Bonnal
+ * Tatsuya Nishizawa
+ * Oswaldo Trelles 
+ * José M. Fernández
+ * Paul Gordon 
+ * Vachiranee Limviphuvadh
+ * Tobias Gattermayer
+ * Riu Yamashita 
+ * Fumikazu Konishi 
+ * Takatomo Fujisawa
+ * Bruno Aranda
+
+== Targets ==
+
+ 
+
+== Date ==
+
+ * 2009/3/19 15:00-18:00
+ * anytime
+
+
+== Room ==
+
+ * 3F 
+
+== Notes ==
+
+=== Data for testing ===
+
+ * SNPs data contain 262,338 SNPs (Stroke patient vs. normal) from Affymetrix SNP Chip (provided by Prof.Kim)
+ * Amino acid sequences of 53 genes (multifasta format) which are located at disease map locus of one form of epilepsy (provided by Vachiranee)
+ * Nucleotide sequences (multifasta format) (provided by Riu)
+ * Genome data (provided by Takeshi)
+
+
+=== Softwares ===
+
+ * BioMart
+ * Galaxy
+ * jORCA
+ * ANNOTATOR
+
+== Meeting log ==
+  
+=== Genome data ===
+
+Question
+- Takeshi asked about how to annotate in-house data by comparing with public genome data using BioMart.
+- For example, how to annotate Halocynthia roretzi or Molgula tectiformis ESTs comparing with Ciona intestinalis and Ciona savigni using BioMart.
+Answer
+- Convert Halocynthia data into BioMart format. Install BioMart server locally. Then merge public DB and local data together.
+- BioMart format is simple.
+
+
+Takeshi presented an example
+- minor animal (ex, H.roretzi, closest animal of Ciona)
+- how can analyze Halocynthia roretzi and M.tectiformis which are rare annotation.
+- type of data is ESTs, assembled EST cluster,,,etc,,
+- potential flow: BioMart -> ANNOTATOR -> TogoDB
+
+
+=== SNPs data ===
+
+ANNOTATOR currently can not analyse SNPs data itself but can analyze genes data which contain SNPs of interested. [[BR]]
+Galaxy (http://galaxyproject.org) and RGenetics (http://rgenetics.org/)
+        quality control, ancestry, case-control analysis, tdt, oter statistical tests[[BR]]
+-can link dbSNPs to Galaxy for further analysis
+
+
+=== Multifasta format (amino acid sequences) ===
+
+ANNOTATOR can upload multifasta format of amino acid sequences and do Prim-seq-an algorithm[[BR]] 
+BioMart can upload GeneID but not the sequences to retrieve information associated to the GeneID[[BR]]
+jORCA provide list of analysis tools which could do with FASTA format[[BR]]
+
+
+=== Multifasta format (nucleotide sequences) ===
+
+Currently, ANNOTATOR cannot analyze nucleotide sequences.
+
+DL ESTs of Halocynthia roretzi from NCBI/Taxonomy
+
+TogoDB by Toshiaki
+- upload table format  (table services for uploading data will be able to access using WS)
+
+=== Other comments from Developper side ===
+
+jORCA by Oswaldo
+
+-mapped WABI services
+- jORCA: WABI WSDL application can run in local machine after installation
+- jORCA can tell which kind of analysis tools can do with our multifasta format file or anykind of format. For example, using Magallanes: INB*,
+if put "FASTA" in Find box, the result come up with 23 tools that could use for analysis. For analysis use myexperiment.org [[BR]]
+*Magallanes: INB (Services that discover what kind of analysis can provide for your data format)
+
+== Results ==
+
+[[Image(bh2009-usecase_1.pdf)]]
+[[Image(bh2009-usecase_2.pdf)]]
+
+== TODOs ==
+
+ * How to combine the in house data into Public BioMart? => KAAS, blast2GO etc.
+ * How easy to install the BioMart in local?
+ * How modify the design of the interface of TogoDB?
+ * User didn't have their own Data Repository site. (for TogoDB)
+
+=== Requests from users to developper ===
+
+==== TO: [http://www.ebi.ac.uk/intact IntAct], Cytoscape ====
+It would be nice if user can retrieve PPIs which are expressed in any tissues by using option function. (From: Vachiranee)[[BR]]
+
+   * At this moment the only way that Bruno@!IntAct knows of doing this is to get the list of proteins from a specific tissue (using [http://www.ebi.ac.uk/pride PRIDE]) and then using the list of proteins accessions to find PPIs in the molecular interaction databases, such as [http://www.ebi.ac.uk/intact IntAct]. If there is interest, we (!IntAct) could find a way to include this option in a future release.
+
+==== TO: ANNOTATOR ====
+
+ * In the conversation with mostly biology-oriented participants of the Hackathon, we found the following requests for ANNOTATOR to suit their needs
+
+
+   * Ability to do batch jobs, i.e. large number of proteins annotated by our software (request came from many)[[BR]]
+   * ANNOTATOR should be downloadable and deployable somewhere local[[BR]]
+   * We were offered a potential collaboration in terms of using computing power of a TITECH [http://www.gsic.titech.ac.jp/index.html.en TSUBAME] supercomputer. This means the ANNOTATOR's jobs need a mechanism to be submitted to an external site.[[BR]]
+   * For better results, consistency and the ability to replicate the annotator pipeline in a remote location, we need periodic and automatic updation of the underlying databases of the algorithms.[[BR]]
+   * How differences between ANNOTATOR and [http://www.ebi.ac.uk/Tools/InterProScan/ InterProscan][[BR]]
+   * Ability to save results of analysis as xml format for further analysis[[BR]]
+
+==== TO: Galaxy ====
+ * I'd like to input the list of ID on galaxy (such as Gene ID, IPR No.) to text form of biomart filter.

@@ -1,0 +1,135 @@
+= Satellite meeting for Galaxy =
+
+== Topics ==
+
+Galaxy is an interactive platform to process biological data using various tools.
+
+The URL of Galaxy is: http://main.g2.bx.psu.edu/
+
+This meeting provides an opportunity to discuss the following topics on Galaxy. 
+
+ * Internationalization (i18n):  UTF-8 encoding support, etc.
+ * Workflow:  Future plan, accessibility to workflows through API, etc.
+ * Authentification: remote_user login: OpenID support, email address management etc.
+ * TogoDB/Galaxy companion: To browse, search and share a Galaxy history item on TogoDB.
+ * Galaxy/gbrowse: two way communication
+
+# Please add a new topic to this list.
+
+== Chairperson ==
+
+ * Mitsuteru Nakao
+
+== Targets ==
+
+ * Developers of Galaxy and its related software
+ * End-users of tools for biological data
+
+== Date ==
+
+ * 18th March, 2009
+
+== Room ==
+
+ * Chura Hall (3F)
+
+== Attendees ==
+
+ * James Taylor
+ * Greg von Kuster 
+ * Mitsuteru Nakao
+ * Takashi Hatakeyama
+ * Atsuko Yamaguchi
+ * Kozo Nishida
+ * Hong-woo Chun
+ * Yasunori Yamamoto
+ * Todd Harris
+ * Shin Kawano
+
+== Presentations ==
+
+ * James Taylor (in the Symposium on 16th March)
+  * Integrated reproducible analysis with Galaxy 
+  * Attachments (PPT or PDF slides etc.) 
+
+ * Mitsuteru Nakao 
+  * Current state of Galaxy i18n
+  * Install Galaxy on your computer in 10 minuites and add a tool as well (nakao-san_lecture.zip)
+
+ * Atsuko Yamaguchi
+  * Activities of DBCLS related to Galaxy
+
+ * Hong-Woo Chun
+  * GALAXY: Expression of terms that are NOT Ascii characters and symbols.
+
+== Notes ==
+ * How to join developing Galaxy (Japanese)
+   * http://d.hatena.ne.jp/kozo-ni/20090317#1237263807
+
+ * TogoTV
+   * 統合TV - galaxy1en http://togotv.dbcls.jp/movie/090312galaxy1en_f.html
+      * Most of wet biologists cannot make full use of computational services, so it is effective to provide screencasts of a tool usage as well as documents
+      * Currently, togoTV has over 150 movies and 250~300 accesses/day (only togoTV main site)
+      * the movies are played about 200 times/day in togoTV and some movie servers (e.g. Youtube) although most of contents described in Japanese.
+      * The most popular content is Primer3 tutorial, it played 4000 times since its release
+
+ * Galaxy Screencast
+   * http://galaxy.psu.edu/screencasts.html
+
+ * Biobookmarklet - KazusaWiki (ja)
+   * http://wiki.kazusa.or.jp/Biobookmarklet
+
+ * List up i18n-ed scientific application
+   * gbrowse (web)
+   * CiteULike (web)
+   * ... 
+
+
+== Results ==
+ * i18n
+   * Two reasons
+     * To extend end-users with dislaying native language translation of texual messages (using gettext and babel) 
+     * To display non-ascii charactors (article author names, gene names, ...)
+   * Create a repository http://bitbucket.org/mn3/galaxy-central-i18n/ from the galaxy repository to share the gettext message files and patches
+     * Merged. http://bitbucket.org/galaxy/galaxy-central/changeset/dc62ee52012e/
+     * Known issues 
+       * Static files, cheeter (.tmpl) templates
+       * GetText Messages for Tools
+       * Use URL lang parameter (lang=en)
+       * Use Accept-Language HTTP request header (HTTP_ACCEPT_LANGUAGE)
+       * Use pybabel with mako.ext.babelplugin:extract
+   * Set UTF-8 to display non-ascii characters at the history and middle pane.
+     * [http://bitbucket.org/galaxy/galaxy-central/issue/13/problems-with-non-english-data galaxy / galaxy-central / issues / Problems with non-english data — bitbucket.org]
+     * [http://bitbucket.org/galaxy/galaxy-central/issue/15/sample-sentences-of-japanese-and-korean galaxy / galaxy-central / issues / Sample sentences of Japanese and Korean — bitbucket.org]
+
+ * Workflow
+   * Introduced the tools developed by DBCLS. http://testgalaxy.lifesciencedb.jp
+     * TogoWS tool
+     * Search tool of MEDLINE related PNE articles that are written by Japanese
+     * Bookmakrlet tool, to display a protein 3D view of an PDB ID in a galaxy history data. Such function can be replaced by the semantic column function in future. 
+   * RSS feed for a workflow to know the result updated. (c.f PubMed article alert)
+   * Added View, analyze, workflow and libraries on http://test.g2.bx.psu.edu
+   * Web based tool manage system / central tool repository ?
+ 
+ * Authentification
+   * Introduced the OpenID Galaxy at http://testgalaxy.lifesciencedb.jp.
+     * [http://bitbucket.org/galaxy/galaxy-central/issue/14/openid-authentication-support galaxy / galaxy-central / issues / OpenID authentication support — bitbucket.org]
+   * Known issues
+     * login email address management.
+ 
+ * Galaxy/TogoDB
+   * In terms of data lifetime, TogoDB and Galaxy are complementary. (and also BioMart)
+     * TogoDB is feasible for long lifetime data (dataset, reusable solid data, ...)
+     * Galaxy is feasible for short lifetime data (no name data, temporal results, ... )
+   * Two way communication (Import data from TogoDB, send data to TogoDB)
+     * Import data from TogoDB
+     * Send data into TogoDB [todo]
+
+ * Galaxy/gbrowse 
+   * Two way communication (Import data from wormbase, send data to wormbase)
+
+
+== TODOs ==
+ * [nakao] Provide  a workflow scenario to use the TogoDB/Galaxy companion. 
+ * [atsuko] present a workflow that we want to use through RSS feed.
+ * Send data into TogoDB [todo]

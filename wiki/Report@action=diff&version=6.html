@@ -1,0 +1,924 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      Report (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="up" href="Report@action=history.html" title="Page history" />
+        <link rel="next" href="Report@action=diff&amp;version=7.html" title="Version 7" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="Report@action=diff&amp;version=5.html" title="Version 5" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script><script type="text/javascript" src="http://hackathon2.dbcls.jp/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="Report@action=diff&amp;version=5.html" title="Version 5">Previous Change</a></span></li><li><a href="Report@action=history.html" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="Report@action=diff&amp;version=7.html" title="Version 7">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="Report@version=5.html">Version 5</a> and
+        <a href="Report@version=6.html">Version 6</a> of
+        <a href="Report@version=6.html">Report</a>
+      </h1>
+      <form method="post" id="prefs" action="Report@version=6.html"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="6" />
+          <input type="hidden" name="old_version" value="5" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/07/02 22:51:43 (<a class="timeline" href="../timeline@from=2009-07-02T22%253A51%253A43+0900&amp;precision=second.html" title="2009-07-02T22:51:43+0900 in Timeline">15 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          ktym
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="Report@version=6.html">Report</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 5">
+                    <a href="Report@version=5.html#L1">
+                      v5</a>
+                  </th>
+                  <th title="Version 6">
+                    <a href="Report@version=6.html#L1">
+                      v6</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>1</th><th>1</th><td class="l"><span>= !BioHackathon 2009 meeting report =</span> </td>
+                  </tr><tr>
+                          <th>2</th><th>2</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="add">
+                  <tr class="first">
+                          <th> </th><th>3</th><td class="r"><ins>[[PageOutline]]</ins> </td>
+                  </tr><tr class="last">
+                          <th> </th><th>4</th><td class="r"><ins></ins> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>3</th><th>5</th><td class="l"><span>== Work groups ==</span> </td>
+                  </tr><tr>
+                          <th>4</th><th>6</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>5</th><th> </th><td class="l"><span>&nbsp;* 1 Kiyoko Kinoshita - [wiki:SatelliteGlycoBiology]</span> </td>
+                      </tr><tr>
+                        <th>6</th><th> </th><td class="l"><span>&nbsp;* 2 Naohisa Goto - [wiki:SatelliteBioRuby]</span> </td>
+                      </tr><tr>
+                        <th>7</th><th> </th><td class="l"><span>&nbsp;* 3 Alberto Labarga - [wiki:SatelliteLiterature]</span> </td>
+                      </tr><tr>
+                        <th>8</th><th> </th><td class="l"><span>&nbsp;* 4 Takeshi Kawashima - [wiki:SatelliteUseCases]</span> </td>
+                      </tr><tr>
+                        <th>9</th><th> </th><td class="l"><span>&nbsp;* 5 Riu Yamashita - [wiki:SatelliteTranscriptionRegulation]</span> </td>
+                      </tr><tr>
+                        <th>10</th><th> </th><td class="l"><span>&nbsp;* 6 Akira Kinjo - [wiki:DDBJ-KEGG-PDBj]</span> </td>
+                      </tr><tr>
+                        <th>11</th><th> </th><td class="l"><span>&nbsp;* 7 Kazuharu Arakawa - [wiki:SatelliteG-language] (DONE)</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>7</th><td class="r"><span>=== 1 Kiyoko Kinoshita - [wiki:SatelliteGlycoBiology] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>8</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>9</th><td class="r"><span>The satellite group on glycobiology focused on the development of workflows through the use of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>10</th><td class="r"><span>Taverna, which relied on the development of web services provided by the following glycobiology-</span> </td>
+                      </tr><tr>
+                        <th> </th><th>11</th><td class="r"><span>related sites:</span> </td>
+                      </tr><tr>
+                        <th> </th><th>12</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>13</th><td class="r"><span>&nbsp;* GlycoEpitopeDB [http://www.glyco.is.ritsumei.ac.jp/epitope/]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>14</th><td class="r"><span>&nbsp;* RINGS [http://rings.t.soka.ac.jp/]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>15</th><td class="r"><span>&nbsp;* Consortium for Functional Glycomics (CFG) [http://www.functionalglycomics.org]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>16</th><td class="r"><span>&nbsp;* GlycomeDB [http://www.glycome-db.org]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>17</th><td class="r"><span>&nbsp;* (GlycoGeneDB) [http://riodb.ibase.aist.go.jp/rcmg/ggdb/]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>18</th><td class="r"><span>&nbsp;* H-InvDB [http://h-invitational.jp/]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>19</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>20</th><td class="r"><span>There were also some use cases that were suggested, which were incorporated into the list of targets</span> </td>
+                      </tr><tr>
+                        <th> </th><th>21</th><td class="r"><span>for the group.&nbsp; (Target 1) The development and registration of web services on BioMoby such that glycobiologists </span> </td>
+                      </tr><tr>
+                        <th> </th><th>22</th><td class="r"><span>could create workflows for glycobiology research.&nbsp; In particular, since the participants of the BioHackathon</span> </td>
+                      </tr><tr>
+                        <th> </th><th>23</th><td class="r"><span>this year were developers of GlycoEpitopeDB and RINGS, the following targets were set.&nbsp; For GlycoEpitopeDB,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>24</th><td class="r"><span>web services to perform the following were to be developed: a) Query GlycoEpitope DB using a keyword and </span> </td>
+                      </tr><tr>
+                        <th> </th><th>25</th><td class="r"><span>retrieve all IDs of entries containing the keyword, and b) retrieve glycan structures in IUPAC format using </span> </td>
+                      </tr><tr>
+                        <th> </th><th>26</th><td class="r"><span>GlycoEpitope IDs.&nbsp; In order to handle the data returned from these services, an additional web service was</span> </td>
+                      </tr><tr>
+                        <th> </th><th>27</th><td class="r"><span>to be developed in RINGS to convert a glycan structure in IUPAC format into KCF format, by which glycan </span> </td>
+                      </tr><tr>
+                        <th> </th><th>28</th><td class="r"><span>structure queries could be made.&nbsp; (Target 2) Create a workflow for analyzing glyco-gene-related diseases:&nbsp; </span> </td>
+                      </tr><tr>
+                        <th> </th><th>29</th><td class="r"><span>Use OMIM to search for diseases related to loci of human homologs of target glyco-genes from other species, </span> </td>
+                      </tr><tr>
+                        <th> </th><th>30</th><td class="r"><span>such as fruit fly, and retrieve any SNPs that are known to be related.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>31</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>32</th><td class="r"><span>In summary, the programming took longer than expected, but the group was able to create BioMoby web services </span> </td>
+                      </tr><tr>
+                        <th> </th><th>33</th><td class="r"><span>in GlycoEpitopeDB called getGlycoEpitopeIDfromKeyword and getIUPACfromGlycoEpitopeID, which could be</span> </td>
+                      </tr><tr>
+                        <th> </th><th>34</th><td class="r"><span>connected to the RINGS web service called getKCFfromIUPAC.&nbsp; The resulting workflow took as input a keyword </span> </td>
+                      </tr><tr>
+                        <th> </th><th>35</th><td class="r"><span>and could search GlycoEpitopeDB for entries matching the keyword.&nbsp; The retrieved entries could then be used to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>36</th><td class="r"><span>obtain the glycan structures in IUPAC format.&nbsp; The RINGS web service then could convert the data from IUPAC to </span> </td>
+                      </tr><tr>
+                        <th> </th><th>37</th><td class="r"><span>KCF format, by which the KCaM alignment algorithm could be executed to retrieve similar glycan structures to the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>38</th><td class="r"><span>converted ones in KCF format.&nbsp; However, a parser still needs to be developed to retrieve the KEGG GLYCAN IDs </span> </td>
+                      </tr><tr>
+                        <th> </th><th>39</th><td class="r"><span>along with their scores from the GlycomicsObject.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>40</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>41</th><td class="r"><span>The disease-related workflow was able to retrieve H-Inv entries containing the OMIM Ids which were retrieved from </span> </td>
+                      </tr><tr>
+                        <th> </th><th>42</th><td class="r"><span>OMIM for entries containing a particular keyword.&nbsp; The issue was that the output was in XML format and contained </span> </td>
+                      </tr><tr>
+                        <th> </th><th>43</th><td class="r"><span>entries which did not contain any SNPs.&nbsp; A simple beanshell script was thus developed to filter out the unnecessary</span> </td>
+                      </tr><tr>
+                        <th> </th><th>44</th><td class="r"><span>results.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>45</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>46</th><td class="r"><span>As a result, the glycobiology satellite group was successfully able to meet the major targets set for the BioHackathon.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>47</th><td class="r"><span>Based on these experiences, the group members could build on the newly developed web services to further implement</span> </td>
+                      </tr><tr>
+                        <th> </th><th>48</th><td class="r"><span>more complex utilities that would enable glycobiologists to efficiently analyze their data.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>49</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>50</th><td class="r"><span>=== 2 Naohisa Goto - [wiki:SatelliteBioRuby] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>51</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>52</th><td class="r"><span>We discussed about how to deal big data coming from next</span> </td>
+                      </tr><tr>
+                        <th> </th><th>53</th><td class="r"><span>generation DNA sequencers by using BioRuby.&nbsp; For the purpose,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>54</th><td class="r"><span>FASTQ format parser were implemented.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>55</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>56</th><td class="r"><span>We also discussed about milestones for the next version</span> </td>
+                      </tr><tr>
+                        <th> </th><th>57</th><td class="r"><span>releases.&nbsp; We agreed that we would soon release 1.3.1 </span> </td>
+                      </tr><tr>
+                        <th> </th><th>58</th><td class="r"><span>as a maintenance release with bug fixes and refactoring.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>59</th><td class="r"><span>After that, major version up with many new functions and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>60</th><td class="r"><span>improvements were planned.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>61</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>62</th><td class="r"><span>Quality improvement is one of the important issues for BioRuby.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>63</th><td class="r"><span>During the hackathon, we fixed some bugs, for example, problems</span> </td>
+                      </tr><tr>
+                        <th> </th><th>64</th><td class="r"><span>found in the Bio::PubMed.esearch method and the Bio::Fasta::Report</span> </td>
+                      </tr><tr>
+                        <th> </th><th>65</th><td class="r"><span>class.&nbsp; In addition to the bug fixes, refactoring of classes</span> </td>
+                      </tr><tr>
+                        <th> </th><th>66</th><td class="r"><span>for BioSQL supports were also incorporated into main repository.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>67</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>68</th><td class="r"><span>Lack of documentation, especially use-case documents, is also</span> </td>
+                      </tr><tr>
+                        <th> </th><th>69</th><td class="r"><span>a big problem.&nbsp; To add documents easily with small efforts,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>70</th><td class="r"><span>we decided to translate BioPerl HOWTOs from Perl to Ruby.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>71</th><td class="r"><span>Because BioPerl HOWTOs are distributed under the terms of the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>72</th><td class="r"><span>Perl Artistic License, we can freely modify and distribute</span> </td>
+                      </tr><tr>
+                        <th> </th><th>73</th><td class="r"><span>modified version of them under the same license.&nbsp; In addition,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>74</th><td class="r"><span>we will also write new HOWTOs from scratch for BioRuby specific</span> </td>
+                      </tr><tr>
+                        <th> </th><th>75</th><td class="r"><span>functions.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>76</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>77</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>78</th><td class="r"><span>=== 3 Alberto Labarga - [wiki:SatelliteLiterature] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>79</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>80</th><td class="r"><span>Although a significant portion of our knowledge about life sciences is</span> </td>
+                      </tr><tr>
+                        <th> </th><th>81</th><td class="r"><span>stored in papers the relationship between this knowledge and the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>82</th><td class="r"><span>information stored in existing biological databases is almost</span> </td>
+                      </tr><tr>
+                        <th> </th><th>83</th><td class="r"><span>negligible.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>84</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>85</th><td class="r"><span>During the Literature Services meeting reported here, we aimed to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>86</th><td class="r"><span>investigate how to annotate atomic components of research papers in</span> </td>
+                      </tr><tr>
+                        <th> </th><th>87</th><td class="r"><span>life sciences by combining automatic ontology-based and manual</span> </td>
+                      </tr><tr>
+                        <th> </th><th>88</th><td class="r"><span>user-generated tags, and how such annotation could also facilitate the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>89</th><td class="r"><span>generation of networks of papers, based on an enriched set of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>90</th><td class="r"><span>metadata.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>91</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>92</th><td class="r"><span>Different web tools allow researchers to search literature databases</span> </td>
+                      </tr><tr>
+                        <th> </th><th>93</th><td class="r"><span>and integrate semantic information extracted from text with external</span> </td>
+                      </tr><tr>
+                        <th> </th><th>94</th><td class="r"><span>databases and ontologies. These include Whatizit</span> </td>
+                      </tr><tr>
+                        <th> </th><th>95</th><td class="r"><span>(http://www.ebi.ac.uk/webservices/whatizit), iHop</span> </td>
+                      </tr><tr>
+                        <th> </th><th>96</th><td class="r"><span>(http://www.ihop-net.org), Novoseek (http://www.novoseek.com/),</span> </td>
+                      </tr><tr>
+                        <th> </th><th>97</th><td class="r"><span>Reflect (http://reflect.ws/) or Concept Web Linker</span> </td>
+                      </tr><tr>
+                        <th> </th><th>98</th><td class="r"><span>(http://www.knewco.com/). BioCreative MetaServer Platform, Allie,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>99</th><td class="r"><span>OReFiL. However, only some of them provide accessible APIs so users</span> </td>
+                      </tr><tr>
+                        <th> </th><th>100</th><td class="r"><span>can build their own text mining pipelines.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>101</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>102</th><td class="r"><span>During the Biohackathon, we explored BioCreative MetaServer Platform,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>103</th><td class="r"><span>Whatizit and iHop web services, and developed several clients and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>104</th><td class="r"><span>workflows based on them. Also, the new information extraction XML</span> </td>
+                      </tr><tr>
+                        <th> </th><th>105</th><td class="r"><span>format (ieXML) proposed by the European Bioinformatics Institute to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>106</th><td class="r"><span>standardize the annotation of named entities was reviewed</span> </td>
+                      </tr><tr>
+                        <th> </th><th>107</th><td class="r"><span>(http://www.ebi.ac.uk/Rebholz-srv/IeXML/), and both iHop2ieXML and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>108</th><td class="r"><span>BCMS2ieXML mappings based on XSLT were proposed.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>109</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>110</th><td class="r"><span>Besides automatic annotation using controlled vocabularies, within the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>111</th><td class="r"><span>biomedical community the notion community annotation has recently</span> </td>
+                      </tr><tr>
+                        <th> </th><th>112</th><td class="r"><span>started to be adopted. For instance, WikiProteins delivers an</span> </td>
+                      </tr><tr>
+                        <th> </th><th>113</th><td class="r"><span>environment for the annotation of proteins. Another example that</span> </td>
+                      </tr><tr>
+                        <th> </th><th>114</th><td class="r"><span>illustrates the usefulness of harnessing the collective intelligence</span> </td>
+                      </tr><tr>
+                        <th> </th><th>115</th><td class="r"><span>is BIOWiki; this collaborative ontology annotation and curation</span> </td>
+                      </tr><tr>
+                        <th> </th><th>116</th><td class="r"><span>framework facilitates the engagement of the community with the sole</span> </td>
+                      </tr><tr>
+                        <th> </th><th>117</th><td class="r"><span>purpose of improving an ontology. Similar to BIOWiki, Bioportal also</span> </td>
+                      </tr><tr>
+                        <th> </th><th>118</th><td class="r"><span>makes it possible for the community to define mappings across</span> </td>
+                      </tr><tr>
+                        <th> </th><th>119</th><td class="r"><span>ontologies, thus making it possible for domain experts to generate new</span> </td>
+                      </tr><tr>
+                        <th> </th><th>120</th><td class="r"><span>relationships that are then evaluated by the community.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>121</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>122</th><td class="r"><span>During the BioHackathon, we reviewed different solutions for such</span> </td>
+                      </tr><tr>
+                        <th> </th><th>123</th><td class="r"><span>collaborative annotation environments, focused on extracting</span> </td>
+                      </tr><tr>
+                        <th> </th><th>124</th><td class="r"><span>supporting statements for biological facts in literature, being the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>125</th><td class="r"><span>most relevants WiredMarker (http://www.wired-marker.org), XConc</span> </td>
+                      </tr><tr>
+                        <th> </th><th>126</th><td class="r"><span>(http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=XConc+Suite)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>127</th><td class="r"><span>, (http://a.kazusa.or.jp/) and Bionotate (http://bionotate.).</span> </td>
+                      </tr><tr>
+                        <th> </th><th>128</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>129</th><td class="r"><span>Furthermore, although papers implicitly contain Friend Of A Friend</span> </td>
+                      </tr><tr>
+                        <th> </th><th>130</th><td class="r"><span>(FOAF) profiles –author name, affiliation, email, interests, etc,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>131</th><td class="r"><span>digital libraries provide very little support for interaction. We</span> </td>
+                      </tr><tr>
+                        <th> </th><th>132</th><td class="r"><span>explored the architecture and functionality of scifoaf and the need</span> </td>
+                      </tr><tr>
+                        <th> </th><th>133</th><td class="r"><span>for unique IDs (URI) for authors in publications was pointed as a key</span> </td>
+                      </tr><tr>
+                        <th> </th><th>134</th><td class="r"><span>requirement for any really useful system to work.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>135</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>136</th><td class="r"><span>Within the context of digital libraries in life sciences and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>137</th><td class="r"><span>annotation, this could be further improved if authors are allowed to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>138</th><td class="r"><span>find who is working on similar diseases, molecules, biomaterials, and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>139</th><td class="r"><span>other valid bio-related terminology. In this manner, the network</span> </td>
+                      </tr><tr>
+                        <th> </th><th>140</th><td class="r"><span>becomes more concept centric, so further integration of automatic</span> </td>
+                      </tr><tr>
+                        <th> </th><th>141</th><td class="r"><span>annotation in the collaborative annotation tools is required. The</span> </td>
+                      </tr><tr>
+                        <th> </th><th>142</th><td class="r"><span>concept of living document, one of the selected proposals for the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>143</th><td class="r"><span>Elsevier Grand Challenge, was presented as a suitable framework for</span> </td>
+                      </tr><tr>
+                        <th> </th><th>144</th><td class="r"><span>this kind of integration.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>145</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>146</th><td class="r"><span>&nbsp;* Rebholz-Schuhmann, D., et al., Text processing through Web Services: Calling Whatizit. Bioinformatics, 2007. 24(2).</span> </td>
+                      </tr><tr>
+                        <th> </th><th>147</th><td class="r"><span>&nbsp;* Labarga et al. Web Services at the European Bioinformatics Institute. Nucleic Acids Research, 2007, Vol. 35, No. suppl_2 W6-W11</span> </td>
+                      </tr><tr>
+                        <th> </th><th>148</th><td class="r"><span>&nbsp;* Mons, B., et al., Calling on a million minds for community annotation in&nbsp; WikiProteins. Genome Biology 2008.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>149</th><td class="r"><span>&nbsp;* Backhaus, M. and J. Kelso. BIOWiki - a collaborative annotation and ontology curation framework. in 16th International World Wide Web Conference. 2007. Banff, Alberta, Canada.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>150</th><td class="r"><span>&nbsp;* Rubin, D.L., et al. BioPortal: A Web Portal to Biomedical Ontologies. in AAAI Spring Symposium Series, Symbiotic Relationships between Semantic Web and Knowledge Engineering. 2008: Stanford University Press.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>151</th><td class="r"><span>&nbsp;* Garcia-Castro, et al. Semantic Web and Social Web heading towards a Living Document in Life Sciences. Journal of Web Semantics, 2009, accepted</span> </td>
+                      </tr><tr>
+                        <th> </th><th>152</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>153</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>154</th><td class="r"><span>=== 4 Takeshi Kawashima - [wiki:SatelliteUseCases] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>155</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>156</th><td class="r"><span>In order to handle the large data from the new generation sequencers, each of the major genome institutes are developing the tools for the data analyses and constructing their own pipelines by themselves. On another front, because the rather decreased sequencing cost as well as several large sequencing centers starting automated customer services, now a variety of small labs also can plan the sequencing projects. Since computational analyses after sequencing have a rich variety of directions, such small labs often face to difficulties when handling their large data, despite the trend of the unification of sequencing facilities.On account of this, it is expected that the collaborations between these "small" labs and Bioinformatics labs will increase. Useful Free- / Open source- software for genome analyses are required for such collaborations.We had a satellite meeting for "UseCase" in BioHackathon2009 to discuss how easily making the pipelines adapted to collaborator's request.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>157</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>158</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>159</th><td class="r"><span>In the "Satelite meeting for UseCase", the developers and users of bioinformatics-tools joined and exchanged of views on current their issues. The following five developers participated in the meeting: BioMart, Galaxy, jORCA, ANNOTATOR, TogoDB. On the users side, the participants are mainly consisted of genome biologists from developmental/evolutional/genetic/medical interests. </span> </td>
+                      </tr><tr>
+                        <th> </th><th>160</th><td class="r"><span>Of special note for this meeting is the high interactivity among the both side of researchers.&nbsp; The meeting is mainly constructed from the two parts, the introduction from the each "developer" and discussion-part with "users".</span> </td>
+                      </tr><tr>
+                        <th> </th><th>161</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>162</th><td class="r"><span>In the introductions, each developer explained what their program can do. In the discussion-part, the users pass their own data to developers, then the developer proved the usability of their tools similar as to how they explained. By showing the usage of these programs in front of the user's eyes, not only the users realize how to use the programs clearly, but also developers can recognize which part of usage is the difficult to understand for users. These steps were a good opportunity to bridge the gap between software developers and their users.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>163</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>164</th><td class="r"><span>For one of the concrete examples, we made a pipeline to construct an annotation database for a small/medium size of EST project.&nbsp; </span> </td>
+                      </tr><tr>
+                        <th> </th><th>165</th><td class="r"><span>For making this pipeline, 100,000 sequence for invertebrate organisms were annotated through the ANNOTATOR, BioMart with blast2GO and KAAS. Then all of these data can publish through the TogoDB.&nbsp; jORCA and Taverna can support to connect these web-services. The schematic view of this pipeline is shown in Fig. 1.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>166</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>167</th><td class="r"><span>[[Image(bh2009-usecase_1.pdf)]]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>168</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>169</th><td class="r"><span>=== 5 Riu Yamashita/Alberto Labarga - [wiki:SatelliteTranscriptionRegulation] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>170</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>171</th><td class="r"><span>Transcription regulation is one of the hot topic in biology, and many researchers are focusing on several target, such as transcription factor binding sites, methylaion, copy number variation, histon modification, and so on. Even though there are a number of useful tools to help such researches, the experimental research side still needs for bioinformatics help. Therefore, we first picked up general experimental techniques and tried to find what experimental researchers’ requests is. We then realized that there was no suitable web tool to predict transcriptional regulation caused by transcription factor or SNPs.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>172</th><td class="r"><span>To solve it, we have been constructing a new web server “Churaumi”. Churaumi is based on DAS server, and it has FESD II DB for SNP data and DBTSS data for transcription start sites. It also has potential transcription factor binding sites (TFBSs) in promoter region, and user can predict which TFBSs can be overrepresented in his/her specific gene set.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>173</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>174</th><td class="r"><span>&nbsp;---</span> </td>
+                      </tr><tr>
+                        <th> </th><th>175</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>176</th><td class="r"><span>Biologists need to get more detailed information about what is</span> </td>
+                      </tr><tr>
+                        <th> </th><th>177</th><td class="r"><span>happening a gene level when they look at functional genomics data such</span> </td>
+                      </tr><tr>
+                        <th> </th><th>178</th><td class="r"><span>as microarray data. Besides differential expression or network</span> </td>
+                      </tr><tr>
+                        <th> </th><th>179</th><td class="r"><span>analysis, further regulatory information such as enrichment analysis</span> </td>
+                      </tr><tr>
+                        <th> </th><th>180</th><td class="r"><span>of transcription factor binding sites and transcription factor binding</span> </td>
+                      </tr><tr>
+                        <th> </th><th>181</th><td class="r"><span>site SNPs is available and could easily be integrated in the analysis.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>182</th><td class="r"><span>This integration could also be extended to existing knowledge about</span> </td>
+                      </tr><tr>
+                        <th> </th><th>183</th><td class="r"><span>histone binding, siRNA or miRNA that control function, methylation,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>184</th><td class="r"><span>copy number variation, etc.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>185</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>186</th><td class="r"><span>The objective of the meeting was to design a unified solution tool to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>187</th><td class="r"><span>integrate the information that biologists may need when they look at</span> </td>
+                      </tr><tr>
+                        <th> </th><th>188</th><td class="r"><span>their functional studies, and identify feasible techniques and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>189</th><td class="r"><span>economic solutions for them.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>190</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>191</th><td class="r"><span>We decided to start with the problem of analysing TFBS enriched in</span> </td>
+                      </tr><tr>
+                        <th> </th><th>192</th><td class="r"><span>differential expressed genes from microarray data, and explore</span> </td>
+                      </tr><tr>
+                        <th> </th><th>193</th><td class="r"><span>possible variations in the genomic sequence that could explain the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>194</th><td class="r"><span>differences in expression.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>195</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>196</th><td class="r"><span>The base for the integrated system was the Functional Element SNP</span> </td>
+                      </tr><tr>
+                        <th> </th><th>197</th><td class="r"><span>database (FESD II) which is a web-based system for selecting sets of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>198</th><td class="r"><span>SNPs in putative functional elements in human genes. It provides sets</span> </td>
+                      </tr><tr>
+                        <th> </th><th>199</th><td class="r"><span>of SNPs located in 10 different functional elements; promoter regions,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>200</th><td class="r"><span>CpG islands, 5'UTRs (untranslated regions), translation start sites,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>201</th><td class="r"><span>splice sites, coding exons, introns, translation stop sites, poly</span> </td>
+                      </tr><tr>
+                        <th> </th><th>202</th><td class="r"><span>adenylation signals (PASes), and 3'UTRs.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>203</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>204</th><td class="r"><span>We decided to use the Distributed Annotation System (DAS) as the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>205</th><td class="r"><span>integration mechanism. DAS defines a communication protocol used to</span> </td>
+                      </tr><tr>
+                        <th> </th><th>206</th><td class="r"><span>exchange annotations on genomic or protein sequences. DAS can be</span> </td>
+                      </tr><tr>
+                        <th> </th><th>207</th><td class="r"><span>implemented as a client-server system in which a single client</span> </td>
+                      </tr><tr>
+                        <th> </th><th>208</th><td class="r"><span>integrates information from multiple servers. It allows a single</span> </td>
+                      </tr><tr>
+                        <th> </th><th>209</th><td class="r"><span>machine to gather up sequence annotation information from multiple</span> </td>
+                      </tr><tr>
+                        <th> </th><th>210</th><td class="r"><span>distant web sites, collate the information, and display it to the user</span> </td>
+                      </tr><tr>
+                        <th> </th><th>211</th><td class="r"><span>in a single view. Since it is heavily used in the genome</span> </td>
+                      </tr><tr>
+                        <th> </th><th>212</th><td class="r"><span>bioinformatics community, open source clients and servers are</span> </td>
+                      </tr><tr>
+                        <th> </th><th>213</th><td class="r"><span>available.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>214</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>215</th><td class="r"><span>The work started at the BioHackathon consisted in implementing a DAS</span> </td>
+                      </tr><tr>
+                        <th> </th><th>216</th><td class="r"><span>layer for FESD II and the TFBS prediction systems and developing a web</span> </td>
+                      </tr><tr>
+                        <th> </th><th>217</th><td class="r"><span>application that computes the enrichment of the TFBS for a list of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>218</th><td class="r"><span>genes or proteins, and presents the results using an Ajax DAS viewer.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>219</th><td class="r"><span>These developments are still work in progress.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>220</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>221</th><td class="r"><span>&nbsp;* Jimenez, R, et al. Dasty2, an AJAX protein DAS client. Bioinformatics, 2008, 24(18):2119-2121;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>222</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>223</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>224</th><td class="r"><span>=== 6 Akira Kinjo - [wiki:DDBJ-KEGG-PDBj] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>225</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>226</th><td class="r"><span>A DDBJ-KEGG-PDBj workflow: from pathways to protein-protein interactions</span> </td>
+                      </tr><tr>
+                        <th> </th><th>227</th><td class="r"><span>Objectives and Outline</span> </td>
+                      </tr><tr>
+                        <th> </th><th>228</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>229</th><td class="r"><span>The objective of this satellite group is to examine the potentials and obstacles in web services by implementing a real-life use case. The goal of the workflow is to enumerate possible physical protein-protein interactions among proteins in a biochemical pathway. More specifically, the workflow proceeds as follows. (1) The user provide a KEGG pathway ID. (2) Extract the protein sequence of each enzyme in the specified pathway. (3) For each protein sequence, run BLAST search against Swiss-Prot database. (4) Construct a phylogenetic profile (a species-by-enzyme matrix) by identifying the top hits for each proteins and each species. (5) For each species in the phylogenetic profile, run BLAST searches for each protein sequence against PDB. (6) If two amino acid sequences (of the same species) have homologs in the same PDB entry, they are inferred to be in physical contact, and hence predicted to be an interacting pair. (7) Output image files highlighting the conserved and interacting proteins in the pathway map.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>230</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>231</th><td class="r"><span>Implementation</span> </td>
+                      </tr><tr>
+                        <th> </th><th>232</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>233</th><td class="r"><span>To implement the workflow outlined above, we have used the SOAP and REST APIs of DDBJ (http://www.ddbj.nig.ac.jp/), KEGG (http://www.genome.jp/) and PDBj (http://www.pdbj.org/). The workflow can be divided into three parts corresponding to the three web sites. Part I consists of steps (1) and (2) (using KEGG API), Part II of steps (3) and (4) (using DDBJ WABI), Part III of steps (5) and (6) (using PDBj sequence navigator SOAP); step (7) is handled by a customized program on the client side. The main part of the client program was written in Java, but we were forced to switch to Perl for PDBj's sequence navigator due to a version incompatibility in SOAP libraries. Image manipulation programs were written in Perl and Ruby.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>234</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>235</th><td class="r"><span>Outcome</span> </td>
+                      </tr><tr>
+                        <th> </th><th>236</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>237</th><td class="r"><span>We were able to implement the above workflow within the three days of BioHackathon?. The following is a list of what we have noticed during the development. First, we had to do a significant amount of coding in spite of the wealth of web services. Most of the codes were dedicated to converting file formats between different steps. Although some of such conversions may be automated by providing new web services, we suspect that non-trivial amount of coding for format conversions is inevitable if we try to tackle new problems. It was also noted that the non-standard output format of BLAST search in PDBj's sequence navigator caused some trouble, suggesting any web services should stick to the standard formats if any. Second, it can take a significant amount of time to finish a whole analysis. This is for the most part due to the amount of BLAST searches required for constructing a phylogenetic profile. In retrospect, this problem might have been solved if our client program was made multi-threaded (assuming the web servers can handle hundreds of requests at the same time), however, this would increase the burden of the client-side programming. Finally, by actually solving biologically oriented problems, we could identify some typical use cases which might be useful for further development of web services (e.g., Given a set of gene names, return a phylogenetic profile; Given a set of blast hits, group them according to their species). In summary, the implementation of the DDBJ-KEGG-PDBj workflow allowed us to realize the usefulness as well as limitations of the web services in its current status, and to identify the potential room for further improvements. The activity of this satellite group has been recorded at http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj .</span> </td>
+                      </tr><tr>
+                        <th> </th><th>238</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>239</th><td class="r"><span>&nbsp;</span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>240</th><td class="r"><span>=== 7 Kazuharu Arakawa - [wiki:SatelliteG-language] (DONE) ===</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>12</th><th>241</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>13</th><th>242</th><td class="l"><span>G-language Genome Analysis Environment (G-language GAE) is a set of Perl libraries for genome sequence analysis that is compatible with BioPerl, equipped with several software interfaces (interactive Perl/UNIX shell with persistent data, AJAX Web GUI, Perl API) [1-3]. The software package contains more than 100 original analysis programs especially focusing on bacterial genome analysis, including those for the identification of binding sites with information theory, analysis of nucleotide composition bias, analysis of the distribution of characteristic oligonucleotides, analysis of codons and prediction of expression levels, and visualization of genomic information. In this hackathon, the attendees from G-language Project implemented web-service interfaces for G-language GAE in order to provide higher interoperability. The RESTful web services provided at http://rest.g-language.org/ provides URL-based access to all functions of G-language GAE, which is highly interoperable to be accessed from other online resources. For example, graphical result of the GC skew analysis of Escherichia coli K12 genome is given by http://rest.g-language.org/NC_000913/gcskew. Another interface through the SOAP protocol provides programming language-independent access to more than 100 analysis programs. The WSDL file (http://soap.g-language.org/g-language.wsdl) contains descriptions for all available programs in a single file, and can be readily loaded in Taverna 2 workbench [4] to integrate with other services to construct workflows. </span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="Report@version=5.html#L20">…</a></th>
+                  <th><a href="Report@version=6.html#L249">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>20</th><th>249</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>21</th><th>250</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>22</th><th> </th><td class="l"><span>&nbsp;* 8 Bruno Aranda - [wiki:SatelliteVisualization]</span> </td>
+                      </tr><tr>
+                        <th>23</th><th> </th><td class="l"><span>&nbsp;* 9 Mitsuteru Nakao - [wiki:SatelliteGalaxy]</span> </td>
+                      </tr><tr>
+                        <th>24</th><th> </th><td class="l"><span>&nbsp;* 10 Jan/Jessica - [wiki:SatelliteBigData] (and/or [wiki:SatelliteSeqAnalysis])</span> </td>
+                      </tr><tr>
+                        <th>25</th><th> </th><td class="l"><span>&nbsp;* 11 Paul Gordon - [wiki:SemanticWebServices] (and/or [wiki:SatelliteSemanticAnnotation])</span> </td>
+                      </tr><tr>
+                        <th>26</th><th> </th><td class="l"><span>&nbsp;* 12 Chisato Yamasaki - [wiki:SatelliteManifestWebServiseGuidelines]</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>251</th><td class="r"><span>=== 8 Bruno Aranda - [wiki:SatelliteVisualization] (DONE) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>252</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>253</th><td class="r"><span>Visualization in Bioinformatics is a difficult field, as complex as</span> </td>
+                      </tr><tr>
+                        <th> </th><th>254</th><td class="r"><span>the data that we try to visualize. In the Biohackathon 2009 three</span> </td>
+                      </tr><tr>
+                        <th> </th><th>255</th><td class="r"><span>categories were created: interaction networks and pathways, expression</span> </td>
+                      </tr><tr>
+                        <th> </th><th>256</th><td class="r"><span>and genomic region visualization. Many tools where demonstrated, many</span> </td>
+                      </tr><tr>
+                        <th> </th><th>257</th><td class="r"><span>of them trying different approaches to visualization with some</span> </td>
+                      </tr><tr>
+                        <th> </th><th>258</th><td class="r"><span>overlaps.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>259</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>260</th><td class="r"><span>There are common problems that need to be solved. The most important</span> </td>
+                      </tr><tr>
+                        <th> </th><th>261</th><td class="r"><span>one is how to visualize in an easy and meaningful way vast amounts of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>262</th><td class="r"><span>data. The participants of the Biohackathon showed how they were</span> </td>
+                      </tr><tr>
+                        <th> </th><th>263</th><td class="r"><span>approaching this issue in their tools. We could see 3D gene region</span> </td>
+                      </tr><tr>
+                        <th> </th><th>264</th><td class="r"><span>visualization, diagrams that linked different base pairs of a genome</span> </td>
+                      </tr><tr>
+                        <th> </th><th>265</th><td class="r"><span>or tools to visualize interaction networks with thousand of nodes that</span> </td>
+                      </tr><tr>
+                        <th> </th><th>266</th><td class="r"><span>integrated in some cases gene expression data.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>267</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>268</th><td class="r"><span>To complicate the field even further, each category of visualization</span> </td>
+                      </tr><tr>
+                        <th> </th><th>269</th><td class="r"><span>requires a different style depending on the nature and size of the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>270</th><td class="r"><span>studied data. The size and nature of a genome (or multiple genomes) is</span> </td>
+                      </tr><tr>
+                        <th> </th><th>271</th><td class="r"><span>much bigger that the amount of interactome data at the moment, so</span> </td>
+                      </tr><tr>
+                        <th> </th><th>272</th><td class="r"><span>different techniques must be used. In the Biohackathon some innovative</span> </td>
+                      </tr><tr>
+                        <th> </th><th>273</th><td class="r"><span>ways to browse through the genomes were shown, like the possibility of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>274</th><td class="r"><span>using huge wall projections that could be controlled using a custom</span> </td>
+                      </tr><tr>
+                        <th> </th><th>275</th><td class="r"><span>controller designed for the task.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>276</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>277</th><td class="r"><span>It was clear for the participants that the current state of</span> </td>
+                      </tr><tr>
+                        <th> </th><th>278</th><td class="r"><span>visualization tools is still insufficient in most cases and new</span> </td>
+                      </tr><tr>
+                        <th> </th><th>279</th><td class="r"><span>meaningful approaches are needed. None of the tools shown seemed to be</span> </td>
+                      </tr><tr>
+                        <th> </th><th>280</th><td class="r"><span>generic enough to solve all the problems effectively. Some ideas for</span> </td>
+                      </tr><tr>
+                        <th> </th><th>281</th><td class="r"><span>future directions were using semantic zooming -where data is browsed</span> </td>
+                      </tr><tr>
+                        <th> </th><th>282</th><td class="r"><span>semantically- or improving the interoperability between large data</span> </td>
+                      </tr><tr>
+                        <th> </th><th>283</th><td class="r"><span>servers and the visualization systems.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>284</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>285</th><td class="r"><span>Biological visualization is not just about a tool to visualize the</span> </td>
+                      </tr><tr>
+                        <th> </th><th>286</th><td class="r"><span>data, as effective ways to retrieve and store the data are needed for</span> </td>
+                      </tr><tr>
+                        <th> </th><th>287</th><td class="r"><span>a fast and complete visual representation. Both data providers and</span> </td>
+                      </tr><tr>
+                        <th> </th><th>288</th><td class="r"><span>tool developers need to work collaboratively to address this issue in</span> </td>
+                      </tr><tr>
+                        <th> </th><th>289</th><td class="r"><span>the future, in a field that is still in a very early stage.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>290</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>291</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>292</th><td class="r"><span>=== 9 Mitsuteru Nakao - [wiki:SatelliteGalaxy] ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>293</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>294</th><td class="r"><span>=== 10 Jan Aerts/Jessica Severin - [wiki:SatelliteBigData] (and/or [wiki:SatelliteSeqAnalysis]) (in progress?) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>295</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>296</th><td class="r"><span>Satellite meeting Data Handling</span> </td>
+                      </tr><tr>
+                        <th> </th><th>297</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>298</th><td class="r"><span>What is "big data"? The notion of "big data" has to be thought of as relative to the storage and processing techniques used to work with it. One gigabyte of data for example is only a very small size for a genome sequencing center, but it is considered to be "big" for genome viewing software that has trouble handling this size. Data becomes big when its size starts interfering with its handling.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>299</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>300</th><td class="r"><span>The data-handling satellite meeting provided the opportunity to discuss current issues and possible solutions for working with larger datasets. Discussions focussed on the types of data that the attendees as researchers store and manipulate themselves, not on the problems faced by large specialized data centers such as the Short Read Archive at the European Bioinformatics Institute or the Large Hedron Collider at CERN. Views were exchanged on three stages in the data handling pipelines: storage, querying and processing. Attention was however focussed on the first two.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>301</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>302</th><td class="r"><span>Storage and querying issues are often tightly related. The problem space can be viewed on two dimensions: according to the number of objects to be stored and according to the size of individual objects. Protein-protein interaction datasets and assembled genomes, for example, represent the group of objects that is small in number and whose size is still easily manageable on a standard filesystem or in a simple database. Microarray results and next-generation sequencing reads, however, involve a largish number of objects which become more difficult to query. They are often still stored in relational databases, but require tweaking that digresses from a normalized relational database model. Approaches to store (and query) this type of dataset involve - apart from the obvious such as creating good indices - database setups with a limited number of denormalized tables, avoiding table joins when querying. Unfortunately, existing relational database systems are proving more and more lacking in their ability to handle large datasets, both at the storage and the querying level. Several solutions are popping up that can help in storing large data, such as OGSA-DAI (www.ogsadai.org.uk) - a grid-based solution allowing multiple databases to be queried as one - and the cloud. Amazon Simple Storage Service (S3) or Elastic Block Storage (EBS) and GoogleBase, for example, allow for storing very large amounts of data and are relatively cheap. However, their usability in scientific data storage and processing still has to be proven. At the time of writing, large objects (bigger than 5Gb) can for example not be stored on the Amazon S3 service. In addition, moving large datasets from local disks to the cloud becomes a significant bottleneck.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>303</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>304</th><td class="r"><span>Several approaches were discussed to make data accessible to others once it is stored. Regular SQL access can be granted for smaller datasets (e.g. the Ensembl MySQL server at ensembldb.ensembl.org). It was however made clear that APIs should play a big role, particularly APIs where an object can be retrieved by URL (for example http://www.example.com/genes/BRCA2;format=bed). A toolkit that is able to perform a limited number of queries is recommended for larger or more complicated datasets such as next-generation sequence reads and alignments (e.g. SAMtools at http://samtools.sourceforge.net).</span> </td>
+                      </tr><tr>
+                        <th> </th><th>305</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>306</th><td class="r"><span>The main conclusion from the discussions in this workgroup is that every data storage/querying/processing problem has to be investigated independently and often requires custom solutions. It is however critical in finding those solutions to be aware of the available technologies and practices.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>307</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>308</th><td class="r"><span>{{{</span> </td>
+                      </tr><tr>
+                        <th> </th><th>309</th><td class="r"><span>Hey Jessica,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>310</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>311</th><td class="r"><span>2009/6/26 Jessica Severin &lt;jessica.severin@gmail.com&gt;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>312</th><td class="r"><span>&gt; Dear Jan, Katayama-san, Arek</span> </td>
+                      </tr><tr>
+                        <th> </th><th>313</th><td class="r"><span>&gt;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>314</th><td class="r"><span>&gt; Jan, Thank you for writing this.&nbsp; I am sorry I was very busy this week.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>315</th><td class="r"><span>&gt;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>316</th><td class="r"><span>&gt; You commented about how loading into the cloud is slow and a bottleneck.&nbsp; We did not discuss this at the meeting since no one had experience at the time.&nbsp; Did you work on this since biohackathon?&nbsp; If this is an easy conclusion to come to, then we can include such a comment.&nbsp; The only reason I say this, is that if people use this document as material for management decisions or new directions of work, we should be careful on what we recommend.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>317</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>318</th><td class="r"><span>We did briefly touch on that subject (mentioning sending around harddisks with FedEx) during the discussion. Also, the sequencing group at Sanger has tested this out recently, and I believe it took about 10 days to upload one dataset. So that was _before_ they could actually start processing the data on Amazon EC2... I will double-check with those guys next week.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>319</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>320</th><td class="r"><span>&gt; Is there a way to "track edits" in googledoc?&nbsp; I want to do some big editing but want you to see what I am doing, rather than try to explain it here.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>321</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>322</th><td class="r"><span>Google Documents have revisions baked in. Anything you change is recorded and new revisions are created automatically. So just edit away.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>323</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>324</th><td class="r"><span>&gt; The bigs point I want to add</span> </td>
+                      </tr><tr>
+                        <th> </th><th>325</th><td class="r"><span>&gt; - files with indexes work very well and may become more important, but need API options to enable system integration.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>326</th><td class="r"><span>&gt; - more distributed (DAS) or federated (HDF5, OGSA-DAI) approaches may prove necessary</span> </td>
+                      </tr><tr>
+                        <th> </th><th>327</th><td class="r"><span>&gt; - internet bandwidth is becoming a bottleneck too (genome centers sending data to repositories). even custom gigabit lines between buildings is limiting (&lt;1TB/day in practice)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>328</th><td class="r"><span>&gt; - HDF5 should be mentioned along with&nbsp; OGSA-DAI since I think it may be a valid option for someone to explore.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>329</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>330</th><td class="r"><span>OK.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>331</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>332</th><td class="r"><span>&gt; I also want to remove lots of details of the&nbsp; mysql schema ideas (few tables, joins...). It is too many details for this discussion.&nbsp; We can just simply to "relational databases with data-mining tricks(biomart, eedb) are useful, but even this approach also has limits".&nbsp; If we can make reference to eeDB and biomart papers for the "datamining" that would be nice.&nbsp; </span> </td>
+                      </tr><tr>
+                        <th> </th><th>333</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>334</th><td class="r"><span>OK. Didn't add any references yet; that still has to be done.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>335</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>336</th><td class="r"><span>It would be great if you could get it a bit shorter as well, although it _could_ have been worse :-)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>337</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>338</th><td class="r"><span>Thanks for looking into this,</span> </td>
+                      </tr><tr>
+                        <th> </th><th>339</th><td class="r"><span>jan.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>340</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>341</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>342</th><td class="r"><span>=== 11 Paul Gordon/Rutger Vos/Mark Wilkinson - [wiki:SemanticWebServices] (and/or [wiki:SatelliteSemanticAnnotation]) (in progress) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>343</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>344</th><td class="r"><span>=== 12 Chisato Yamasaki/Atsuko Yamaguchi - [wiki:SatelliteManifestWebServiseGuidelines] (in progress) ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>345</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>346</th><td class="r"><span>Manifest of Bio-Web Service (Bio-WS) guidelines</span> </td>
+                      </tr><tr>
+                        <th> </th><th>347</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>348</th><td class="r"><span>A web service may be very helpful to process data from heterogeneous biological databases. However, several problems, such as the lack of documents for methods, the lack of compliance of the SOAP/WSDL specification in the language's library and various data formats, make users feel difficult to built a workflow by using web services.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>349</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>350</th><td class="r"><span>TogoWS is designed to address such issues for the improved usability as follows.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>351</th><td class="r"><span>(1) SOAP based web services ideally follow the open standard and they should be independent from computer languages, however, many services still require language specific hacks in practice. TogoWS proxies these services to make them available in any programming language without difficulty.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>352</th><td class="r"><span>(2) Query mechanism and syntax differs service to service that requires user to learn each usage beforehand. TogoWS provides a simple REST interface to query and retrieve in a unified manner.</span> </td>
+                      </tr><tr>
+                        <th> </th><th>353</th><td class="r"><span>(3) Entries obtained from databases are needed to be parsed by the client program to be fully utilized. TogoWS embeds open source bioinformatics libraries like BioPerl and BioRuby (which we also developed) to provide functionalities for parsing and conversion of various biological data formats without any installation on user side. </span> </td>
+                      </tr><tr>
+                        <th> </th><th>354</th><td class="r"><span>&nbsp;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>355</th><td class="r"><span>Although the TogoWS supports many biological databases and the number of available databases is increasing, it is not practical to proxy all the major biological databases by TogoWS because the number of biological databases is extremely large. Therefore, it is preferable that users could combine the original web services without effort under a direction. To do so, we would like to establish a guideline for designing web services on biological databases.&nbsp; &nbsp;</span> </td>
+                      </tr><tr>
+                        <th> </th><th>356</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>357</th><td class="r"><span>We first began by discussing among Japanese database providers including The University of Tokyo as the KEGG provider, Osaka University as the PDBj provider, Computational Biology Research Center, Biomedicinal Information Research Center and Database Center for Life Science to make the web services on the databases work together. Then, the first guildeline for designing web services was proposed in Japanese in October, 2008. We improved it to be applicable to variable databases and easy to understand even for a beginner of web services. After that, we translated it to English to sharpen at the BioHackathon 2009. </span> </td>
+                      </tr><tr>
+                        <th> </th><th>358</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>359</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>360</th><td class="r"><span></span> </td>
+                      </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

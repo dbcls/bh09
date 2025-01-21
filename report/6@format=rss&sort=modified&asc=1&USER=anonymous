@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>BioHackathon 2009: {6} All Tickets By Milestone  (Including closed)</title>
+    <link>http://hackathon2.dbcls.jp/report/6</link>
+    <description>Trac Report -
+A more complex example to show how to make advanced reports.
+</description>
+    <language>en-us</language>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/report/6</link>
+    </image>
+    <generator>Trac v0.11.6</generator>
+      <item>
+                  <title>#2: Prepare for the BioLiquorthon</title>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Fri, 06 Feb 2009 12:48:53 GMT</pubDate>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Fri, 06 Feb 2009 12:48:53 GMT</pubDate>
+        <link>http://hackathon2.dbcls.jp/ticket/2</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/2</guid>
+        <category>Report</category>
+      </item><item>
+                  <title>#4: Prepare KML file and/or Google myMap</title>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Thu, 05 Mar 2009 01:49:28 GMT</pubDate>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Fri, 13 Feb 2009 11:36:33 GMT</pubDate>
+        <link>http://hackathon2.dbcls.jp/ticket/4</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/4</guid>
+        <category>Report</category>
+      </item><item>
+                  <title>#1: Create the Hackathon Poster</title>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Thu, 05 Mar 2009 01:49:54 GMT</pubDate>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Fri, 06 Feb 2009 12:47:45 GMT</pubDate>
+        <link>http://hackathon2.dbcls.jp/ticket/1</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/1</guid>
+        <category>Report</category>
+      </item><item>
+                  <title>#3: Select a journal for publication of the meeting report</title>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Thu, 05 Mar 2009 01:50:34 GMT</pubDate>
+                  <!-- FIXME: we end up with multiple pubDate -->
+                  <pubDate>Fri, 06 Feb 2009 12:58:51 GMT</pubDate>
+        <link>http://hackathon2.dbcls.jp/ticket/3</link>
+        <guid isPermaLink="false">http://hackathon2.dbcls.jp/ticket/3</guid>
+        <category>Report</category>
+      </item>
+  </channel>
+</rss>

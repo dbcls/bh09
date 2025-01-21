@@ -1,0 +1,64 @@
+= Satellite meeting for BioRuby development and documentation =
+
+== Topics ==
+
+Miscellaneous things about BioRuby delvelopment and documentation.
+
+== Participants ==
+
+ * Naohisa Goto
+ * Raoul JP Bonnal
+ * Toshiaki Katayama
+ * Jan Aerts
+ * Mitsuteru Nakao
+
+== Targets ==
+
+ * Developer of BioRuby
+ * End-users of BioRuby
+
+== Date ==
+
+ * 2009/3/19 17:00-
+ * Any time via online :-)
+
+== Room ==
+
+ * 3F Chura Hall
+
+== Results ==
+
+ * Hack
+   * New features
+     * FASTQ format parser
+   * Bug fixes
+     * Bio::PubMed.esearch bug -- fixed by Toshiaki
+     * Bio::Fasta::Report problem -- in progress
+   * Improvements
+     * BioSQL -- Raoul
+     * Tutorial -- Pjotrp (remote)
+ * Discussion
+   * BioRuby documentation
+     * To add use-case documents quickly and efficiently, we decided to "translate" BioPerl's HOWTOs into BioRuby.
+     * In addition to the translation, we are going to add new HOWTOs. 
+     * Priority to translate (or to write from scratch) is assigned.
+     * http://bioruby.open-bio.org/wiki/HOWTOs
+   * Discussion about next version release
+     * Current version is 1.3.0.
+     * 1.3.1: Bug fixes and some improvements
+       * TogoWS as default data source
+       * BioSQL
+       * tutorial
+     * 1.4.0: New features
+       * New web services clients / servers?
+       * Large data handling
+         * manifest files?
+       * Phyloinformatics
+         * PhyloXML support -- maybe in GSoC
+         * NeXML support -- hopefully to collaborate with MX project
+   * BioRuby publication plan
+
+== TODOs ==
+
+ * Writing documents
+ * hack, hack, hack

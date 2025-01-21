@@ -1,0 +1,3260 @@
+>Acidiphilium cryptum (strain JF-5).
+//
+>Acidovorax sp. (strain JS42).
+//
+>Acinetobacter baumannii (strain ACICU).
+//
+>Acinetobacter baumannii (strain ATCC 17978 / NCDC KC 755).
+//
+>Acinetobacter baumannii (strain AYE).
+//
+>Acinetobacter baumannii (strain SDF).
+//
+>Acinetobacter sp. (strain ADP1).
+//
+>Actinobacillus pleuropneumoniae serotype 3 (strain JL03).
+eco:b4153	eco:b4152	3CIR
+//
+>Actinobacillus pleuropneumoniae serotype 5b (strain L20).
+eco:b4152	eco:b4153	3CIR
+//
+>Actinobacillus succinogenes (strain ATCC 55618 / 130Z).
+//
+>Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / NCIB 9240).
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	2ACZ
+eco:b0115	eco:b0726	1W85
+eco:b0721	eco:b0722	2ACZ
+eco:b0728	eco:b0729	2NU8
+eco:b0729	eco:b0118	2VRO
+//
+>Aeromonas salmonicida (strain A449).
+eco:b0723	eco:b0722	2ACZ
+eco:b0723	eco:b0721	2H88
+eco:b0728	eco:b0729	2FP4
+eco:b0726	eco:b0115	1W85
+eco:b0722	eco:b0721	2ACZ
+//
+>Akkermansia muciniphila (strain ATCC BAA-835).
+//
+>Alcanivorax borkumensis (strain SK2 / ATCC 700651 / DSM 11573).
+//
+>Alkaliphilus metalliredigens (strain QYMF).
+//
+>Alteromonadales bacterium TW-7.
+eco:b0723	eco:b0724	2H88
+//
+>Amycolatopsis orientalis.
+//
+>Anaerofustis stercorihominis DSM 17244.
+//
+>Anaerostipes caccae DSM 14662.
+//
+>Anaerotruncus colihominis DSM 17241.
+//
+>Aquifex aeolicus.
+//
+>Azotobacter vinelandii DJ.
+//
+>Bacteroides caccae ATCC 43185.
+//
+>Bacteroides capillosus ATCC 29799.
+//
+>Bacteroides fragilis (strain ATCC 25285 / NCTC 9343).
+//
+>Bacteroides fragilis.
+//
+>Bacteroides ovatus ATCC 8483.
+//
+>Bacteroides stercoris ATCC 43183.
+//
+>Bacteroides thetaiotaomicron.
+//
+>Bacteroides uniformis ATCC 8492.
+//
+>Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / NCTC 11154).
+//
+>Baumannia cicadellinicola subsp. Homalodisca coagulata.
+//
+>Beijerinckia indica subsp. indica (strain ATCC 9039 / DSM 1715 / NCIB
+//
+>Blochmannia pennsylvanicus (strain BPEN).
+//
+>Bordetella avium (strain 197N).
+//
+>Bordetella bronchiseptica (Alcaligenes bronchisepticus).
+//
+>Bordetella parapertussis.
+//
+>Bordetella pertussis.
+//
+>Bradyrhizobium japonicum.
+//
+>Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182).
+//
+>Bradyrhizobium sp. (strain ORS278).
+//
+>Buchnera aphidicola subsp. Acyrthosiphon pisum (Acyrthosiphon pisum
+//
+>Buchnera aphidicola subsp. Schizaphis graminum.
+//
+>Burkholderia ambifaria (strain ATCC BAA-244 / AMMD) (Burkholderia
+//
+>Burkholderia ambifaria (strain MC40-6).
+//
+>Burkholderia ambifaria IOP40-10.
+//
+>Burkholderia ambifaria MEX-5.
+//
+>Burkholderia cenocepacia (strain AU 1054).
+//
+>Burkholderia cenocepacia (strain HI2424).
+//
+>Burkholderia cenocepacia (strain MC0-3).
+//
+>Burkholderia cenocepacia PC184.
+//
+>Burkholderia dolosa AUO158.
+//
+>Burkholderia graminis C4D1M.
+//
+>Burkholderia mallei (Pseudomonas mallei).
+//
+>Burkholderia mallei (strain NCTC 10229).
+//
+>Burkholderia mallei (strain NCTC 10247).
+//
+>Burkholderia mallei (strain SAVP1).
+//
+>Burkholderia mallei 2002721280.
+//
+>Burkholderia mallei ATCC 10399.
+//
+>Burkholderia mallei FMH.
+//
+>Burkholderia mallei JHU.
+//
+>Burkholderia multivorans (strain ATCC 17616 / 249).
+//
+>Burkholderia phymatum (strain DSM 17167 / STM815).
+//
+>Burkholderia phytofirmans (strain DSM 17436 / PsJN).
+//
+>Burkholderia pseudomallei (Pseudomonas pseudomallei).
+//
+>Burkholderia pseudomallei (strain 1106a).
+//
+>Burkholderia pseudomallei (strain 1710b).
+//
+>Burkholderia pseudomallei (strain 668).
+//
+>Burkholderia pseudomallei 1655.
+//
+>Burkholderia pseudomallei 305.
+//
+>Burkholderia pseudomallei 406e.
+//
+>Burkholderia pseudomallei Pasteur 52237.
+//
+>Burkholderia pseudomallei S13.
+//
+>Burkholderia sp. (strain 383) (Burkholderia cepacia (strain ATCC 17760
+//
+>Burkholderia thailandensis (strain E264 / ATCC 700388 / DSM 13276 /
+//
+>Burkholderia vietnamiensis (strain G4 / LMG 22486) (Burkholderia
+//
+>Burkholderia xenovorans (strain LB400).
+//
+>Caldicellulosiruptor saccharolyticus (strain ATCC 43494 / DSM 8903).
+//
+>Candidatus Kuenenia stuttgartiensis.
+//
+>Caulobacter crescentus (Caulobacter vibrioides).
+//
+>Chromohalobacter salexigens (strain DSM 3043 / ATCC BAA-138 / NCIMB
+//
+>Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696).
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4153	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b4151	2VPZ
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0617	2FUG
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b0727	eco:b0116	1EBD
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0722	eco:b4153	1ZOY
+eco:b0116	eco:b4153	1GTE
+eco:b4153	eco:b0617	2FUG
+//
+>Citrobacter murliniae.
+//
+>Clostridium acetobutylicum.
+//
+>Clostridium bartlettii DSM 16795.
+//
+>Clostridium beijerinckii (strain ATCC 51743 / NCIMB 8052) (Clostridium
+//
+>Clostridium bolteae ATCC BAA-613.
+//
+>Clostridium botulinum (strain ATCC 19397 / Type A).
+//
+>Clostridium botulinum (strain Alaska E43 / type E3).
+//
+>Clostridium botulinum (strain Eklund 17B / type B).
+//
+>Clostridium botulinum (strain Hall / ATCC 3502 / NCTC 13319 / Type A).
+//
+>Clostridium botulinum (strain Langeland / NCTC 10281 / Type F).
+//
+>Clostridium botulinum (strain Loch Maree / Type A3).
+//
+>Clostridium botulinum (strain Okra / Type B1).
+//
+>Clostridium botulinum Bf.
+//
+>Clostridium botulinum NCTC 2916.
+//
+>Clostridium butyricum 5521.
+//
+>Clostridium difficile (strain 630).
+//
+>Clostridium kluyveri (strain ATCC 8527 / DSM 555 / NCIMB 10680).
+//
+>Clostridium leptum DSM 753.
+//
+>Clostridium perfringens (strain SM101 / Type A).
+//
+>Clostridium perfringens C str. JGS1495.
+//
+>Clostridium perfringens D str. JGS1721.
+//
+>Clostridium perfringens E str. JGS1987.
+//
+>Clostridium perfringens.
+//
+>Clostridium phytofermentans (strain ATCC 700394 / DSM 18823 / ISDg).
+//
+>Clostridium ramosum DSM 1402.
+//
+>Clostridium scindens ATCC 35704.
+//
+>Clostridium sp. L2-50.
+//
+>Clostridium sp. SS2/1.
+//
+>Clostridium spiroforme DSM 1552.
+//
+>Clostridium tetani.
+//
+>Collinsella aerofaciens ATCC 25986.
+//
+>Colwellia psychrerythraea (strain 34H / ATCC BAA-681) (Vibrio
+//
+>Congregibacter litoralis KT71.
+//
+>Coprococcus eutactus ATCC 27759.
+//
+>Corynebacterium glutamicum (strain R).
+//
+>Coxiella burnetii (strain Dugway 5J108-111).
+//
+>Coxiella burnetii (strain RSA 331 / Henzerling II).
+//
+>Coxiella burnetii RSA 334.
+//
+>Coxiella burnetii.
+//
+>Delftia acidovorans (strain DSM 14801 / SPH-1).
+//
+>Desulfitobacterium hafniense (strain Y51).
+//
+>Desulfovibrio desulfuricans (strain G20).
+//
+>Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / NCIMB
+//
+>Desulfovibrio vulgaris subsp. vulgaris (strain DP4).
+//
+>Dorea formicigenerans ATCC 27755.
+//
+>Dorea longicatena DSM 13814.
+//
+>Enterobacter cloacae.
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b4151	eco:b0723	3CIR
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b0723	1ZOY
+eco:b0721	eco:b0723	1ZOY
+//
+>Enterobacter sakazakii (strain ATCC BAA-894).
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0615	3BG5
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0722	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b0722	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b0729	eco:b0728	2FP4
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0615	3BG5
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0722	1ZOY
+eco:b0724	eco:b0722	1ZOY
+//
+>Enterobacter sakazakii.
+//
+>Enterobacter sp. (strain 638).
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b4151	3CIR
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b0723	2E57
+eco:b4154	eco:b0116	2E57
+eco:b4154	eco:b0722	1ZOY
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b4151	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0722	eco:b0721	2ACZ
+eco:b0729	eco:b0728	2FP4
+eco:b4152	eco:b4151	3CIR
+//
+>Enterococcus faecalis (Streptococcus faecalis).
+//
+>Erwinia carotovora subsp. atroseptica (Pectobacterium atrosepticum).
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b4152	eco:b4153	2VPZ
+eco:b4152	eco:b0723	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b0721	eco:b4153	2ACZ
+eco:b0721	eco:b0723	2ACZ
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0724	2ACZ
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0722	2ACZ
+eco:b4153	eco:b4151	3CIR
+eco:b0723	eco:b0722	2ACZ
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0722	eco:b0724	2ACZ
+eco:b0729	eco:b0728	2FP4
+eco:b0724	eco:b4151	3CIR
+//
+>Erwinia tasmaniensis (strain DSM 17950 / Et1/99).
+eco:b0115	eco:b0729	2QF7
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	2BS2
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0722	2BS2
+eco:b0116	eco:b0727	1EBD
+//
+>Escherichia albertii TW07627.
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b0729	eco:b0728	2FP4
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0722	2ACZ
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0721	1ZOY
+eco:b0115	eco:b0728	1XPK
+eco:b0115	eco:b0727	1C4T
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b0722	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b4152	eco:b4153	3CIR
+eco:b0722	eco:b4153	2ACZ
+eco:b0722	eco:b0721	2ACZ
+eco:b0617	eco:b4153	2FUG
+eco:b4153	eco:b0721	1ZOY
+//
+>Escherichia coli
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b4153	1GTE
+eco:b0728	eco:b0729	2FP4
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0617	eco:b4153	2FUG
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0727	eco:b0115	1C4T
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4153	2H88
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0722	eco:b4153	1ZOY
+//
+>Escherichia coli (strain ATCC 8739 / DSM 1576 / Crooks).
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b0729	eco:b0728	2FP4
+eco:b0617	eco:b0724	2FUG
+eco:b0617	eco:b4153	2FUG
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0721	1ZOY
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0727	eco:b0116	1EBD
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0116	eco:b4153	1GTE
+eco:b0721	eco:b4153	1ZOY
+//
+>Escherichia coli (strain DH10B).
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	3CIR
+eco:b0617	eco:b0724	2FUG
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b0728	eco:b0729	2FP4
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4152	3CIR
+//
+>Escherichia coli (strain K12).
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b4151	2VPZ
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b4151	2VPZ
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4154	1ZOY
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0721	eco:b4154	1ZOY
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b4154	3F8R
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b0729	eco:b0728	2FP4
+//
+>Escherichia coli (strain SMS-3-5 / SECEC).
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4151	2VPZ
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	2VDC
+eco:b0729	eco:b0728	2FP4
+eco:b0617	eco:b4153	2FUG
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4154	eco:b0722	1ZOY
+eco:b4154	eco:b0721	2H88
+eco:b0727	eco:b0115	1C4T
+eco:b0722	eco:b0721	2ACZ
+//
+>Escherichia coli (strain UTI89 / UPEC).
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0115	eco:b0727	1C4T
+eco:b0728	eco:b0729	2FP4
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b0617	eco:b4153	2FUG
+eco:b0617	eco:b0724	2FUG
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4153	eco:b4151	2VPZ
+eco:b4151	eco:b0724	2VPZ
+//
+>Escherichia coli 53638.
+eco:b0729	eco:b0728	2FP4
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0617	eco:b0724	2FUG
+eco:b0617	eco:b4153	2FUG
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b0723	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0722	eco:b0723	1ZOY
+//
+>Escherichia coli O6.
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0729	eco:b0728	2FP4
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4154	1ZOY
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4152	3CIR
+eco:b0721	eco:b4154	1ZOY
+eco:b4154	eco:b4152	3CIR
+//
+>Escherichia coli.
+eco:b4152	eco:b4151	3CIR
+//
+>Escherichia fergusonii.
+//
+>Eubacterium siraeum DSM 15702.
+//
+>Eubacterium ventriosum ATCC 27560.
+//
+>Faecalibacterium prausnitzii M21/2.
+//
+>Fusobacterium nucleatum subsp. nucleatum.
+//
+>Fusobacterium nucleatum subsp. polymorphum ATCC 10953.
+//
+>Fusobacterium nucleatum subsp. vincentii ATCC 49256.
+//
+>Geobacter metallireducens (strain GS-15 / ATCC 53774 / DSM 7210).
+//
+>Geobacter uraniireducens (strain Rf4) (Geobacter uraniumreducens).
+//
+>Gloeobacter violaceus.
+//
+>Granulibacter bethesdensis (strain ATCC BAA-1260 / CGDNIH1).
+//
+>Haemophilus ducreyi.
+//
+>Haemophilus influenzae (strain 86-028NP).
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4151	3CIR
+eco:b4154	eco:b4151	3CIR
+//
+>Haemophilus influenzae (strain PittEE).
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b4152	3CIR
+eco:b4153	eco:b4152	3CIR
+//
+>Haemophilus influenzae (strain PittGG).
+//
+>Haemophilus influenzae 22.1-21.
+//
+>Haemophilus influenzae 22.4-21.
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b4152	3CIR
+eco:b4153	eco:b4152	3CIR
+//
+>Haemophilus influenzae 3655.
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b4151	3CIR
+eco:b4152	eco:b4151	3CIR
+//
+>Haemophilus influenzae PittAA.
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b4153	eco:b4151	3CIR
+//
+>Haemophilus influenzae PittHH.
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4154	2BS2
+eco:b4151	eco:b4154	3CIR
+//
+>Haemophilus influenzae PittII.
+eco:b4151	eco:b4153	3CIR
+//
+>Haemophilus influenzae R3021.
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4153	eco:b4154	2BS2
+//
+>Haemophilus influenzae.
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4154	eco:b4153	2H88
+eco:b0616	eco:b4153	1GTE
+//
+>Haemophilus parasuis 29755.
+eco:b4154	eco:b4152	3CIR
+//
+>Haemophilus somnus (strain 129Pt) (Histophilus somni (strain 129Pt)).
+eco:b0116	eco:b4154	3F8R
+eco:b4152	eco:b4154	3CIR
+//
+>Haemophilus somnus (strain 2336) (Histophilus somni (strain 2336)).
+eco:b4152	eco:b4154	3CIR
+eco:b4154	eco:b0116	3F8P
+eco:b0116	eco:b0115	1EBD
+//
+>Hahella chejuensis (strain KCTC 2396).
+//
+>Haloarcula marismortui (Halobacterium marismortui).
+//
+>Halobacterium salinarium (Halobacterium halobium).
+//
+>Halobacterium salinarum (strain ATCC 29341 / DSM 671 / R1).
+//
+>Haloquadratum walsbyi (strain DSM 16790).
+//
+>Halorubrum lacusprofundi ATCC 49239.
+//
+>Heliobacterium modesticaldum (strain ATCC 51547 / Ice1).
+//
+>Hydrogenivirga sp. 128-5-R1-1.
+//
+>Idiomarina baltica OS145.
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0724	eco:b0722	1ZOY
+//
+>Idiomarina loihiensis.
+eco:b0722	eco:b0723	1ZOY
+//
+>Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0801	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b0617	eco:b0724	2FUG
+eco:b0617	eco:b4153	2FUG
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0801	1ZOY
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	3F8P
+eco:b0724	eco:b0801	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0115	eco:b0116	1EBD
+eco:b4153	eco:b0801	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b0801	eco:b0723	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b0723	eco:b0116	2E57
+//
+>Klebsiella pneumoniae.
+//
+>Lactobacillus acidophilus.
+//
+>Lactobacillus casei (strain ATCC 334).
+//
+>Lactobacillus helveticus (strain DPC 4571).
+//
+>Lactobacillus helveticus CNRZ32.
+//
+>Lactobacillus paracasei.
+//
+>Lactobacillus reuteri.
+//
+>Lactobacillus sakei subsp. sakei (strain 23K).
+//
+>Lactococcus lactis subsp. lactis (Streptococcus lactis).
+//
+>Lactococcus lactis subsp. lactis bv. diacetylactis.
+//
+>Legionella pneumophila (strain Corby).
+//
+>Legionella pneumophila (strain Lens).
+//
+>Legionella pneumophila (strain Paris).
+//
+>Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 /
+//
+>Leptospirillum sp. Group II UBA.
+//
+>Leuconostoc citreum (strain KM20).
+//
+>Leuconostoc mesenteroides subsp. cremoris.
+//
+>Mannheimia haemolytica PHL213.
+eco:b0115	eco:b0727	1C4T
+//
+>Mannheimia succiniciproducens (strain MBEL55E).
+//
+>Maricaulis maris (strain MCS10).
+//
+>Marinobacter algicola DG893.
+//
+>Marinobacter aquaeolei (strain ATCC 700491 / DSM 11845 / VT8)
+//
+>Marinobacter sp. ELB17.
+//
+>Mesorhizobium sp. (strain BNC1).
+//
+>Methanobacterium thermoautotrophicum.
+//
+>Methanobrevibacter smithii (strain PS / ATCC 35061 / DSM 861).
+//
+>Methanocaldococcus jannaschii (Methanococcus jannaschii).
+//
+>Methanococcus maripaludis (strain C6 / ATCC BAA-1332).
+//
+>Methanococcus vannielii (strain SB / ATCC 35089 / DSM 1224).
+//
+>Methanopyrus kandleri.
+//
+>Methanosaeta thermophila (strain DSM 6194 / PT) (Methanothrix
+//
+>Methanosphaera stadtmanae (strain DSM 3091).
+//
+>Methanothermus fervidus.
+//
+>Methylobacterium extorquens (strain PA1).
+//
+>Methylobacterium radiotolerans (strain ATCC 27329 / DSM 1819 / JCM
+//
+>Methylobacterium sp. (strain 4-46).
+//
+>Moorella thermoacetica (strain ATCC 39073).
+//
+>Moritella sp. PE36.
+eco:b0722	eco:b0721	1ZOY
+//
+>Myxococcus xanthus (strain DK 1622).
+//
+>Natronomonas pharaonis (strain DSM 2160 / ATCC 35678).
+//
+>Nitrococcus mobilis Nb-231.
+//
+>Nitrosomonas europaea.
+//
+>Nitrosospira multiformis (strain ATCC 25196 / NCIMB 11849).
+//
+>Oceanicaulis alexandrii HTCC2633.
+//
+>Oenococcus oeni (Leuconostoc oenos).
+//
+>Oenococcus oeni (strain BAA-331 / PSU-1).
+//
+>Oenococcus oeni ATCC BAA-1163.
+//
+>Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / NCTC
+//
+>Parabacteroides merdae ATCC 43184.
+//
+>Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966).
+//
+>Pasteurella haemolytica (Mannheimia haemolytica).
+eco:b4153	eco:b4154	2ACZ
+eco:b4153	eco:b4152	3CIR
+eco:b4154	eco:b4152	3CIR
+//
+>Pasteurella multocida.
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0116	3F8P
+eco:b0115	eco:b0116	1EBD
+eco:b4153	eco:b0116	1GTE
+//
+>Pedobacter sp. BAL39.
+//
+>Photobacterium profundum (Photobacterium sp. (strain SS9)).
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0727	eco:b0116	1EBD
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	1D4C
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0722	2ACZ
+eco:b4154	eco:b0116	2E57
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0722	1ZOY
+eco:b4151	eco:b3403	1YVY
+//
+>Photobacterium profundum 3TCK.
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	2E57
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4154	eco:b0116	2E57
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b0722	1ZOY
+eco:b4154	eco:b4151	3CIR
+eco:b0116	eco:b0727	1EBD
+eco:b3403	eco:b4151	1YVY
+eco:b0721	eco:b0722	1ZOY
+//
+>Photobacterium sp. SKA34.
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4152	2ACZ
+eco:b0727	eco:b0115	1C4T
+eco:b3403	eco:b4151	1YVY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b4151	eco:b4152	3CIR
+//
+>Photorhabdus luminescens subsp. laumondii.
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b4153	eco:b4154	2ACZ
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0722	2ACZ
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0722	1ZOY
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b0728	eco:b0114	1XDL
+eco:b4152	eco:b4151	3CIR
+//
+>Planctomyces maris DSM 8797.
+//
+>Polaromonas sp. (strain JS666 / ATCC BAA-500).
+//
+>Porphyromonas gingivalis (Bacteroides gingivalis).
+//
+>Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / JCM 12257).
+//
+>Proteus vulgaris.
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4152	3CIR
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	3CIR
+eco:b4151	eco:b4152	3CIR
+//
+>Providencia stuartii ATCC 25827.
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0116	3F8P
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4152	3CIR
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b0724	1ZOY
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	2ACZ
+eco:b0616	eco:b0617	3EEG
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0116	1GTE
+eco:b0721	eco:b0724	1ZOY
+eco:b0617	eco:b0724	2FUG
+eco:b0728	eco:b0729	2FP4
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b4151	eco:b0724	3CIR
+eco:b0115	eco:b0116	1EBD
+//
+>Pseudoalteromonas atlantica (strain T6c / BAA-1087).
+eco:b0723	eco:b0724	2H88
+//
+>Pseudoalteromonas haloplanktis (strain TAC 125).
+eco:b0723	eco:b0724	2H88
+//
+>Pseudoalteromonas tunicata D2.
+eco:b0723	eco:b0724	2H88
+//
+>Pseudomonas aeruginosa (strain PA7).
+//
+>Pseudomonas aeruginosa (strain UCBPP-PA14).
+//
+>Pseudomonas aeruginosa.
+//
+>Pseudomonas entomophila (strain L48).
+//
+>Pseudomonas fluorescens (strain Pf-5 / ATCC BAA-477).
+//
+>Pseudomonas fluorescens (strain Pf0-1).
+//
+>Pseudomonas mendocina (strain ymp).
+//
+>Pseudomonas putida (strain F1 / ATCC 700007).
+//
+>Pseudomonas putida (strain GB-1).
+//
+>Pseudomonas putida (strain KT2440).
+//
+>Pseudomonas putida (strain W619).
+//
+>Pseudomonas stutzeri (strain A1501).
+//
+>Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6).
+//
+>Pseudomonas syringae pv. syringae (strain B728a).
+//
+>Pseudomonas syringae pv. tomato.
+//
+>Psychromonas ingrahamii (strain 37).
+//
+>Psychromonas sp. CNPT3.
+//
+>Pyrococcus abyssi.
+//
+>Pyrococcus horikoshii.
+//
+>Ralstonia eutropha (strain ATCC 17699 / H16 / DSM 428 / Stanier 337)
+//
+>Ralstonia eutropha (strain JMP134) (Alcaligenes eutrophus).
+//
+>Ralstonia metallidurans (strain CH34 / ATCC 43123 / DSM 2839).
+//
+>Ralstonia pickettii (strain 12J).
+//
+>Ralstonia pickettii 12D.
+//
+>Ralstonia solanacearum (Pseudomonas solanacearum).
+//
+>Reinekea sp. MED297.
+//
+>Rhizobium loti (Mesorhizobium loti).
+//
+>Rhodoferax ferrireducens (strain DSM 15236 / ATCC BAA-621 / T118).
+//
+>Rhodopseudomonas palustris (strain BisA53).
+//
+>Rhodopseudomonas palustris (strain BisB18).
+//
+>Rhodopseudomonas palustris (strain BisB5).
+//
+>Rhodopseudomonas palustris (strain HaA2).
+//
+>Rhodopseudomonas palustris.
+//
+>Rhodospirillum rubrum (strain ATCC 11170 / NCIB 8255).
+//
+>Ruminococcus gnavus ATCC 29149.
+//
+>Ruminococcus obeum ATCC 29174.
+//
+>Ruminococcus torques ATCC 27756.
+//
+>Salmonella arizonae (strain ATCC BAA-731 / CDC346-86 / RSK2980).
+eco:b4122	eco:b0724	2FUG
+eco:b4122	eco:b0617	2FUG
+eco:b4122	eco:b4153	2FUG
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0617	eco:b4153	2FUG
+eco:b0721	eco:b4153	1KQF
+eco:b0721	eco:b4154	1ZOY
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b3236	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	3CIR
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4152	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b3236	eco:b0727	1EBD
+//
+>Salmonella choleraesuis.
+eco:b0728	eco:b0729	2FP4
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b4153	1GTE
+eco:b0617	eco:b4153	2FUG
+eco:b0617	eco:b0724	2FUG
+eco:b3236	eco:b0727	1EBD
+eco:b3236	eco:b0115	1EBD
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0727	eco:b0115	1C4T
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b0721	eco:b0724	1ZOY
+//
+>Salmonella enterica subsp. enterica serovar Typhimurium.
+//
+>Salmonella enterica.
+//
+>Salmonella paratyphi A.
+eco:b0729	eco:b0728	2FP4
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0723	2BS2
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b0723	2BS2
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0115	eco:b0727	1C4T
+eco:b4154	eco:b0723	3CIR
+//
+>Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7).
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b0729	eco:b0728	2FP4
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b0721	eco:b4153	1KQF
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b3236	eco:b0727	1EBD
+eco:b3236	eco:b0115	1EBD
+eco:b0617	eco:b4153	2FUG
+eco:b0617	eco:b0724	2FUG
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0727	eco:b0115	1C4T
+//
+>Salmonella typhi.
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0729	eco:b0728	2FP4
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0617	2FUG
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0617	2FUG
+eco:b0727	eco:b0116	1EBD
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b0721	2H88
+//
+>Salmonella typhimurium.
+eco:b0617	eco:b0724	2FUG
+eco:b0617	eco:b4153	2FUG
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b3236	1EBD
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0723	2E57
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b0728	eco:b0729	2FP4
+eco:b0727	eco:b3236	1EBD
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4151	eco:b0723	3CIR
+//
+>Serratia proteamaculans (strain 568).
+eco:b0801	eco:b0723	1ZOY
+eco:b0801	eco:b0722	1ZOY
+eco:b0801	eco:b4154	1ZOY
+eco:b0801	eco:b4153	1ZOY
+eco:b0801	eco:b0724	1ZOY
+eco:b0801	eco:b0721	1ZOY
+eco:b0617	eco:b4153	2FUG
+eco:b0617	eco:b0724	2FUG
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0729	eco:b0728	2FP4
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b0724	3CIR
+eco:b0115	eco:b0726	1W85
+eco:b0115	eco:b3403	1W88
+eco:b0115	eco:b0727	1C4T
+eco:b0726	eco:b3403	1W85
+eco:b0726	eco:b0727	1W85
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b3403	eco:b0727	1W85
+eco:b4153	eco:b0721	1ZOY
+eco:b0724	eco:b0721	1ZOY
+//
+>Shewanella amazonensis (strain ATCC BAA-1098 / SB2B).
+eco:b0115	eco:b0116	1EBD
+eco:b0728	eco:b0729	2CSU
+//
+>Shewanella baltica (strain OS155 / ATCC BAA-1091).
+eco:b0724	eco:b0721	1ZOY
+//
+>Shewanella baltica (strain OS185).
+//
+>Shewanella baltica (strain OS195).
+eco:b0721	eco:b0724	1ZOY
+//
+>Shewanella benthica KT99.
+//
+>Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013).
+eco:b0721	eco:b0722	1ZOY
+//
+>Shewanella frigidimarina (strain NCIMB 400).
+eco:b0721	eco:b0722	1ZOY
+//
+>Shewanella frigidimarina.
+//
+>Shewanella halifaxensis (strain HAW-EB4).
+eco:b0722	eco:b0724	1ZOY
+//
+>Shewanella loihica (strain ATCC BAA-1088 / PV-4).
+//
+>Shewanella oneidensis.
+eco:b0724	eco:b0721	1ZOY
+//
+>Shewanella pealeana (strain ATCC 700345 / ANG-SQ1).
+eco:b0115	eco:b0116	1EBD
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0721	eco:b0722	1ZOY
+//
+>Shewanella putrefaciens (strain CN-32 / ATCC BAA-453).
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0726	2JGD
+eco:b0728	eco:b0729	2CSU
+//
+>Shewanella putrefaciens 200.
+eco:b0729	eco:b0728	2CSU
+//
+>Shewanella sediminis (strain HAW-EB3).
+eco:b0721	eco:b0722	1ZOY
+//
+>Shewanella sp. (strain ANA-3).
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0721	eco:b0722	1ZOY
+//
+>Shewanella sp. (strain MR-4).
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b0724	eco:b0722	1ZOY
+//
+>Shewanella sp. (strain MR-7).
+eco:b0722	eco:b0721	1ZOY
+//
+>Shewanella sp. (strain W3-18-1).
+eco:b0729	eco:b0728	2CSU
+//
+>Shewanella woodyi (strain ATCC 51908 / MS32).
+//
+>Shigella boydii serotype 18 (strain CDC 3083-94 / BS512).
+eco:b0728	eco:b0729	2FP4
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4152	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4151	2VPZ
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4152	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b4152	3CIR
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0721	eco:b4153	1ZOY
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b4152	3CIR
+//
+>Shigella boydii serotype 4 (strain Sb227).
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4151	2VPZ
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b0722	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0617	eco:b0724	2FUG
+eco:b0116	eco:b0727	1EBD
+eco:b4151	eco:b0724	2VPZ
+eco:b4151	eco:b4152	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0722	1ZOY
+eco:b0721	eco:b0722	2ACZ
+//
+>Shigella boydii.
+//
+>Shigella dysenteriae serotype 1 (strain Sd197).
+eco:b0728	eco:b0729	2FP4
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b0724	2VPZ
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b3236	1EBD
+eco:b4152	eco:b4154	3CIR
+eco:b4152	eco:b0723	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b3236	1EBD
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0724	2H88
+//
+>Shigella flexneri serotype 5b (strain 8401).
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0728	eco:b0729	2FP4
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b4153	1GTE
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4151	2VPZ
+eco:b0724	eco:b0617	2FUG
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4153	3CIR
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b4151	eco:b4153	2VPZ
+eco:b4153	eco:b0617	2FUG
+//
+>Shigella flexneri.
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b4151	2VPZ
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b0721	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	3F8P
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	2VDC
+eco:b0727	eco:b0115	1C4T
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	3CIR
+eco:b4151	eco:b0724	2VPZ
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0721	1ZOY
+//
+>Shigella sonnei (strain Ss046).
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4151	2VPZ
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4152	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0617	2FUG
+eco:b0724	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4152	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	2VPZ
+eco:b4151	eco:b4152	3CIR
+eco:b0728	eco:b0729	2FP4
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	2VDC
+eco:b0116	eco:b0727	1EBD
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b4152	3CIR
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b0722	1ZOY
+eco:b4153	eco:b4152	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0617	2FUG
+eco:b4153	eco:b0722	1ZOY
+eco:b0115	eco:b0727	1C4T
+eco:b0721	eco:b0722	2ACZ
+//
+>Sinorhizobium medicae (strain WSM419) (Ensifer medicae).
+//
+>Sodalis glossinidius (strain morsitans).
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0729	eco:b0728	2FP4
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4151	3CIR
+eco:b0722	eco:b0721	2ACZ
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0721	2H88
+//
+>Sphingomonas wittichii (strain RW1 / DSM 6014 / JCM 10273).
+//
+>Sphingopyxis alaskensis (Sphingomonas alaskensis).
+//
+>Streptococcus mutans.
+//
+>Streptococcus pyogenes serotype M1.
+//
+>Streptococcus pyogenes serotype M18.
+//
+>Streptococcus pyogenes serotype M2 (strain MGAS10270).
+//
+>Streptococcus pyogenes serotype M28.
+//
+>Streptococcus pyogenes serotype M3.
+//
+>Streptococcus pyogenes serotype M4 (strain MGAS10750).
+//
+>Streptococcus pyogenes serotype M5 (strain Manfredo).
+//
+>Streptococcus pyogenes serotype M6.
+//
+>Sulfitobacter sp. EE-36.
+//
+>Sulfitobacter sp. NAS-14.1.
+//
+>Syntrophobacter fumaroxidans (strain DSM 10017 / MPOB).
+//
+>Thermoanaerobacter pseudethanolicus (strain ATCC 33223 / 39E)
+//
+>Thermoanaerobacter sp. (strain X514).
+//
+>Thermoanaerobacter tengcongensis.
+//
+>Thermosinus carboxydivorans Nor1.
+//
+>Thiobacillus thiooxidans.
+//
+>Treponema denticola.
+//
+>Verminephrobacter eiseniae (strain EF01-2).
+//
+>Vibrio alginolyticus 12G01.
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0114	eco:b4153	1GTE
+eco:b0114	eco:b0116	1GTE
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b4154	eco:b0722	1ZOY
+//
+>Vibrio angustum S14.
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0720	1IXE
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b0722	1ZOY
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b0116	eco:b0115	1EBD
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0721	2ACZ
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b4151	eco:b3403	1YVY
+eco:b0721	eco:b0722	1ZOY
+eco:b0729	eco:b0728	2FP4
+//
+>Vibrio campbellii AND4.
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4154	2BS2
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b4154	2BS2
+eco:b0115	eco:b0116	1EBD
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4154	3F8R
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0723	eco:b4154	3CIR
+//
+>Vibrio cholerae 1587.
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0720	eco:b0728	1IXE
+eco:b3403	eco:b4151	1YVY
+eco:b0726	eco:b0722	2JGD
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0727	1EBD
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0724	eco:b0723	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b0729	eco:b0728	2CSU
+//
+>Vibrio cholerae 2740-80.
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b0721	eco:b4153	1ZOY
+eco:b3403	eco:b4151	1YVY
+eco:b0729	eco:b0728	2CSU
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0720	eco:b0728	1IXE
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0727	1EBD
+eco:b4153	eco:b4151	3CIR
+//
+>Vibrio cholerae 623-39.
+eco:b0728	eco:b0729	2CSU
+eco:b0728	eco:b0720	1IXE
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b0724	1ZOY
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4153	eco:b0116	1GTE
+//
+>Vibrio cholerae AM-19226.
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0729	eco:b0728	2CSU
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b0727	eco:b0116	1EBD
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0724	2ACZ
+eco:b0728	eco:b0720	1IXE
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0724	2H88
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b0724	1ZOY
+eco:b0721	eco:b0724	1ZOY
+//
+>Vibrio cholerae B33.
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b0720	eco:b0728	1IXE
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	1D4C
+eco:b0728	eco:b0729	2CSU
+eco:b4153	eco:b4154	2BS2
+//
+>Vibrio cholerae MAK 757.
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4151	3CIR
+eco:b0729	eco:b0728	2CSU
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4151	3CIR
+eco:b3403	eco:b4151	1YVY
+eco:b0720	eco:b0728	1IXE
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4151	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0727	eco:b0116	1EBD
+//
+>Vibrio cholerae MO10.
+eco:b0729	eco:b0728	2CSU
+eco:b0728	eco:b0720	1IXE
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b4153	1GTE
+eco:b0727	eco:b0115	1C4T
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4153	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+//
+>Vibrio cholerae MZO-2.
+eco:b0729	eco:b0728	2CSU
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0728	eco:b0720	1IXE
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b4152	eco:b4153	2ACZ
+//
+>Vibrio cholerae MZO-3.
+eco:b4151	eco:b3403	1YVY
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0722	2H88
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b0116	eco:b0727	1EBD
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0726	eco:b0722	2JGD
+eco:b0728	eco:b0720	1IXE
+//
+>Vibrio cholerae NCTC 8457.
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b3403	1YVY
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b4152	2ACZ
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4152	2ACZ
+eco:b0720	eco:b0728	1IXE
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0728	eco:b0729	2CSU
+eco:b0115	eco:b0116	1EBD
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b0116	eco:b4153	1GTE
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4152	2ACZ
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b0721	1ZOY
+eco:b0721	eco:b4152	2ACZ
+//
+>Vibrio cholerae RC385.
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0724	eco:b4154	2BS2
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0728	eco:b0729	2CSU
+eco:b4153	eco:b4154	2BS2
+//
+>Vibrio cholerae V51.
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0727	eco:b0115	1C4T
+eco:b0728	eco:b0729	2CSU
+eco:b0728	eco:b0720	1IXE
+eco:b4151	eco:b4153	3CIR
+//
+>Vibrio cholerae V52.
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4154	2BS2
+eco:b0116	eco:b4154	1D4C
+eco:b4151	eco:b4154	3CIR
+//
+>Vibrio cholerae serotype O1 (strain ATCC 39541 / Ogawa 395 / O395).
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0726	eco:b0722	2JGD
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0721	1ZOY
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b3403	eco:b4151	1YVY
+eco:b4151	eco:b4153	3CIR
+eco:b0721	eco:b4153	1ZOY
+eco:b0720	eco:b0728	1IXE
+//
+>Vibrio cholerae.
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0721	1ZOY
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b0723	eco:b0722	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b0726	2JGD
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0729	eco:b0728	2CSU
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b0728	eco:b0720	1IXE
+eco:b0727	eco:b0116	1EBD
+//
+>Vibrio fischeri (strain ATCC 700601 / ES114).
+eco:b0722	eco:b4154	2ACZ
+eco:b0722	eco:b0723	2ACZ
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	2ACZ
+eco:b0722	eco:b0724	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0721	2H88
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b0116	3F8P
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0115	eco:b0116	1EBD
+eco:b4153	eco:b0116	1GTE
+//
+>Vibrio harveyi (strain ATCC BAA-1116 / BB120).
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0722	1ZOY
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0722	1ZOY
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0115	1EBD
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0722	1ZOY
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0722	1ZOY
+//
+>Vibrio harveyi HY01.
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b4153	eco:b4154	2BS2
+eco:b0115	eco:b0727	1C4T
+eco:b4154	eco:b0724	2H88
+//
+>Vibrio parahaemolyticus AQ3810.
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0721	2H88
+eco:b0114	eco:b4153	1GTE
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b0728	eco:b0729	2CSU
+eco:b0115	eco:b0727	1C4T
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b0724	eco:b0722	2ACZ
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0721	1ZOY
+eco:b0722	eco:b0723	2ACZ
+eco:b0722	eco:b4153	2ACZ
+eco:b0722	eco:b0721	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b4153	eco:b0721	1ZOY
+//
+>Vibrio parahaemolyticus.
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0114	1GTE
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	2ACZ
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0114	eco:b0116	1GTE
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0724	1ZOY
+eco:b0727	eco:b0116	1EBD
+eco:b0722	eco:b4154	2ACZ
+eco:b0722	eco:b0723	2ACZ
+eco:b0722	eco:b0724	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b0116	3F8P
+eco:b0729	eco:b0728	2CSU
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b4152	eco:b0724	2ACZ
+//
+>Vibrio shilonii AK1.
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0724	eco:b0721	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4152	2ACZ
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0115	eco:b0116	1EBD
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b4154	eco:b4151	2GJC
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b0729	eco:b0728	2FP4
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b3403	1YVY
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0116	2E57
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+//
+>Vibrio sp. Ex25.
+eco:b0116	eco:b0114	1GTE
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b4154	2BS2
+eco:b0114	eco:b4153	1GTE
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b4154	eco:b4153	2H88
+eco:b0727	eco:b0115	1C4T
+//
+>Vibrio sp. MED222.
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0723	2BS2
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0723	2E57
+eco:b0721	eco:b0722	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0724	eco:b4154	2BS2
+eco:b0724	eco:b0723	2BS2
+eco:b4154	eco:b0723	3CIR
+//
+>Vibrio splendidus 12B01.
+eco:b4154	eco:b4153	2H88
+eco:b4154	eco:b0722	1ZOY
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0724	2H88
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2BS2
+eco:b4151	eco:b0723	3CIR
+//
+>Vibrio vulnificus (strain YJ016).
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0720	eco:b0728	1IXE
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b0729	eco:b0728	2CSU
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0721	2H88
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b0721	1ZOY
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4154	3F8R
+eco:b0116	eco:b0115	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b4154	eco:b0721	2H88
+//
+>Vibrio vulnificus.
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0729	eco:b0728	2CSU
+eco:b0115	eco:b0116	1EBD
+eco:b0720	eco:b0728	1IXE
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	3F8R
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4154	2BS2
+eco:b0721	eco:b4154	1ZOY
+//
+>Vibrionales bacterium SWAT-3.
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0724	eco:b0723	2BS2
+eco:b0724	eco:b0722	1ZOY
+eco:b0723	eco:b0722	1ZOY
+//
+>Victivallis vadensis ATCC BAA-548.
+//
+>Weissella paramesenteroides (Leuconostoc paramesenteroides).
+//
+>Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2).
+//
+>Yersinia enterocolitica
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0616	2Z3T
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0724	1ZOY
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0722	1ZOY
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0115	1EBD
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0724	2H88
+eco:b0722	eco:b0724	1ZOY
+eco:b0729	eco:b0728	2FP4
+//
+>Yersinia pestis (strain Pestoides F).
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b3236	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b4154	2H88
+eco:b0727	eco:b3236	1EBD
+eco:b0727	eco:b0116	1EBD
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4154	3CIR
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	1D4C
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4154	2BS2
+eco:b4152	eco:b4154	2ACZ
+//
+>Yersinia pestis CA88-4125.
+eco:b0729	eco:b0728	2FP4
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0116	1GTE
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b3236	1EBD
+eco:b0727	eco:b0116	1EBD
+eco:b0115	eco:b3236	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0724	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0724	2H88
+//
+>Yersinia pestis biovar Antiqua str. B42003004.
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b3236	1EBD
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b4153	1GTE
+eco:b0115	eco:b3236	1EBD
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4153	2H88
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0724	eco:b0721	2H88
+eco:b0724	eco:b0722	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4153	1ZOY
+eco:b0722	eco:b4153	1ZOY
+//
+>Yersinia pestis biovar Antiqua str. E1979001.
+eco:b0729	eco:b0728	2FP4
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0727	1EBD
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0724	eco:b0723	2H88
+eco:b4153	eco:b0723	2BS2
+//
+>Yersinia pestis biovar Antiqua str. UG05-0454.
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0722	1ZOY
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b0724	eco:b0721	2H88
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0722	1ZOY
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b3236	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b3236	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0728	eco:b0729	2FP4
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0722	2ACZ
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0722	1ZOY
+//
+>Yersinia pestis biovar Mediaevalis str. K1973002.
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4154	2H88
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0721	2H88
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b3236	eco:b0115	1EBD
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4153	eco:b4154	2BS2
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b0721	1ZOY
+eco:b0729	eco:b0728	2FP4
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b0727	eco:b0115	1C4T
+//
+>Yersinia pestis biovar Orientalis str. F1991016.
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4154	2H88
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0721	2H88
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b4153	1GTE
+eco:b0116	eco:b0115	1EBD
+eco:b0727	eco:b3236	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0729	eco:b0728	2FP4
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b3236	eco:b0115	1EBD
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b4153	eco:b0721	1ZOY
+//
+>Yersinia pestis biovar Orientalis str. IP275.
+eco:b3236	eco:b0727	1EBD
+eco:b3236	eco:b0115	1EBD
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0724	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b0729	eco:b0728	2FP4
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b4152	2ACZ
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b0724	2H88
+eco:b4152	eco:b0724	2ACZ
+//
+>Yersinia pestis biovar Orientalis str. MG05-1020.
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b3236	eco:b0727	1EBD
+eco:b3236	eco:b0115	1EBD
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b0721	2H88
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0116	2E57
+//
+>Yersinia pestis bv. Antiqua (strain Angola).
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4151	3CIR
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0728	eco:b0729	2FP4
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b4151	3CIR
+eco:b4152	eco:b4151	3CIR
+//
+>Yersinia pestis bv. Antiqua (strain Antiqua).
+eco:b4153	eco:b0723	2BS2
+eco:b4153	eco:b0721	1ZOY
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b0722	1ZOY
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b4153	eco:b4154	2BS2
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4152	2ACZ
+eco:b0723	eco:b4154	3CIR
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b0729	eco:b0728	2FP4
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b4154	2H88
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b0727	1C4T
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0722	eco:b4154	1ZOY
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4152	eco:b4154	2ACZ
+//
+>Yersinia pestis bv. Antiqua (strain Nepal516).
+eco:b0728	eco:b0729	2FP4
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b3236	1EBD
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b4153	1GTE
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b0721	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0115	eco:b3236	1EBD
+eco:b0724	eco:b4152	2ACZ
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b0722	1ZOY
+eco:b0724	eco:b0721	2H88
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b0723	eco:b0722	1ZOY
+eco:b0723	eco:b0721	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0722	eco:b0721	2ACZ
+eco:b0722	eco:b4153	1ZOY
+eco:b0721	eco:b4153	1ZOY
+//
+>Yersinia pestis.
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4152	2ACZ
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b4154	eco:b0722	2ACZ
+eco:b4154	eco:b4152	2ACZ
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b0116	1EBD
+eco:b0727	eco:b3236	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b0115	eco:b3236	1EBD
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0116	eco:b4153	1GTE
+eco:b4151	eco:b0724	3CIR
+eco:b4151	eco:b4153	3CIR
+//
+>Yersinia pseudotuberculosis
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0116	eco:b4154	1D4C
+eco:b0116	eco:b0727	1EBD
+eco:b0116	eco:b0723	2E57
+eco:b0116	eco:b0115	1EBD
+eco:b0116	eco:b4153	1GTE
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b4152	2ACZ
+eco:b0727	eco:b0115	1C4T
+eco:b0727	eco:b3236	1EBD
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b4152	2ACZ
+eco:b0115	eco:b3236	1EBD
+eco:b0728	eco:b0729	2FP4
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b4152	2ACZ
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b4152	2ACZ
+eco:b4151	eco:b4152	3CIR
+//
+>Yersinia pseudotuberculosis serotype IB (strain PB1/+).
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b0724	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b4152	2ACZ
+eco:b0722	eco:b0724	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b3236	1EBD
+eco:b0115	eco:b0116	1EBD
+eco:b0724	eco:b4151	3CIR
+eco:b0724	eco:b0723	2H88
+eco:b0724	eco:b4154	2H88
+eco:b0724	eco:b4152	2ACZ
+eco:b0727	eco:b3236	1EBD
+eco:b0727	eco:b0116	1EBD
+eco:b4151	eco:b0723	3CIR
+eco:b4151	eco:b4154	3CIR
+eco:b4151	eco:b4153	3CIR
+eco:b4151	eco:b4152	3CIR
+eco:b0723	eco:b4154	3CIR
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b0116	2E57
+eco:b0723	eco:b4152	2ACZ
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b4154	eco:b4152	2ACZ
+eco:b4153	eco:b0116	1GTE
+eco:b4153	eco:b4152	2ACZ
+//
+>Yersinia pseudotuberculosis.
+eco:b4152	eco:b0721	2ACZ
+eco:b4152	eco:b4154	2ACZ
+eco:b4152	eco:b0723	2ACZ
+eco:b4152	eco:b4153	2ACZ
+eco:b4152	eco:b4151	3CIR
+eco:b4152	eco:b0724	2ACZ
+eco:b0721	eco:b0722	2ACZ
+eco:b0721	eco:b4154	1ZOY
+eco:b0721	eco:b0723	1ZOY
+eco:b0721	eco:b4153	1ZOY
+eco:b0721	eco:b0724	1ZOY
+eco:b0728	eco:b0729	2FP4
+eco:b0722	eco:b4154	1ZOY
+eco:b0722	eco:b0723	1ZOY
+eco:b0722	eco:b4153	1ZOY
+eco:b0722	eco:b0724	1ZOY
+eco:b4154	eco:b0723	3CIR
+eco:b4154	eco:b4153	2ACZ
+eco:b4154	eco:b4151	3CIR
+eco:b4154	eco:b0724	2ACZ
+eco:b4154	eco:b0116	1D4C
+eco:b0723	eco:b4153	2H88
+eco:b0723	eco:b4151	3CIR
+eco:b0723	eco:b0724	2H88
+eco:b0723	eco:b0116	2E57
+eco:b3236	eco:b0115	1EBD
+eco:b3236	eco:b0727	1EBD
+eco:b4153	eco:b4151	3CIR
+eco:b4153	eco:b0116	1GTE
+eco:b4151	eco:b0724	3CIR
+eco:b0115	eco:b0727	1C4T
+eco:b0115	eco:b0116	1EBD
+eco:b0727	eco:b0116	1EBD
+//
+>alpha proteobacterium BAL199.
+//
+>marine gamma proteobacterium HTCC2080.
+//
+>marine gamma proteobacterium HTCC2143.
+//

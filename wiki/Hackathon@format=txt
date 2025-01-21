@@ -1,0 +1,41 @@
+= !BioHackathon 2009 hack and satellites =
+
+We will have parallel sessions mainly focused on:
+
+ * Software development (hack, hack, hack)
+ * Use case driven hands-on seminar (try and record)
+
+and ad-hoc satellite meetings to accelerate collaboration between the above two groups:
+
+ * Use SatelliteTemplate to create your own satellite meeting
+  * Result section of this template is expected to be cited to the meeting report
+
+ * Use SatelliteSlots to reserve a slot for your satellite meeting
+
+== Satellite meetings ==
+
+ * SatelliteBioMoby
+ * SatelliteSemanticAnnotation
+ * SatelliteLiterature
+ * SatelliteManifestWebServiseGuidelines
+ * SatelliteGlycoBiology
+ * SatelliteGalaxy
+ * SatelliteBigData
+ * SatelliteVisualization - Includes development of backend services
+ * SatelliteTranscriptionRegulation
+ * SatelliteSeqAnalysis
+ * SatelliteBioRuby
+ * [wiki:SatelliteG-language]
+ * [wiki:DDBJ-KEGG-PDBj]
+ * SatelliteUseCases
+ * SemanticWebServices
+ * [wiki:BioMart]
+
+== Breakout Group Ojectives ==
+
+The satellite meetings designed several focussed objectives that will form the core of their "hacking".  The objectives of each break-out group are described in the links below:
+
+ * SemanticWebServices
+ * BigDataStandards
+ * VisualizationWg
+

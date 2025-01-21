@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      GuidelineForWebService (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="up" href="GuidelineForWebService@action=history.html" title="Page history" />
+        <link rel="next" href="GuidelineForWebService@action=diff&amp;version=14.html" title="Version 14" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="GuidelineForWebService@action=diff&amp;version=12.html" title="Version 12" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script><script type="text/javascript" src="http://hackathon2.dbcls.jp/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="GuidelineForWebService@action=diff&amp;version=12.html" title="Version 12">Previous Change</a></span></li><li><a href="GuidelineForWebService@action=history.html" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="GuidelineForWebService@action=diff&amp;version=14.html" title="Version 14">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="GuidelineForWebService@version=12.html">Version 12</a> and
+        <a href="GuidelineForWebService@version=13.html">Version 13</a> of
+        <a href="GuidelineForWebService@version=13.html">GuidelineForWebService</a>
+      </h1>
+      <form method="post" id="prefs" action="GuidelineForWebService@version=13.html"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="13" />
+          <input type="hidden" name="old_version" value="12" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/03/20 16:32:43 (<a class="timeline" href="../timeline@from=2009-03-20T16%253A32%253A43+0900&amp;precision=second.html" title="2009-03-20T16:32:43+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          chisato-yamasaki
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="GuidelineForWebService@version=13.html">GuidelineForWebService</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 12">
+                    <a href="GuidelineForWebService@version=12.html#L23">
+                      v12</a>
+                  </th>
+                  <th title="Version 13">
+                    <a href="GuidelineForWebService@version=13.html#L23">
+                      v13</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>23</th><th>23</th><td class="l"><span>&nbsp; &nbsp;* When any error occurs during processing at a server, a method </span> </td>
+                  </tr><tr>
+                          <th>24</th><th>24</th><td class="l"><span>&nbsp;</span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="last first">
+                          <th>25</th><th> </th><td class="l"><del>&nbsp;* TogoWS Guidelines</del> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>26</th><th>25</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>27</th><th> </th><td class="l"><span>REST</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>26</th><td class="r"><span>= TogoWS TogoWS Guidelines =</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>28</th><th>27</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>29</th><th> </th><td class="l"><span>TogoWS stated the rulers below: </span> </td>
+                      </tr><tr>
+                        <th>30</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;http://togows.dbcls.jp/site/services.html </span> </td>
+                      </tr><tr>
+                        <th>31</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;http://togows.dbcls.jp/site/rest.html </span> </td>
+                      </tr><tr>
+                        <th>32</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;</span> </td>
+                      </tr><tr>
+                        <th>33</th><th> </th><td class="l"><span>How to call the entries</span> </td>
+                      </tr><tr>
+                        <th>34</th><th> </th><td class="l"><span>&nbsp; &nbsp; &nbsp; &nbsp; http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format]</span> </td>
+                      </tr><tr>
+                        <th>35</th><th> </th><td class="l"><span># How to include the name space of the databases in URL： </span> </td>
+                      </tr><tr>
+                        <th>36</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;http://frnadb.example.org/entry/id instead of http://frnadb.example.org/entry/frnadb/id</span> </td>
+                      </tr><tr>
+                        <th>37</th><th> </th><td class="l"><span># How to add the name spaces for the institution, release_numer of the database: </span> </td>
+                      </tr><tr>
+                        <th>38</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345 </span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>28</th><td class="r"><span>== REST ==</span> </td>
+                      </tr><tr>
+                        <th> </th><th>29</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>30</th><td class="r"><span>TogoWS stated the rulers as below:</span> </td>
+                      </tr><tr>
+                        <th> </th><th>31</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>32</th><td class="r"><span>&nbsp;* http://togows.dbcls.jp/site/services.html</span> </td>
+                      </tr><tr>
+                        <th> </th><th>33</th><td class="r"><span>&nbsp;* http://togows.dbcls.jp/site/rest.html</span> </td>
+                      </tr><tr>
+                        <th> </th><th>34</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>35</th><td class="r"><span>=== How to call the entries ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>36</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>37</th><td class="r"><span>{{{</span> </td>
+                      </tr><tr>
+                        <th> </th><th>38</th><td class="r"><span>http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>39</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>40</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>41</th><td class="r"><span>How to include the name space of the databases in URL：</span> </td>
+                      </tr><tr>
+                        <th> </th><th>42</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>43</th><td class="r"><span>&nbsp;* http://frnadb.example.org/entry/id instead of http://frnadb.example.org/entry/frnadb/id</span> </td>
+                      </tr><tr>
+                        <th> </th><th>44</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>45</th><td class="r"><span>How to add the name spaces for the institution, release_numer of the database: </span> </td>
+                      </tr><tr>
+                        <th> </th><th>46</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>47</th><td class="r"><span>&nbsp;* http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345</span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>48</th><td class="r"><span></span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>39</th><th>49</th><td class="l"><span>NOTE:</span> </td>
+                  </tr><tr>
+                          <th>40</th><th>50</th><td class="l"><span>The default fotmat for the entries is “.txt”, and can be in the specified format by adding the suffix, such as “.xml”. </span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>41</th><th> </th><td class="l"><span>How to search the entries</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>51</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>52</th><td class="r"><span>エントリの部分要素取得について：</span> </td>
+                      </tr><tr>
+                        <th> </th><th>53</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>54</th><td class="r"><span>エントリの一部を field 名で取得できる機能は !BioRuby/BioPerl を利用した TogoWS の拡張ですが、</span> </td>
+                      </tr><tr>
+                        <th> </th><th>55</th><td class="r"><span>バックエンドが XML データベースの場合など、field の代わりに XPath を利用することも検討可能。</span> </td>
+                      </tr><tr>
+                        <th> </th><th>56</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>57</th><td class="r"><span>=== How to search the entrie ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>58</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>59</th><td class="r"><span>{{{</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>42</th><th>60</th><td class="l"><span>http://togows.dbcls.jp/search/database/query+string[.format][/offset,limit[.format]] </span> </td>
+                  </tr><tr>
+                          <th>43</th><th>61</th><td class="l"><span>http://togows.dbcls.jp/search/database/query+string/count</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>44</th><th> </th><td class="l"><span>The format of "query string" to be based on “Common Query Language“</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>62</th><td class="r"><span>}}}</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>45</th><th>63</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>46</th><th> </th><td class="l"><span>The conversion and data format and ID</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>64</th><td class="r"><span>he format of "query string" to be based on “Common Query Language" [http://en.wikipedia.org/wiki/Common_Query_Language Common Query Language]</span> </td>
+                      </tr><tr>
+                        <th> </th><th>65</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>66</th><td class="r"><span>=== The conversion and data format and ID ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>67</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>68</th><td class="r"><span>{{{</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>47</th><th>69</th><td class="l"><span>http://togows.dbcls.jp/convert/data_source.format</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>48</th><th> </th><td class="l"><span>Metadata</span> </td>
+                      </tr><tr>
+                        <th>49</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;The list of the databases</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>70</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>71</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>72</th><td class="r"><span>=== Metadata ===</span> </td>
+                      </tr><tr>
+                        <th> </th><th>73</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>74</th><td class="r"><span>&nbsp;* The list of the databases</span> </td>
+                      </tr><tr>
+                        <th> </th><th>75</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>76</th><td class="r"><span>{{{</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>50</th><th>77</th><td class="l"><span>http://togows.dbcls.jp/entry/</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>51</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;The list of the fields</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>78</th><td class="r"><span>http://togows.dbcls.jp/search/</span> </td>
+                      </tr><tr>
+                        <th> </th><th>79</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>80</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>81</th><td class="r"><span>&nbsp;* The list of the fields</span> </td>
+                      </tr><tr>
+                        <th> </th><th>82</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>83</th><td class="r"><span>{{{</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>52</th><th>84</th><td class="l"><span>http://togows.dbcls.jp/entry/DB名/</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>53</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;The list of the formats</span> </td>
+                      </tr><tr>
+                        <th>54</th><th> </th><td class="l"><span>http://togows.dbcls.jp/entry/DB_name/formats</span> </td>
+                      </tr><tr>
+                        <th>55</th><th> </th><td class="l"><span>SOAP</span> </td>
+                      </tr><tr>
+                        <th>56</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp; Calling a method with asynchronous</span> </td>
+                      </tr><tr>
+                        <th>57</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;The name for the method with asynchronous end with “Async” and return job ID </span> </td>
+                      </tr><tr>
+                        <th>58</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Rerurn job ID to “CheckAsyncStatus?” method and give either RUNNING, COMPLETED, or ERROR </span> </td>
+                      </tr><tr>
+                        <th>59</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Method name for the method with asynchronous mst be” BeginInvoke methods＋Result” and stae job ID as a parameter </span> </td>
+                      </tr><tr>
+                        <th>60</th><th> </th><td class="l"><span>•&nbsp; &nbsp; &nbsp; &nbsp;Required test environment </span> </td>
+                      </tr><tr>
+                        <th>61</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Perl: Soap::Lite 0.69 </span> </td>
+                      </tr><tr>
+                        <th>62</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Ruby: SOAP4R 1.5.5 (Ruby 1.8.6 bundle) </span> </td>
+                      </tr><tr>
+                        <th>63</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Python: SOAPpy 0.12.0 </span> </td>
+                      </tr><tr>
+                        <th>64</th><th> </th><td class="l"><span>o&nbsp; &nbsp; &nbsp; &nbsp;Java: Axis 1.4 </span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>85</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>86</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>87</th><td class="r"><span>&nbsp;* The list of the formats</span> </td>
+                      </tr><tr>
+                        <th> </th><th>88</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>89</th><td class="r"><span>{{{</span> </td>
+                      </tr><tr>
+                        <th> </th><th>90</th><td class="r"><span>http://togows.dbcls.jp/entry/DB名/formats</span> </td>
+                      </tr><tr>
+                        <th> </th><th>91</th><td class="r"><span>}}}</span> </td>
+                      </tr><tr>
+                        <th> </th><th>92</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>93</th><td class="r"><span>== SOAP ==</span> </td>
+                      </tr><tr>
+                        <th> </th><th>94</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>95</th><td class="r"><span>&nbsp;* Required test environment</span> </td>
+                      </tr><tr>
+                        <th> </th><th>96</th><td class="r"><span>&nbsp; * Perl: Soap::Lite 0.69</span> </td>
+                      </tr><tr>
+                        <th> </th><th>97</th><td class="r"><span>&nbsp; * Ruby: SOAP4R 1.5.5 (Ruby 1.8.6 bundle)</span> </td>
+                      </tr><tr>
+                        <th> </th><th>98</th><td class="r"><span>&nbsp; * Python: SOAPpy 0.12.0</span> </td>
+                      </tr><tr>
+                        <th> </th><th>99</th><td class="r"><span>&nbsp; * Java: Axis 1.4</span> </td>
+                      </tr><tr>
+                        <th> </th><th>100</th><td class="r"><span>&nbsp;* SOAP version 1.2, at least</span> </td>
+                      </tr><tr>
+                        <th> </th><th>101</th><td class="r"><span>&nbsp;* Calling a method with asynchronous</span> </td>
+                      </tr><tr>
+                        <th> </th><th>102</th><td class="r"><span>&nbsp; * The name for the method with asynchronous end with “Async” and return job ID</span> </td>
+                      </tr><tr>
+                        <th> </th><th>103</th><td class="r"><span>&nbsp; * Rerurn job ID to “CheckAsyncStatus?” method and give either RUNNING, COMPLETED, or ERROR</span> </td>
+                      </tr><tr>
+                        <th> </th><th>104</th><td class="r"><span>&nbsp; * Method name for the method with asynchronous mst be” BeginInvoke methods＋Result” and stae job ID as a parameter</span> </td>
+                      </tr><tr>
+                        <th> </th><th>105</th><td class="r"><span></span> </td>
+                      </tr><tr>
+                        <th> </th><th>106</th><td class="r"><span>== History ==</span> </td>
+                      </tr><tr>
+                        <th> </th><th>107</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>108</th><td class="r"><span>&nbsp;* version [wiki:Manifest2.0_e] (2009/03/20)</span> </td>
+                      </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

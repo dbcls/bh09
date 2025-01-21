@@ -1,0 +1,103 @@
+== Day 3: Visualization Workgroup Discussion ==
+
+Hands on: March 19 AM at the seminar room
+
+=== Chairperson ===
+
+ * Jessica Severin (severin@gsc.riken.jp)
+
+=== Purpose ===
+
+This working group was an opportunity for many people in the area of biological visualization to share their work. Participants were asked to demonstrate their softwares.  We divided the visualizations into three main categories: Network, Expression, and genomic region visualization and different visualization systems identified if they were able to support that style of visualization.  It was a wonderful opportunity to see what others were working on and what ideas or possible collaborations could be formed in the future.  Some data providers were also present, and some discussion occurred regarding extending our visualization to more client/server models of remote data.
+
+=== Tools ===
+
+ * Network
+  * Cytoscape was presented by Keiichiro@UCSD  ( http://www.cytoscape.org/index.php )
+  * E-Cell 3D was presented by Kazuharu@Keio ( http://ecell3d.iab.keio.ac.jp/ )
+  * !GraphViz
+  * !BioCichlid by Soichi@tmd -- http://newton.tmd.ac.jp/
+  * FANTOM4 EdgeExpressDB (eeDB) was presented by  Jessica Severin@RIKEN
+    - [http://fantom.gsc.riken.jp/4/edgeexpress/subnet/ FANTOM4 EdgeExpressDB] -- currently protected; available soon
+
+ * Expression
+  * Cytoscape * Cytoscape
+   * kozo-ni's usecase
+     * retrieve a organism's all metabolic reactions from KEGG
+     * convert node format from [compound -> enzyme -> compound] to [compound -> compound] or [enzyme -> enzyme] like following paper
+       * http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767
+     * calculate betweeneth and find bottlenecks (currently I use CentiScaPe plugin or igraph[R library])
+     * map gene expression to enzyme
+  * Genespring
+  * TMeV
+  * PREP+07  ( http://www.bitlab-es.com/prep/ ) http://www.biomedcentral.com/1471-2105/10/16
+  * bluejay
+  * Biocichlid
+  * FANTOM4 eeDB - Jessica Severin@RIKEN
+    - [http://fantom.gsc.riken.jp/4/edgeexpress/view/ FANTOM4 EdgeExpressDB] -- currently protected; available soon
+  * genoDive
+     * will be available with GFF3 file or from DAS server
+
+ * Genome
+  * Ensembl
+  * UCSC
+  * GBrowse
+  * PARP (multi genomes: m) waspresented by Jan@Sanger  (http://github.com/jandot/parp/tree/double_circular)
+  * genoDive was presented by Shinobu@Kazusa and Kunihiro@UT ( http://genodive.org/)
+  * A genome viewer projected on a wall type display was presented by Kunihiro@UT
+  * CGAS (m) by Masumi@hokudai ( http://cgas.ist.hokudai.ac.jp )
+  * Genome Projector was presented by Kazuharu@Keio ( http://www.g-language.org/GenomeProjector/ )
+  * bluejay  ( http://bluejay.ucalgary.ca/ )
+  * X..map  ( http://xmap.picr.man.ac.uk/ )
+  * google !GenomeBrowser
+  * EdgeExpressDB eeDB gLyphs prototype -- final stages of feature addition and paper writing
+  * MaDaS ( http://madas2.bioinfo.cnio.es/ , click on "Go directly to example" in order to see an example)
+
+== Usecase/Data ==
+ * Cytoscape
+   * kozo-ni(kozo-ni@is.naist.jp)
+     * usecase
+       * retrieve an organism's all metabolic reactions from KEGG
+       * convert node format from [compound -> enzyme -> compound] to [compound -> compound] or [enzyme -> enzyme] like following paper
+         * http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767
+       * calculate betweeneth and find bottlenecks (currently I use CentiScaPe plugin or igraph[R library])
+       * map gene expression to enzyme
+     * data
+       * affymetrix gene-chip expression data
+     * functionality needs
+       * get an organism's all metabolic reactions from KEGG
+       * draw enzyme or compound centric network. (In enzyme centric network, enzyme nodes share a common compound. In compound centric network, compound nodes share a common enzyme.)
+       * time-series expression mapping function
+     * difficulty
+       * blah,blah,blah 
+
+ * E-Cell 3D
+  * show dynamics of cellular simulations as well as the network
+  * debug a simulation model - a molecule could be depleted or too concentrated, steady-state (balanced flux), rhythms
+  * looking at the overall behavior
+
+ * Genome Projector
+  * look at a feature of interest from several different perspectives (zoom level + context)
+  * overlay data
+
+ * pARP
+  * show links between several features on one genome, e.g. mappings of readpair data
+
+ * genoDive
+  * visualize a whole genome data from chromosome level to sequence level seamlessly and interactively
+  * easy to use user interface and provide some new accessibility features
+  * genome oriented DAS client
+  * built in C++, OpenGL.
+
+ * CGAS
+  * visualize sequence alignments of genome sequences by dot plot with annotations.
+  * dynamic zooming and browsing.
+  * data
+    * users' alignment data & annotation from NCBI.
+
+== Future directions ==
+ * semantic zooming
+  * need for queries (DAS?) to define semantic abstraction of data
+  * server-side implementation to handle semantic abstraction level of returned data 
+ * better inter-operability between large data servers and visualization systems
+   * builiding collaborations and starting new work together

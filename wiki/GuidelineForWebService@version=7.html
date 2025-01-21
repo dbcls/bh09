@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      GuidelineForWebService – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/GuidelineForWebService?version=7&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="GuidelineForWebService.html" title="View latest version" />
+        <link rel="next" href="GuidelineForWebService@version=8.html" title="Version 8" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="GuidelineForWebService@version=6.html" title="Version 6" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="GuidelineForWebService@version=6.html" title="Version 6">Previous Version</a></span></li><li><a href="GuidelineForWebService.html" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="GuidelineForWebService@version=8.html" title="Version 8">Next Version</a> &rarr;</span></li><li class="last"><a href="GuidelineForWebService@action=diff&amp;version=7.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 7 (modified by chisato-yamasaki, <a class="timeline" href="../timeline@from=2009-03-20T16%253A02%253A34+0900&amp;precision=second.html" title="2009-03-20T16:02:34+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="GuidelineforWebServices">Guideline for Web Services</h1>
+<p>
+This document is a guideline to design of web services toward integration.
+</p>
+<ul><li>REST
+<ul><li>For a database service, REST services to get entries and search by a keyword should be provided.
+</li><li>To unify a format of a query, a query language should conform to Common Query Language.
+</li><li>A method to get the number of hits for a keyword should be provided.
+</li><li>A method to get the list of hit entries for a keyword should be provided.
+</li><li>A method to get the entry from an ID should be provided.
+</li></ul></li></ul><ul><li>SOAP
+<ul><li>A manual for each method should be prepared.
+<ul><li>The manual should include an example of parameters such that the method works well by them.
+</li></ul></li></ul></li></ul><ul><li>TogoWS Guidelines
+</li></ul><p>
+REST
+</p>
+<p>
+TogoWS stated the rulers below: 
+•        <a class="ext-link" href="http://togows.dbcls.jp/site/services.html"><span class="icon"> </span>http://togows.dbcls.jp/site/services.html</a> 
+•        <a class="ext-link" href="http://togows.dbcls.jp/site/rest.html"><span class="icon"> </span>http://togows.dbcls.jp/site/rest.html</a> 
+•        
+How to call the entries
+</p>
+<blockquote>
+<p>
+<a class="ext-link" href="http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format"><span class="icon"> </span>http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format</a>]
+</p>
+</blockquote>
+<p>
+# How to include the name space of the databases in URL： 
+•        <a class="ext-link" href="http://frnadb.example.org/entry/id"><span class="icon"> </span>http://frnadb.example.org/entry/id</a> instead of <a class="ext-link" href="http://frnadb.example.org/entry/frnadb/id"><span class="icon"> </span>http://frnadb.example.org/entry/frnadb/id</a>
+# How to add the name spaces for the institution, release_numer of the database: 
+•        <a class="ext-link" href="http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345"><span class="icon"> </span>http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345</a> 
+NOTE:
+The default fotmat for the entries is “.txt”, and can be in the specified format by adding the suffix, such as “.xml”. 
+How to search the entries
+<a class="ext-link" href="http://togows.dbcls.jp/search/database/query+string[.format][/offset,limit[.format"><span class="icon"> </span>http://togows.dbcls.jp/search/database/query+string[.format][/offset,limit[.format</a>]] 
+<a class="ext-link" href="http://togows.dbcls.jp/search/database/query+string/count"><span class="icon"> </span>http://togows.dbcls.jp/search/database/query+string/count</a>
+The format of "query string" to be based on “Common Query Language“
+</p>
+<p>
+The conversion and data format and ID
+<a class="ext-link" href="http://togows.dbcls.jp/convert/data_source.format"><span class="icon"> </span>http://togows.dbcls.jp/convert/data_source.format</a>
+Metadata
+•        The list of the databases
+<a class="ext-link" href="http://togows.dbcls.jp/entry/"><span class="icon"> </span>http://togows.dbcls.jp/entry/</a>
+•        The list of the fields
+<a class="ext-link" href="http://togows.dbcls.jp/entry/DB名/"><span class="icon"> </span>http://togows.dbcls.jp/entry/DB名/</a>
+•        The list of the formats
+<a class="ext-link" href="http://togows.dbcls.jp/entry/DB_name/formats"><span class="icon"> </span>http://togows.dbcls.jp/entry/DB_name/formats</a>
+SOAP
+•         Calling a method with asynchronous
+o        The name for the method with asynchronous end with “Async” and return job ID 
+o        Rerurn job ID to “<a class="missing wiki">CheckAsyncStatus?</a>?” method and give either RUNNING, COMPLETED, or ERROR 
+o        Method name for the method with asynchronous mst be” <a class="missing wiki">BeginInvoke?</a> methods＋Result” and stae job ID as a parameter 
+•        Required test environment 
+o        Perl: Soap::Lite 0.69 
+o        Ruby: SOAP4R 1.5.5 (Ruby 1.8.6 bundle) 
+o        Python: SOAPpy 0.12.0 
+o        Java: Axis 1.4 
+</p>
+
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/GuidelineForWebService?version=7&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

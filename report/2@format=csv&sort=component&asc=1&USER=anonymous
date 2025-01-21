@@ -1,0 +1,6 @@
+__color__,__group__,ticket,summary,component,version,type,owner,status,created,_changetime,_description,_reporter
+3,,2,Prepare for the BioLiquorthon,component1,,defect,somebody,new,2009-02-06T21:48:53+0900,2009-02-06T21:48:53+0900,,ktym
+3,,3,Select a journal for publication of the meeting report,component1,,defect,somebody,new,2009-02-06T21:58:51+0900,2009-03-05T10:50:34+0900," * Arek Kasprzyk for ""Database"" 
+ * Alfonso Valencia for ""Bioinformatics"" 
+ * Alex Bateman for ""NAR"" 
+ 	 ",ktym

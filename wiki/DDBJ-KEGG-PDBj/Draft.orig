@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      DDBJ-KEGG-PDBj/Draft – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/DDBJ-KEGG-PDBj/Draft?format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/DDBJ-KEGG-PDBj" title="View parent page" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><a href="/wiki/DDBJ-KEGG-PDBj">Up</a></li><li><a href="/wiki/WikiStart">Start Page</a></li><li><a href="/wiki/TitleIndex">Index</a></li><li><a href="/wiki/DDBJ-KEGG-PDBj/Draft?action=history">History</a></li><li class="last"><a href="/wiki/DDBJ-KEGG-PDBj/Draft?action=diff&amp;version=8">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <p class="path noprint">
+        <a class="pathentry" title="View DDBJ-KEGG-PDBj" href="/wiki/DDBJ-KEGG-PDBj">DDBJ-KEGG-PDBj</a><span class="pathentry sep">/</span><a class="pathentry" title="View DDBJ-KEGG-PDBj/Draft" href="/wiki/DDBJ-KEGG-PDBj/Draft">Draft</a>
+        <br style="clear: both" />
+      </p>
+      <div class="wikipage searchable">
+        
+          <p>
+(The following is a draft of a part of a paper to be submitted.)
+Ref: <a class="wiki" href="/wiki/DDBJ-KEGG-PDBj">DDBJ-KEGG-PDBj</a> <a class="wiki" href="/wiki/DDBJ-KEGG-PDBj/Results">DDBJ-KEGG-PDBj/Results</a>
+</p>
+<h1 id="ADDBJ-KEGG-PDBjworkflow:frompathwaystoprotein-proteininteractions">A DDBJ-KEGG-PDBj workflow: from pathways to protein-protein interactions</h1>
+<h2 id="ObjectivesandOutline">Objectives and Outline</h2>
+<p>
+The objective of this satellite group is to examine the potentials and obstacles in web services by implementing a real-life use case.
+The goal of the workflow is to enumerate possible physical protein-protein interactions among proteins in a biochemical pathway.
+More specifically, the workflow proceeds as follows. 
+(1) The user provide a KEGG pathway ID.
+(2) Extract the protein sequence of each enzyme in the specified pathway.
+(3) For each protein sequence, run BLAST search against Swiss-Prot database.
+(4) Construct a phylogenetic profile (a species-by-enzyme matrix) by identifying the top hits for each proteins and each species.
+(5) For each species in the phylogenetic profile, run BLAST searches for each protein sequence against PDB.
+(6) If two amino acid sequences (of the same species) have homologs in the same PDB entry, they are inferred to be in physical contact, and hence predicted to be an interacting pair.
+(7) Output image files highlighting the conserved and interacting proteins in the pathway map.
+</p>
+<h2 id="Implementation">Implementation</h2>
+<p>
+To implement the workflow outlined above, we have used the SOAP and REST APIs of DDBJ (<a class="ext-link" href="http://www.ddbj.nig.ac.jp/"><span class="icon"> </span>http://www.ddbj.nig.ac.jp/</a>), KEGG (<a class="ext-link" href="http://www.genome.jp/"><span class="icon"> </span>http://www.genome.jp/</a>) and PDBj (<a class="ext-link" href="http://www.pdbj.org/"><span class="icon"> </span>http://www.pdbj.org/</a>). The workflow can be divided into three parts corresponding to the three web sites. Part I consists of steps (1) and (2) (using KEGG API), Part II of steps (3) and (4) (using DDBJ WABI), Part III of steps (5) and (6) (using PDBj sequence navigator SOAP); step (7) is handled by a customized program on the client side. The main part of the client program was written in Java, but we were forced to switch to Perl for PDBj's sequence navigator due to a version incompatibility in SOAP libraries. Image manipulation programs were written in Perl and Ruby.
+</p>
+<h2 id="Outcome">Outcome</h2>
+<p>
+We were able to implement the above workflow within the three days of <a class="missing wiki">BioHackathon?</a>. The following is a list of what we have noticed during the development.
+First, we had to do a significant amount of coding in spite of the wealth of web services. Most of the codes were dedicated to converting file formats between different steps. Although some of such conversions may be automated by providing new web services, we suspect that non-trivial amount of coding for format conversions is inevitable if we try to tackle new problems. It was also noted that the non-standard output format of BLAST search in PDBj's sequence navigator caused some trouble, suggesting any web services should stick to the standard formats if any. Second, it can take a significant amount of time to finish a whole analysis. This is for the most part due to the amount of BLAST searches required for constructing a phylogenetic profile. In retrospect, this problem might have been solved if our client program was made multi-threaded (assuming the web servers can handle hundreds of requests at the same time), however, this would increase the burden of the client-side programming.
+Finally, by actually solving biologically oriented problems, we could identify some typical use cases which might be useful for further development of web services
+(e.g., Given a set of gene names, return a phylogenetic profile; Given a set of blast hits, group them according to their species). In summary, the implementation of the DDBJ-KEGG-PDBj workflow allowed us to realize the usefulness as well as limitations of the web services in its current status, and to identify the potential room for further improvements.
+The activity of this satellite group has been recorded at <a href="http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj">http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj</a> .
+</p>
+
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/DDBJ-KEGG-PDBj/Draft?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

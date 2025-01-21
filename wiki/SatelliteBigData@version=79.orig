@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteBigData – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteBigData?version=79&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteBigData" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteBigData?version=80" title="Version 80" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteBigData?version=78" title="Version 78" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteBigData?version=78" title="Version 78">Previous Version</a></span></li><li><a href="/wiki/SatelliteBigData" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteBigData?version=80" title="Version 80">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteBigData?action=diff&amp;version=79">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 79 (modified by severin, <a class="timeline" href="/timeline?from=2009-03-20T15%3A44%3A38%2B0900&amp;precision=second" title="2009-03-20T15:44:38+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="Satellitemeetingforhandlingnext-generationdatasets">Satellite meeting for handling next-generation datasets</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+As more and more projects are spewing out datasets we might have to look at new ways of working with them. Really big datasets (e.g. SRA) require technical expertise other than what we can provide. But we can still try and learn from each other on how to handle our own datasets.
+</p>
+<p>
+The object of this meeting is to exchange ideas on this topic and discuss possible solutions or practices.
+</p>
+<p>
+Topics:
+</p>
+<ul><li>Next-gen sequencing
+</li><li>interaction networks and systems biology on-top of this big data
+</li><li>Cloud storage/compute?
+</li></ul><h2 id="Chairperson">Chairperson</h2>
+<ul><li>Jan Aerts
+</li><li>Jessica Severin
+</li></ul><h2 id="Date">Date</h2>
+<ul><li>18th March, 2009
+</li></ul><h2 id="Room">Room</h2>
+<ul><li>Meeting Room (1F)
+</li></ul><h2 id="Attendees">Attendees</h2>
+<ul><li>Jan Aerts
+</li><li>Jessica Severin
+</li><li>José María Fernández
+</li><li>Todd Harris
+</li><li>Yunsun Nam
+</li><li>Pierre Lindenbaum
+</li><li>Keun-Joon Park
+</li><li>Raoul Jean Pierre Bonnal
+</li><li>Yasukazu "yaskaz" Nakamura (yaskaz@…)
+</li><li>Takeshi Kawashima
+</li><li>Shuichi Kawashima
+</li><li>Fumikazu Konishi
+</li></ul><h2 id="Notes">Notes</h2>
+<p>
+Data storage will not be a problem (if you have enogh money). But downloading and/or manipulating Big sequence data must be problem for data producers (Sanger, RIKEN OSC), data distribution providers (NCBI, EBI/SRA, DDBJ) and end users after the data is made public. Is there a possible solution? 
+</p>
+<p>
+And I have a big question: Do you really need and/or use "Short Read Archive?" -- yaskaz
+</p>
+<ul><li>yes, there is interesting biology in there and comparing our new experiments against existing knowledge is needed, but currently this requires us to download data out of SRA and into our local integration systems - jessica 
+</li><li>yes and no: No, for the short reads where the position on a reference seq is known you could just store the position rather than the entire read. Yes, imagine a user find a new unknown SNP at a given position: he will want to get the sequences/quality(?) of all the reads overlapping the mutation for this assembly as well as for the other individuals' genome.    - Pierre                                      
+<ul><li>this is only true for genome resquencing. for RNA-&gt;genome mapping data you do want the read since it can capture RNA modifications which are not the same as a SNP -- jessica
+</li><li>not everything maps to the reference genome. this un-mapped data may be noise or errors, or it may be interesting biology.
+</li></ul></li></ul><p>
+                                             
+</p>
+<h2 id="Discussion">Discussion</h2>
+<p>
+The purpose of this workshop was to discuss the approaches people use to handle their data. We could obviously not go into the very technical approaches as are being applied to very large datasets such as the Short Read Archive because that requires a different expertise.
+</p>
+<p>
+Three different levels in the data handling pipeline were discussed.
+</p>
+<h4 id="Storage">Storage</h4>
+<p>
+We listed the different types of storage solution used in different fields according to the amount and type of data. A distinction was made between storing a lot of small objects versus storing a few huge objects. Issues like latency and variety of data influence this distinction as well.
+</p>
+<p>
+Protein-protein interaction datasets typically consist of a relatively small number of small objects. This type of data requires no advanced storage systems or tweaks to common systems; a simple RDBMS will do.
+Data like genome sequences and assembly data involve larger objects (1 genome sequence -&gt; 3Gb), but are still easily manageable on a standard filesystem.
+Really big objects such as the data from simulations [IS THIS CORRECT?] require specialized storage systems such as <a class="ext-link" href="http://oss.sgi.com/projects/xfs/"><span class="icon"> </span>XFS</a>,<a class="ext-link" href="http://opensolaris.org/os/community/zfs/"><span class="icon"> </span>ZFS</a>, <a class="ext-link" href="http://wiki.lustre.org/index.php?title=Main_Page"><span class="icon"> </span>Lustre</a>,  <a class="ext-link" href="http://www.pvfs.org/"><span class="icon"> </span>PVFS2</a> or future Linux filesystem <a class="ext-link" href="http://btrfs.wiki.kernel.org/index.php/Main_Page"><span class="icon"> </span>Brtfs</a>.
+</p>
+<p>
+In contrast to the above, diffraction results, microarray results or next-gen sequencing reads involve a largish number of objects which become more difficult to query. They are typically still stored in RDBMS but might require some tweaking that digresses from a normalized relational database model, for example databases based on a key/value model (e.g. <a class="ext-link" href="http://www.oracle.com/technology/products/berkeley-db/index.html"><span class="icon"> </span>BerkeleyDB</a>, <a class="ext-link" href="http://tokyocabinet.sourceforge.net/index.html"><span class="icon"> </span>Tokyo Cabinet</a>,  <a class="missing wiki">BigTable?</a>, <a class="ext-link" href="http://hadoop.apache.org/core/"><span class="icon"> </span>Hadoop</a> ).
+Apart from obvious things to do such as creating good indices, further optimization can be found by using as few joins as possible and therefore organizing the data so that it can be stored in 2 or 3 tables/indexes (e.g. eeDB). Another alternative could be the usage of specialized storage systems, like the ones used in high energy physics experiments or astronomy (for instance <a class="ext-link" href="http://www.hdfgroup.org/HDF5/"><span class="icon"> </span>HDF5</a>).
+</p>
+<p>
+Several attendees are looking into new ways to store their data because they are hitting the ceiling of their storage capacity. Several technologies were mentioned, including <a class="ext-link" href="http://www.ogsadai.org.uk/"><span class="icon"> </span>OGSADAI</a> which is a grid-based solution where you can setup several databases that then can be queried as one. Other technologies like the cloud might also provide part of a solution. <a class="ext-link" href="http://aws.amazon.com/s3/"><span class="icon"> </span>Amazon S3</a> and <a class="ext-link" href="http://www.google.com/base/"><span class="icon"> </span>GoogleBase</a> allow for storing very large amounts of data (large numbers of large objects) and are relatively cheap. The upload to these systems is however very slow which must be taken into account. In addition, these services are commercial and it might be dangerous to store non-public data there. A possible solution mentioned involves creating an encrypted data image to be uploaded instead of the original dataset. Another issue is that these companies might in the future decide to increase their prices or even stop their activities. Using the cloud for data storage therefore means that you still need a local backup in case this happens.
+</p>
+<p>
+In addition to the storage problem there is the issue of actually submitting our new data to public resources when publishing.  Our datasets are getting very big and FTP often is not good enough.  This forces many of us to have to submit data on DVD via <a class="missing wiki">FedEx?</a> for example.  This is not optimal.
+</p>
+<p>
+In systems biology and transcriptomics (like the work of RIKEN-OSC), there is a need to collect lots of small data, but the process of network analysis and molecular function adds aditional structure onto this primary data.  Since this is still an emerging area of research, we need to keep the primary data available since many of our hypotheses and paradigms many change over time.  If we would compress this data and throw it away, then we are limiting our future ability to re-evaluate our theories in the face of both new and old data. But at the same time as our analyses become more sophisticated, we may need to work with larger and larger portions of this primary data at a time.  This leads to a situation where we are working with both many small things, and many large things making this domain space big on both axes.
+</p>
+<p>
+RIKEN OSC-LSA <a class="ext-link" href="http://www.osc.riken.jp/"><span class="icon"> </span>http://www.osc.riken.jp/</a> is producing lots of data, but this data must be managed, manipulated, and mined for biology before it can be published and released to the public.  EdgeExpressDB (eeDB) was developed during the FANTOM4 project and is now being used for in-house big data management and visualization of big datasets.  eeDB is effectively an object-database which is implemented as an API and webservices. The system is currently being ported to C and file indexes, and based on the prototype code, we are expecting around a 20x-100x performance boost (but other backends like <a class="ext-link" href="http://www.hdfgroup.org/HDF5/"><span class="icon"> </span>HDF5</a> mentioned above will be evaluated).  The current version of the eeDB API toolkit and webservices are written in perl with a narrow/deep mysql snowflake schema. The perl/mysql implementation of the eeDB API-toolkit can manipulate billions of short-read data and 100s-1000s of microarray expression experiment datasets (each with 10000s of probes) for our internal research purposes and is proving to scale very well. eeDB works with node and network, sequence tag, mapping, and expression data at the level of billions of elements very easily.  Queries can access individual objects, edges, and work with streams or sets of objects queried by regions, node, or networks. 
+</p>
+<h4 id="Querying">Querying</h4>
+<p>
+Several approaches to make the data accessible to others were discussed. For smaller datasets regular SQL can be used to get to the data (example: the Ensembl MySQL server on ensembldb.ensembl.org). If the database schema has to be tweaked to allow larger datasets (e.g. using a minimal number of tables such as eeDB) an API becomes necessary. A webservice API where a text-representation of an object can be retrieved by URL was mentioned as useful in this case (e.g. <a class="ext-link" href="http://www.example.com/genes/BRCA2;format=bed"><span class="icon"> </span>http://www.example.com/genes/BRCA2;format=bed</a>). For even larger datasets you want to try and limit the types of queries people can run. This way you can build a toolkit to ask this limited number of questions, but optimize that toolkit so that latency is reduced.
+</p>
+<p>
+Streaming
+</p>
+<pre class="wiki">  [SQL, File indexes] -&gt; API -&gt; toolkit -&gt; [web, clients, mashup-analyzers]
+   ^                      |
+   |                      |
+   +----------------------+
+</pre><p>
+Currently the available public resources like SRA, GEO, <a class="missing wiki">ArrayExpress?</a>, <a class="ext-link" href="http://cibex.nig.ac.jp/index.jsp"><span class="icon"> </span>Cibex</a> are only providing query facilities on the metadata of the experiments surrounding the data.  The data is available as files to download (often in the original format) but they do not provide facilities to externally explore the data and ask biological questions on the data.  This then forces anyone who wants to explore the dataset to download this data into local integration systems before they can ask their biological questions. 
+</p>
+<p>
+But not all data is public.  Research centers who generate this data need to manage it and explore it in order to produce publications and do science.  This means they need the same or greater sophistication of tools than are available on the public services.  Many of these research projects are often collaborative and international, which means this private datasets need to be accessible on the web, but protected and secured.  These "collaboration webservices" are often then made public when the research is published (for example the FANTOM4 project). 
+</p>
+<p>
+With more and more international efforts, not all data may end up in one archive. Even today we see this between GEO, <a class="missing wiki">ArrayExpress?</a> and CIBEX where some datasets are only available on one or two of the three services.  This means that next-generation queries may always have to query multiple databases simultaneously in order to find the data they need.
+</p>
+<p>
+Working with existing big data
+</p>
+<ul><li>what are the queries we want to do?
+<ul><li>what are the reads in this region, definitely 
+</li></ul></li><li>but also SRA maybe does not want do everything, but they will not turn data down and want everyone to send them the published data
+</li><li>SRA is still evaluating technology to do region based access of short-reads
+</li></ul><p>
+What are the common ways we would want to query?
+</p>
+<ul><li>should we try to define? yes
+</li><li>who should or can provide the data?
+<ul><li>maybe the the data production centers can also provide access to data
+</li><li>eventually the <a class="missing wiki">DataCenters?</a> will also provide fine-grained access
+</li><li>the new high data production rates are going to make it expensive for central data providers
+</li></ul></li><li>region query again we need! means mapping needed by the services
+</li><li>but also want the read Sequence since we can extract SNP, need quality
+</li><li>NEED data providers to create complete meta-data descriptions.
+</li></ul><h4 id="Processing">Processing</h4>
+<p>
+Apart from storage and getting the data out again we briefly discussed how to actually work with these data, i.e. running scripts on them. It is clear that shipment of large datasets should be avoided; it is often much simpler to bring the software to the data instead.
+</p>
+<p>
+The main message from this discussion was that each database should be optimized for its own data and will therefore be completely different from the next. However, it is the API that can provide interoperability if we can come up with a common set of terms for querying. Also if new web-services can do some levels of processing of the big data before export, this can help with external integration systems.  If our new webservices become available using RDF and symantic web technology, it opens the door for multi-layered processing. We believe that current and emerging web-technologies like mashups based on very simple APIs like Flickr's can be an alternative to other grid-based approached for integrating data.  
+</p>
+<h2 id="Workgroupdiscussiontopics">Work group discussion topics</h2>
+<p>
+next gen sequencer WG (big data and seq analysis)
+</p>
+<p>
+applications and use cases:
+</p>
+<ul><li>all processing must be run on a server, can not be run on a laptop, how to control and monitor such processes from something like a laptop
+</li><li>local vs webservice. web service convenient but maybe not so secure which means people need to install our systems locally. but also collaboration needs access to data and tools
+</li><li>how to define the quality of sequence?  contamination, auto screen tool?
+</li><li>moving to a data-driven research, not so much hypothesis driven. how to FIND biology in big datasets?
+</li><li>searching / comparing now mostly happening on the metadata (time series, tissue, environments)
+</li><li>metagenomics or novel genomes, no reference, can our tools do this?  How?
+</li><li>maybe we get a strange sequence out of our instrument, how do we know?  is it error? is it interesting biology?  CG content off, maybe technical errors (concatonated primers)
+</li><li>how to bring the computation to the data because bring the data to the computation (1TB streaming) maybe not best approach
+</li><li>as sequencer companies build more and more sequence processing into the instruments, more and more processing becomes routine. it is a moving target. how do we aid in new biological discovery?  moving beyond simple processing and simple work flows.
+</li></ul><p>
+what is big data?
+</p>
+<ul><li>read level, contigs, assembly, scaffold each different level
+</li><li>amount vs complexity!!  maybe amount not so hard, but complexity ....
+</li><li>variation, snp
+</li><li>data is big when the applications can not handle it.  If 1GB of data crashes a viewer program than that is BIG.  If 100k elements takes a day to upload, this upload must happen every time we want to work with the data, and it takes another day to filter for a service, then that is probably BIG data. 
+</li><li>is it really needed to store everything ?  -- Raoul
+<ul><li>Compressing data in some way?
+<ul><li>collapse redundant informations ( possible for resequencing and de-novo sequencing )
+</li><li>collapse is often domain specific. for example redundant genome tags can be collapsed, but duplicate RNA tags encodes expression levels and this expression-count should not be thrown away. - jessica
+</li></ul></li><li>reducing dataset complexity by processing can make BIG data small, but this may throw away biology which may be lost if we do not store the primary data.
+</li></ul></li></ul><p>
+    
+</p>
+<p>
+How to collaborate and communicate?
+</p>
+<ul><li>emailing files or providing files on secure FTP sites works for now
+</li><li>secure webservices are maybe a much better solution where more advanced tools can be built which can work with sections of the dataset, but this requires the ability to provide sub-access queries into these datasets
+</li></ul><p>
+IN THE END the goal is to find biology. Having access to the individual data elements is critical and this can not be just locked away inside files that can not be internally accessed.
+</p>
+<h2 id="TODOs">TODOs</h2>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/SatelliteBigData/handling_data.pdf" title="View attachment">handling_data.pdf</a>
+      <a href="/raw-attachment/wiki/SatelliteBigData/handling_data.pdf" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="23553 bytes">23.0 KB</span>) - added by <em>jan.aerts</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T16%3A23%3A50%2B0900&amp;precision=second" title="2009-03-20T16:23:50+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteBigData?version=79&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

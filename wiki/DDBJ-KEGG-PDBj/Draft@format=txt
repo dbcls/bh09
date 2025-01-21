@@ -1,0 +1,26 @@
+(The following is a draft of a part of a paper to be submitted.)
+Ref: [wiki:DDBJ-KEGG-PDBj] [wiki:DDBJ-KEGG-PDBj/Results]
+
+
+= A DDBJ-KEGG-PDBj workflow: from pathways to protein-protein interactions =
+== Objectives and Outline ==
+The objective of this satellite group is to examine the potentials and obstacles in web services by implementing a real-life use case.
+The goal of the workflow is to enumerate possible physical protein-protein interactions among proteins in a biochemical pathway.
+More specifically, the workflow proceeds as follows. 
+(1) The user provide a KEGG pathway ID.
+(2) Extract the protein sequence of each enzyme in the specified pathway.
+(3) For each protein sequence, run BLAST search against Swiss-Prot database.
+(4) Construct a phylogenetic profile (a species-by-enzyme matrix) by identifying the top hits for each proteins and each species.
+(5) For each species in the phylogenetic profile, run BLAST searches for each protein sequence against PDB.
+(6) If two amino acid sequences (of the same species) have homologs in the same PDB entry, they are inferred to be in physical contact, and hence predicted to be an interacting pair.
+(7) Output image files highlighting the conserved and interacting proteins in the pathway map.
+
+== Implementation ==
+To implement the workflow outlined above, we have used the SOAP and REST APIs of DDBJ (http://www.ddbj.nig.ac.jp/), KEGG (http://www.genome.jp/) and PDBj (http://www.pdbj.org/). The workflow can be divided into three parts corresponding to the three web sites. Part I consists of steps (1) and (2) (using KEGG API), Part II of steps (3) and (4) (using DDBJ WABI), Part III of steps (5) and (6) (using PDBj sequence navigator SOAP); step (7) is handled by a customized program on the client side. The main part of the client program was written in Java, but we were forced to switch to Perl for PDBj's sequence navigator due to a version incompatibility in SOAP libraries. Image manipulation programs were written in Perl and Ruby.
+
+== Outcome ==
+We were able to implement the above workflow within the three days of BioHackathon. The following is a list of what we have noticed during the development.
+First, we had to do a significant amount of coding in spite of the wealth of web services. Most of the codes were dedicated to converting file formats between different steps. Although some of such conversions may be automated by providing new web services, we suspect that non-trivial amount of coding for format conversions is inevitable if we try to tackle new problems. It was also noted that the non-standard output format of BLAST search in PDBj's sequence navigator caused some trouble, suggesting any web services should stick to the standard formats if any. Second, it can take a significant amount of time to finish a whole analysis. This is for the most part due to the amount of BLAST searches required for constructing a phylogenetic profile. In retrospect, this problem might have been solved if our client program was made multi-threaded (assuming the web servers can handle hundreds of requests at the same time), however, this would increase the burden of the client-side programming.
+Finally, by actually solving biologically oriented problems, we could identify some typical use cases which might be useful for further development of web services
+(e.g., Given a set of gene names, return a phylogenetic profile; Given a set of blast hits, group them according to their species). In summary, the implementation of the DDBJ-KEGG-PDBj workflow allowed us to realize the usefulness as well as limitations of the web services in its current status, and to identify the potential room for further improvements.
+The activity of this satellite group has been recorded at http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj .

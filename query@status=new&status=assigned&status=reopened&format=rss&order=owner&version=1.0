@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+
+  <channel>
+    <title>BioHackathon 2009: Ticket Query</title>
+    <link>http://hackathon2.dbcls.jp/query?status=new&amp;status=assigned&amp;status=reopened&amp;version=1.0&amp;row=description</link>
+    <description>BioHackathon 2009</description>
+    <language>en-US</language>
+    <image>
+      <title>BioHackathon 2009</title>
+      <url>http://hackathon2.dbcls.jp/chrome/site/bh2009-logo.jpg</url>
+      <link>http://hackathon2.dbcls.jp/query?status=new&amp;status=assigned&amp;status=reopened&amp;version=1.0&amp;row=description</link>
+    </image>
+    <generator>Trac 0.11.6</generator>
+ </channel>
+</rss>

@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/WikiStart?version=29&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/WikiStart" title="View latest version" />
+        <link rel="next" href="/wiki/WikiStart?version=30" title="Version 30" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/WikiStart?version=28" title="Version 28" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/WikiStart?version=28" title="Version 28">Previous Version</a></span></li><li><a href="/wiki/WikiStart" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/WikiStart?version=30" title="Version 30">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/WikiStart?action=diff&amp;version=29">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 29 (modified by ktym, <a class="timeline" href="/timeline?from=2009-01-01T13%3A36%3A13%2B0900&amp;precision=second" title="2009-01-01T13:36:13+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="BioHackathon2009">BioHackathon 2009</h1>
+<p>
+Integration for the wet biologists - bring the cutting edge technologies to the bench.
+</p>
+<p>
+</p><div class="wiki-toc"><ol><li><a href="#BioHackathon2009">BioHackathon 2009</a><ol><li><a href="#Hackathon">Hackathon</a></li><li>
+<a href="#Objectives">Objectives</a></li><li>
+<a href="#Topics">Topics</a></li><li>
+<a href="#Goals">Goals</a></li><li>
+<a href="#Mailinglist">Mailing list</a></li><li>
+<a href="#Sponsorandorganizers">Sponsor and organizers</a></li><li>
+<a href="#Confirmedparticipants">Confirmed participants</a></li><li>
+<a href="#Venue">Venue</a><ol><li><a href="#Places">Places</a></li><li>
+<a href="#Date">Date</a></li></ol></li><li>
+<a href="#Schedule">Schedule</a><ol><li><a href="#a315Sun">3/15 (Sun)</a></li><li>
+<a href="#a316Mon">3/16 (Mon)</a></li><li>
+<a href="#a317-320">3/17 - 3/20</a></li><li>
+<a href="#a321Sat">3/21 (Sat)</a></li><li>
+<a href="#Housing">Housing</a></li><li>
+<a href="#Access">Access</a></li><li>
+<a href="#Studentscholarship">Student scholarship</a></li></ol></li><li>
+<a href="#Publication">Publication</a></li><li>
+<a href="#Misc">Misc</a><ol><li><a href="#Photoalbum">Photo album</a></li><li>
+<a href="#Streaming">Streaming</a></li><li>
+<a href="#SVNrepository">SVN repository</a></li></ol></li></ol></li></ol></div><p>
+</p>
+<h2 id="Hackathon">Hackathon</h2>
+<p>
+The hackathon (hacking + marathon) basically is a camp where invited participants discuss about
+current issues and implement software to solve the problems on site collaboratively.
+This kind of meeting is very effective for the intensive development of projects, because
+face-to-face meeting of developers, who usually spread around the world, accelerates
+communication and collaboration to exchange their ideas instantly.
+</p>
+<p>
+BioHackathon is a hackathon to implement bioinformatics software towards domain specific goals.
+This year, we will focus on end user applications to make our previous standardization efforts in
+<a class="ext-link" href="http://hackathon.dbcls.jp/"><span class="icon"> </span>BioHackathon 2008</a>
+to be fully utilized by the primary consumers of our infrastructure.
+For this purpose, we will also involve semi-wet biologists working in an area where
+high throughput genome annotation is required.
+By knowing their demands, we will be able to find what kind of resource is missing and
+to prioritize our action items.
+</p>
+<h2 id="Objectives">Objectives</h2>
+<p>
+Main objective of the meeting is to continue global efforts to standardize
+biological database resources and to improve usability and interoperability
+of bioinformatics services, which were proposed in the previous meeting.
+</p>
+<p>
+The agenda of the previous meeting, BioHackathon 2008, is available at
+</p>
+<blockquote>
+<p>
+<a class="ext-link" href="http://hackathon.dbcls.jp/"><span class="icon"> </span>http://hackathon.dbcls.jp/</a>
+</p>
+</blockquote>
+<p>
+Additionally, we will collaborate with
+</p>
+<ul><li>Organizations which have similar mission with us (e.g. ELIXIR) for the complementary efforts.
+</li><li>Developers of integrated platforms like BioMart, GMOD, Galaxy etc.
+</li></ul><p>
+to make our previous efforts to be utilized by the scientific researchers effectively.
+</p>
+<h2 id="Topics">Topics</h2>
+<p>
+Technology: Infrastructure and standardization
+</p>
+<ul><li>Integration of the integrated databases - Unified API for distributed services
+</li><li>Agreement on common exchange data formats, ontologies and semantics
+</li><li>Provide stable and interoperable services with SOAP and REST
+</li><li>Manifesto and guidelines for the next generation web services
+</li></ul><p>
+Application: Mash-up and user friendly interface
+</p>
+<ul><li>Improve end-user applications like Galaxy to utilize integrated databases and services
+</li><li>What kind of resources are currently missing for science?
+<ul><li>e.g. Genome-scale analysis: pipelines and visualization
+</li></ul></li></ul><p>
+Promotion: Outreach to the wet biologist
+</p>
+<ul><li>Hands-on seminar
+</li><li>Documentation
+</li></ul><h2 id="Goals">Goals</h2>
+<ul><li>Improve Open Bio* libraries and other tools to apply real world issues.
+</li></ul><ul><li>Discuss about the guidelines (manifesto) towards standardization of
+data types and protocols for the integration of databases and services.
+</li></ul><ul><li>Publication of a meeting report.
+</li></ul><h2 id="Mailinglist">Mailing list</h2>
+<ul><li><a class="ext-link" href="http://kml.dbcls.jp/pipermail/biohack2/"><span class="icon"> </span>http://kml.dbcls.jp/pipermail/biohack2/</a>
+</li><li>biohack2@…
+</li></ul><h2 id="Sponsorandorganizers">Sponsor and organizers</h2>
+<p>
+This meeting is co-hosted by <a class="ext-link" href="http://dbcls.rois.ac.jp/en/"><span class="icon"> </span>DBCLS</a>
+and <a class="ext-link" href="http://www.irp.oist.jp/satoh/index.php"><span class="icon"> </span>OIST</a>, and
+flights and accommodation fees will be covered by their budget.
+</p>
+<ul><li>Toshiaki Katayama (TogoDB, TogoWS, KEGG API, <a class="missing wiki">BioRuby?</a>; HGC, Japan)
+</li><li>Shuichi Kawashima (KEGG API; HGC, Japan)
+</li><li>Takeshi Kawashima (Marine genomics; OIST, Japan)
+</li><li>Mitsuteru Nakao (TogoWS, <a class="missing wiki">BioRuby?</a>; Kazusa DNA Res, Japan)
+</li><li>Yasunori Yamamoto (DBCLS, Japan)
+</li><li>Atsuko Yamaguchi (DBCLS, Japan)
+</li><li>Noriyuki Satoh (OIST, Japan)
+</li><li>Toshihisa Takagi (Head of DBCLS, Japan)
+</li></ul><h2 id="Confirmedparticipants">Confirmed participants</h2>
+<ul><li>Alberto Labarga (Dasty3, Elsevier Grand Challenge, EBI; scientifik.info, Spain)
+</li><li>Arek Kasprzyk (<a class="wiki" href="/wiki/BioMart">BioMart</a>; OICR, Canada)
+</li><li>Oswaldo Trelles (MOWserv; Universidad de Málaga, Spain)
+</li><li>Tom Oinn (Taverna2, UK)
+</li><li>Jan Christian Bryne (EMBRACE, ELIXIR; Bergen Center for Computational Science, Norway)
+</li><li>Young J. Kim (KRIBB, Korea)
+</li><li>Kiyoko Kinoshita (RINGS; Soka Univ, Japan)
+</li><li>Hideaki Sugawara (WABI/SABI; DDBJ, Japan)
+</li><li>Naohisa Goto (<a class="missing wiki">BioRuby?</a>; Osaka Univ, Japan)
+</li><li>Kazuharu Arakawa (G-language; Keio Univ, Japan)
+</li><li>Keiichiro Ono (Cytoscape; UCSD, U.S.)
+</li><li>Shinobu Okamoto (genoDive; Kazusa DNA Res, Japan)
+</li><li>Yasukazu Nakamura (Kazusa DNA Res/DDBJ, Japan)
+</li></ul><h2 id="Venue">Venue</h2>
+<h3 id="Places">Places</h3>
+<ul><li>Tokyo (DBCLS) - for the 1st day (reception and symposium)
+</li><li>Okinawa (OIST) - rest of the days (hack, hack, hack)
+</li></ul><p>
+Our preliminary plan is to gather on Sunday in Tokyo for the reception
+(and symposium?), then fly together to Okinawa on Monday and back to Tokyo
+on Saturday after we tired of the hacking activities.
+</p>
+<h3 id="Date">Date</h3>
+<ul><li>2009/3/15-21
+</li></ul><h2 id="Schedule">Schedule</h2>
+<h3 id="a315Sun">3/15 (Sun)</h3>
+<ul><li>Arrival to Japan (Tokyo-Narita airport)
+</li><li>Check into the hotel
+</li></ul><ul><li>17:00-21:00 Reception at DBCLS
+</li></ul><h3 id="a316Mon">3/16 (Mon)</h3>
+<ul><li>9:00-12:00 Symposium in Tokyo
+<ul><li>Invited talks
+</li><li>Lightning talks
+</li></ul></li></ul><ul><li>Flight from Tokyo-Haneda airport to Okinawa-Naha airport
+<ul><li>JAL: HND 14:40 - 17:30 OKA
+</li><li>ANA: HND 15:30 - 18:15 OKA
+</li></ul></li></ul><ul><li>Transport from Naha airport to OIST
+</li></ul><h3 id="a317-320">3/17 - 3/20</h3>
+<table class="wiki">
+<tr><td> Time </td><td> 3/17 (Tue) </td><td> 3/18 (Wed) </td><td> 3/19 (Thu) </td><td> 3/20 (Fri) 
+</td></tr><tr><td> 8:00 </td><td> breakfast </td><td> breakfast </td><td> breakfast </td><td> breakfast 
+</td></tr><tr><td> 9:00 </td><td> hack, hack, hack </td><td> hack, hack, hack </td><td> hack, hack, hack </td><td> hack, hack, hack 
+</td></tr><tr><td> 12:00 </td><td> lunch</td><td> lunch</td><td> lunch</td><td> lunch
+</td></tr><tr><td> 13:00 </td><td> hack, hack, hack </td><td> hack, hack, hack </td><td> excursion </td><td> summarize 
+</td></tr><tr><td> 17:00 </td><td> progress report </td><td> progress report </td><td> progress report </td><td> overall presentation 
+</td></tr><tr><td> 18:00 </td><td> dinner </td><td> dinner </td><td> dinner </td><td> dinner 
+</td></tr><tr><td> 20::00 </td><td> hack, hack, hack </td><td> hack, hack, hack </td><td> hack, hack, hack </td><td> closing remarks 
+</td></tr></table>
+<h3 id="a321Sat">3/21 (Sat)</h3>
+<ul><li>Depature from Naha airport (taking flight for appropriate destination)
+</li></ul><h3 id="Housing">Housing</h3>
+<p>
+TO BE CONFIRMED
+</p>
+<h3 id="Access">Access</h3>
+<p>
+TO BE DESCRIBED
+</p>
+<h3 id="Studentscholarship">Student scholarship</h3>
+<p>
+TO BE CONSIDERED
+</p>
+<h2 id="Publication">Publication</h2>
+<p>
+TO BE DISCUSSED
+</p>
+<ul><li>Arek Kasprzyk for "Database"
+</li><li>Alfonso Valencia for "Bioinformatics"
+</li><li>Alex Bateman for "NAR"
+</li></ul><h2 id="Misc">Misc</h2>
+<p>
+What you should bring with you?
+</p>
+<ul><li>Laptop computer
+</li><li>Conversion plug for your AC adaptor (identical to the US type; 100 volt)
+</li></ul><h3 id="Photoalbum">Photo album</h3>
+<p>
+IN PREPARATION
+</p>
+<h3 id="Streaming">Streaming</h3>
+<p>
+IN PREPARATION
+</p>
+<h3 id="SVNrepository">SVN repository</h3>
+<p>
+IN PREPARATION
+</p>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/WikiStart/biohackathon2009-locations.kmz" title="View attachment">biohackathon2009-locations.kmz</a>
+      <a href="/raw-attachment/wiki/WikiStart/biohackathon2009-locations.kmz" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="2798 bytes">2.7 KB</span>) - added by <em>ktym</em>
+      <a class="timeline" href="/timeline?from=2009-03-05T03%3A19%3A59%2B0900&amp;precision=second" title="2009-03-05T03:19:59+0900 in Timeline">16 years</a> ago.
+                <q>BioHackathon 2009 locations for Google Earth</q>
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/WikiStart?version=29&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

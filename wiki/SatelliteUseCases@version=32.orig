@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteUseCases – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteUseCases?version=32&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteUseCases" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteUseCases?version=33" title="Version 33" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteUseCases?version=31" title="Version 31" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteUseCases?version=31" title="Version 31">Previous Version</a></span></li><li><a href="/wiki/SatelliteUseCases" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteUseCases?version=33" title="Version 33">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteUseCases?action=diff&amp;version=32">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 32 (modified by baranda, <a class="timeline" href="/timeline?from=2009-03-20T15%3A33%3A49%2B0900&amp;precision=second" title="2009-03-20T15:33:49+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SatellitemeetingforUse-casesdevelopmentanddocumentation">Satellite meeting for Use-cases development and documentation</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+Several examples of the biological data are provided by User side.
+The service developers explained how to use their programs for the data.
+Finally, users can draw a road map for their research of computational part.
+</p>
+<h2 id="Participants">Participants</h2>
+<ul><li>Toshiaki Katayama
+</li><li>Young Joo Kim
+</li><li>Keun-Joon Park
+</li><li>Yunsun Nam
+</li><li>Arek Kasprzyk 
+</li><li>Syed Haider
+</li><li>Shuichi Kawashima
+</li><li>Takeshi Kawashima
+</li><li>Raoul JP Bonnal
+</li><li>Tatsuya Nishizawa
+</li><li>Oswaldo Trelles 
+</li><li>José M. Fernández
+</li><li>Paul Gordon 
+</li><li>Vachiranee Limviphuvadh
+</li><li>Tobias Gattermayer
+</li><li>Riu Yamashita 
+</li><li>Fumikazu Konishi 
+</li></ul><h2 id="Targets">Targets</h2>
+<p>
+ 
+</p>
+<h2 id="Date">Date</h2>
+<ul><li>2009/3/19 15:00-18:00
+</li><li>anytime
+</li></ul><h2 id="Room">Room</h2>
+<ul><li>3F 
+</li></ul><h2 id="Notes">Notes</h2>
+<p>
+<strong>Data for testing</strong>
+</p>
+<p>
+1) SNPs data contain 262,338 SNPs (Stroke patient vs. normal) from Affymetrix <a class="missing wiki">GeneChip?</a> (provided by Prof.Kim)<br />
+2) Amino acid sequences of 53 genes (multifasta format) which are located at disease map locus of one form of epilepsy (provided by Vachiranee)<br />
+3) Nucleotide sequences (multifasta format) (provided by Riu)<br />
+4) Genome data (provided by Takeshi)<br />
+</p>
+<p>
+<strong>Softwares</strong> 
+</p>
+<p>
+1) <a class="wiki" href="/wiki/BioMart">BioMart</a><br />
+2) Galaxy<br />
+3) jORCA<br />
+4) ANNOTATOR<br />
+</p>
+<h2 id="Results">Results</h2>
+<p>
+  
+</p>
+<p>
+Question
+- Takeshi asked about how to annoate in-house data with comparing with public genome data using <a class="wiki" href="/wiki/BioMart">BioMart</a>.
+- For example, how to annotate Halocynthia roretzi or Molgula tectiformis ESTs comparing with Ciona intestinalis and Ciona savigni using <a class="wiki" href="/wiki/BioMart">BioMart</a>.
+Answer
+- Convert Halocynthia data into <a class="wiki" href="/wiki/BioMart">BioMart</a> format. Install <a class="wiki" href="/wiki/BioMart">BioMart</a> server locally. Then merge public DB and local data together.
+- <a class="wiki" href="/wiki/BioMart">BioMart</a> format is simple.
+</p>
+<p>
+Takeshi present an example
+- minor animal (ex, H.roretzi, closest animal of Ciona)
+- how can analyze Halocynthia roretzi and M.tectiformis which are rare annotation.
+- type of data is ESTs, assembled EST cluster<sub>,etc</sub>
+- potential flow: <a class="wiki" href="/wiki/BioMart">BioMart</a> -&gt; ANNOTATOR -&gt; TogoDB
+</p>
+<p>
+<a style="padding:0; border:none" href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf"><img src="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf" /></a>
+</p>
+<p>
+<strong>*SNPs data</strong><br />
+</p>
+<p>
+ANNOTATOR currently can not analyse SNPs data itself but can analyse genes data which contain SNPs of interested. <br />
+Galaxy (<a class="ext-link" href="http://galaxyproject.org"><span class="icon"> </span>http://galaxyproject.org</a>) and RGenetics (<a class="ext-link" href="http://rgenetics.org/"><span class="icon"> </span>http://rgenetics.org/</a>)
+</p>
+<blockquote>
+<p>
+quality control, ancestry, case-control analysis, tdt, oter statistical tests<br />
+</p>
+</blockquote>
+<p>
+-can link dbSNPs to Galaxy for further analysis
+</p>
+<p>
+<a style="padding:0; border:none" href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf"><img src="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf" /></a>
+</p>
+<p>
+<strong>*Multifasta format (amino acid sequences)</strong><br />
+</p>
+<p>
+ANNOTATOR can upload multifasta format of amino acid sequences -&gt; Prim-seq-an algorithm<br /> 
+<a class="wiki" href="/wiki/BioMart">BioMart</a> can upload GeneID but not the sequences to retrieve information associated to the GeneID<br />
+jORCA provide list of analysis which can do with FASTA format<br />
+</p>
+<p>
+<strong>*Multifasta format (nucleotide sequences)</strong> <br />
+</p>
+<p>
+ANNOTATOR can upload multifasta format of nucleotide sequences -&gt; Prim-seq-an algorithm<br />
+</p>
+<p>
+<strong>*Genome data</strong><br />
+</p>
+<p>
+DL ESTs of Halocynthia roretzi from NCBI/Taxonomy
+</p>
+<p>
+TogoDB by Toshiaki
+- upload table format  (table services for uploading data will be able to access using WS)
+</p>
+<p>
+<strong>*Other comments from Developper side</strong><br />
+</p>
+<p>
+jORCA by Oswaldo
+</p>
+<p>
+-mapped WABI services
+- jORCA: WABI WSDL application can run in local machine after installation
+- jORCA can tell which kind of analysis can do with our multifasta format file or anykind of format. For example, using Magallanes: INB*,
+if put "FASTA" in Find box, the result come up with 23 tools that can use for analysis. For analysis use myexperiment.org
+*Magallanes: INB (Services discovering that discover what kind of analysis can provide for your data format)
+</p>
+<h2 id="TODOs">TODOs</h2>
+<p>
+1) How to combine the inhouse data into Public <a class="wiki" href="/wiki/BioMart">BioMart</a>? =&gt; KAAS, blast2GO etc.<br />
+2) How easy to install the <a class="wiki" href="/wiki/BioMart">BioMart</a> in local?<br />
+3) How modify the design of the interface of TogoDB?<br />
+4) User didn't have their own Data Repository site. (for TogoDB)<br />
+</p>
+<h2 id="Requestsfromusecasestodevelopper">Requests from use cases to developper</h2>
+<p>
+*(TO: <a class="ext-link" href="http://www.ebi.ac.uk/intact"><span class="icon"> </span>IntAct</a>, Cytoscape) <br />
+It would be nice if user can retrive PPIs which are expressed in any tissues by using option function. (From: Vachiranee)<br />
+</p>
+<p>
+At this moment the only way that Bruno@IntAct knows of doing this is to get the list of proteins from a specific tissue (using <a class="ext-link" href="http://www.ebi.ac.uk/pride"><span class="icon"> </span>PRIDE</a>) and then using the list of proteins accessions to find PPIs in the molecular interaction databases, such as <a class="ext-link" href="http://www.ebi.ac.uk/intact"><span class="icon"> </span>IntAct</a>. If there is interest, we (IntAct) could find a way to include this option in a future release.
+</p>
+<p>
+*(TO: ANNOTATOR)<br /> 
+In the conversation with mostly biology-oriented participants of the Hackathon,<br />
+we found the following requests for ANNOTATOR to suit their needs:<br />
+</p>
+<p>
+- Ability to do batch jobs, i.e. large number of proteins annotated by our software (request came from many)<br />
+- ANNOTATOR should be downloadable and deployable somewhere local<br />
+- We were offered a potential collaboration in terms of using computing power of a Titec TSUBAME supercomputer. This means the ANNOTATOR's jobs need a mechanism to be submitted to an external site.<br />
+- For better results, consistency and the ability to replicate the annotator pipeline in a remote location, we need periodic and automatic updation of the underlying databases of the algorithms.<br />
+- How differences between ANNOTATOR and <a class="missing wiki">InterProscan?</a><br />
+- Ability to save results of analysis as xml format for further analysis<br />
+</p>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf" title="View attachment">bh2009-usecase_1.pdf</a>
+      <a href="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="242982 bytes">237.3 KB</span>) - added by <em>shuichi</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A57%3A49%2B0900&amp;precision=second" title="2009-03-20T14:57:49+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf" title="View attachment">bh2009-usecase_2.pdf</a>
+      <a href="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="242615 bytes">236.9 KB</span>) - added by <em>shuichi</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A59%3A54%2B0900&amp;precision=second" title="2009-03-20T14:59:54+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteUseCases?version=32&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

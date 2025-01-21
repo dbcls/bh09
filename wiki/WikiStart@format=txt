@@ -1,0 +1,103 @@
+= !BioHackathon 2009 =
+
+[[PageOutline]]
+
+This is our 2nd !BioHackathon for the integrated and interoperable bioinformatics infrastructure.
+
+ * [wiki:Participants]
+ * [wiki:Schedule]
+ * [wiki:Symposium] ([wiki:Poster])
+ * [wiki:Hackathon] (Satellite meetings & Final Objectives)
+ * [wiki:Report]
+
+== About the Hackathon ==
+
+The hackathon (hacking + marathon) basically is a camp where invited participants discuss about current issues and implement software to solve the problems on site collaboratively. This kind of meeting is very effective for the intensive development of projects, because face-to-face meeting of developers, who are usually spread around the world, accelerates communication and collaboration to exchange their ideas.
+
+!BioHackathon 2009 is sponsored by the Database Center for Life Science ([http://dbcls.rois.ac.jp/en/ DBCLS]) and the Okinawa Institute of Science and Technology ([http://www.irp.oist.jp/ OIST]), and will be held in Tokyo and Okinawa, Japan.
+
+ * !BioHackathon 2009	http://hackathon2.dbcls.jp/
+ * !BioHackathon 2008	http://hackathon.dbcls.jp/
+ * DBCLS	http://dbcls.rois.ac.jp/en/
+ * OIST	http://www.oist.jp/
+
+The DBCLS is being accepted as a national center for the sustainable life science databases in Japan. The OIST is the graduate university of science and technology and aiming to create a leading intellectual hub in the Asian-Pacific region.
+
+== Objectives ==
+
+In the [http://hackathon.dbcls.jp/ BioHackathon 2008], we focused on the standardization of bioinformatics web services and the exchange data formats to create bioinformatics workflows. To make these global efforts to be fully utilized by the biologists, we need to integrate these services into the various end-user applications.
+
+For this purpose, we will organize the second !BioHackathon gathering software developers of mash-up services and web service providers. Additionally, we will also involve semi-wet biologists to apply their data for testing these services and applications in combination to address the real world use cases.
+
+Our goal is to develop stable and usable platforms for emerging demands, such as
+
+ * Workflow for the massive sequence annotation (Galaxy, !BioMart, Taverna, MOWserve etc.)
+ * Automatic genome sequence assembly and mapping (GMOD/GBrowse, UTGB etc.)
+ * Visualization of the large scale data sets (Cytoscape, Processing etc.)
+ * Interoperable web services and database resources (BioMOBY, TogoWS, TogoDB etc.)
+
+and test these infrastructures with several biological use cases.
+
+For example, the Marine Genomics Unit in OIST is equipped with Roche 454 sequencers and they are hoping to start environmental genomics of the coral reef in Okinawa. We have been working 
+on the integration of our database resources into the Galaxy, and would like to offer them to use the services provided by the DBCLS. Additionally, we will start to select some suitable use cases to deal with, based on the discussion in the mailing list.
+
+== Expected outcomes ==
+
+ * Improve end-user applications like Galaxy or Taverna by testing with the use cases.
+ * Document how to solve the biological problems using these software and resources based on the hands-on seminar.
+ * Issue a manifesto and guidelines for creating interoperable web services with SOAP and/or REST.
+ * Publication of the meeting report.
+
+== Mailing list ==
+
+ * http://kml.dbcls.jp/pipermail/biohack2/
+ * biohack2_at_kml.dbcls.jp
+
+== Venue ==
+
+Our preliminary plan is to gather on Sunday in Tokyo for the reception.
+On Monday morning, we will have a public symposium, then fly together to Okinawa on Monday afternoon.
+We'll be back to Tokyo on Saturday after we are tired of the hacking activities.
+
+ * Tokyo (DBCLS) - for the 1st day (reception and symposium)
+ * Okinawa (OIST) - rest of the days (hack, hack, hack)
+
+=== Access ===
+
+ * [http://dbcls.rois.ac.jp/en/access/index.html DBCLS] (Tokyo venue)
+ * [http://www.oist.jp/access_1.html OIST] (Okinawa venue)
+
+Annotated Google Maps and KML file for Google Earth are available:
+
+ * [http://tinyurl.com/ch7ytg Google Maps for the BioHackathon 2009]
+ * [http://hackathon2.dbcls.jp/attachment/wiki/WikiStart/biohackathon2009-locations.kmz KML file for Google Earth]
+
+=== Housing ===
+
+ * [http://www.oist.jp/seasidehouse.html OIST Seaside House]
+ * [http://www.rizzan.co.jp/english/index.html Rizzan Sea-Park Hotel Tancha Bay]
+
+== Misc ==
+
+What should you bring with you?
+ 
+ * Laptop computer
+ * Conversion plug for your AC adaptor (identical to the US type; 100 volt)
+ * Local liquor as always (for the Liquorthon at night or for the reception :-)
+ * [http://www.linkedin.com/ LinkedIn] account to share your contact address
+
+=== SVN repository ===
+
+ * http://hackathon2.dbcls.jp/svn/
+
+=== Streaming and social networking ===
+
+ * http://www.ustream.tv/channel/biohackathon2009
+ * IRC: #biohackathon2009 on chat1.ustream.tv:6667
+
+ * http://friendfeed.com/rooms/biohackathon-2009 -- !FriendFeed room for !BioHackathon 2009
+ * #biohackathon2009 -- official hash tag for [http://search.twitter.com/search?q=%23biohackathon2009&lang=all twitter], citeulike and so on.
+ * [http://www.linkedin.com/groups?gid=1864599 LinkedIn Group]
+=== Photo album ===
+
+ [http://kml.dbcls.jp/BioHack2/photo/ BioHackathon 2009 Photo Album (in preparation)]

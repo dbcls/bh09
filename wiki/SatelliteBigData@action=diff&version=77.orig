@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteBigData (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/SatelliteBigData?action=history" title="Page history" />
+        <link rel="next" href="/wiki/SatelliteBigData?action=diff&amp;version=78" title="Version 78" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=76" title="Version 76" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=76" title="Version 76">Previous Change</a></span></li><li><a href="/wiki/SatelliteBigData?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/SatelliteBigData?action=diff&amp;version=78" title="Version 78">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/SatelliteBigData?version=76">Version 76</a> and
+        <a href="/wiki/SatelliteBigData?version=77">Version 77</a> of
+        <a href="/wiki/SatelliteBigData?version=77">SatelliteBigData</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/SatelliteBigData?version=77"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="77" />
+          <input type="hidden" name="old_version" value="76" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/03/20 15:39:14 (<a class="timeline" href="/timeline?from=2009-03-20T15%3A39%3A14%2B0900&amp;precision=second" title="2009-03-20T15:39:14+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          severin
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/SatelliteBigData?version=77">SatelliteBigData</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 76">
+                    <a href="/wiki/SatelliteBigData?version=76#L72">
+                      v76</a>
+                  </th>
+                  <th title="Version 77">
+                    <a href="/wiki/SatelliteBigData?version=77#L72">
+                      v77</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>72</th><th>72</th><td class="l"><span>In addition to the storage problem there is the issue of actually submitting our new data to public resources when publishing.&nbsp; Our datasets are getting very big and FTP often is not good enough.&nbsp; This forces many of us to have to submit data on DVD via FedEx for example.&nbsp; This is not optimal.</span> </td>
+                  </tr><tr>
+                          <th>73</th><th>73</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>74</th><th> </th><td class="l"><span>In systems biology and transcriptomics (like the work of RIKEN-OSC), there is a need to collect lots of small data, but the process of network analysis and molecular function adds aditional structure onto this primary data.&nbsp; Since this is still an emerging area of research, we need to keep the primary data available since many of our hypotheses and paradigms many change over time.&nbsp; If we would compress this data and throw it away, then we are limiting our future ability to re-evaluate our theories in the face of both new and old data. But at the same time as our analyses become more sophisticated, we may need to work with larger and larger portions of this primary data<del></del>.&nbsp; This leads to a situation where we are working with both many small things, and many large things making this domain space big on both axes.</span> </td>
+                      </tr>
+                      <tr class="last">
+                        <th> </th><th>74</th><td class="r"><span>In systems biology and transcriptomics (like the work of RIKEN-OSC), there is a need to collect lots of small data, but the process of network analysis and molecular function adds aditional structure onto this primary data.&nbsp; Since this is still an emerging area of research, we need to keep the primary data available since many of our hypotheses and paradigms many change over time.&nbsp; If we would compress this data and throw it away, then we are limiting our future ability to re-evaluate our theories in the face of both new and old data. But at the same time as our analyses become more sophisticated, we may need to work with larger and larger portions of this primary data<ins>&nbsp;at a time</ins>.&nbsp; This leads to a situation where we are working with both many small things, and many large things making this domain space big on both axes.</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>75</th><th>75</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>76</th><th>76</th><td class="l"><span>RIKEN OSC-LSA [http://www.osc.riken.jp/] is producing lots of data, but this data must be managed, manipulated, and mined for biology before it can be published and released to the public.&nbsp; EdgeExpressDB (eeDB) was developed during the FANTOM4 project and is now being used for in-house big data management and visualization of big datasets.&nbsp; eeDB is effectively an object-database which is implemented as an API and webservices. The system is currently being ported to C and file indexes, and based on the prototype code, we are expecting around a 20x-100x performance boost (but other backends like [http://www.hdfgroup.org/HDF5/ HDF5] mentioned above will be evaluated).&nbsp; The current version of the eeDB API toolkit and webservices are written in perl with a narrow/deep mysql snowflake schema. The perl/mysql implementation of the eeDB API-toolkit can manipulate billions of short-read data and 100s of microarray expression experiment datasets (each with 10000s of probes) for our internal research purposes and is proving to scale very well. eeDB works with node and network, sequence tag, mapping, and expression data at the level of billions of elements very easily.&nbsp; Queries can access individual objects, edges, and work with streams or sets of objects queried by regions, node, or networks. </span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

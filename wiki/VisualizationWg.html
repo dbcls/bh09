@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      VisualizationWg – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="VisualizationWg@format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><a href="WikiStart.html">Start Page</a></li><li><a href="TitleIndex.html">Index</a></li><li><a href="VisualizationWg@action=history.html">History</a></li><li class="last"><a href="VisualizationWg@action=diff&amp;version=70.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          <h2 id="Day3:VisualizationWorkgroupDiscussion">Day 3: Visualization Workgroup Discussion</h2>
+<p>
+Hands on: March 19 AM at the seminar room
+</p>
+<h3 id="Chairperson">Chairperson</h3>
+<ul><li>Jessica Severin (severin@…)
+</li></ul><h3 id="Purpose">Purpose</h3>
+<p>
+This working group was an opportunity for many people in the area of biological visualization to share their work. Participants were asked to demonstrate their softwares.  We divided the visualizations into three main categories: Network, Expression, and genomic region visualization and different visualization systems identified if they were able to support that style of visualization.  It was a wonderful opportunity to see what others were working on and what ideas or possible collaborations could be formed in the future.  Some data providers were also present, and some discussion occurred regarding extending our visualization to more client/server models of remote data.
+</p>
+<h3 id="Tools">Tools</h3>
+<ul><li>Network
+<ul><li>Cytoscape was presented by Keiichiro@UCSD  ( <a class="ext-link" href="http://www.cytoscape.org/index.php"><span class="icon"> </span>http://www.cytoscape.org/index.php</a> )
+</li><li>E-Cell 3D was presented by Kazuharu@Keio ( <a class="ext-link" href="http://ecell3d.iab.keio.ac.jp/"><span class="icon"> </span>http://ecell3d.iab.keio.ac.jp/</a> )
+</li><li>GraphViz
+</li><li>BioCichlid by Soichi@tmd -- <a class="ext-link" href="http://newton.tmd.ac.jp/"><span class="icon"> </span>http://newton.tmd.ac.jp/</a>
+</li><li>FANTOM4 EdgeExpressDB (eeDB) was presented by  Jessica Severin@RIKEN
+<ul><li><a class="ext-link" href="http://fantom.gsc.riken.jp/4/edgeexpress/subnet/"><span class="icon"> </span>FANTOM4 EdgeExpressDB</a> -- currently protected; available soon
+</li></ul></li></ul></li></ul><ul><li>Expression
+<ul><li>Cytoscape * Cytoscape
+<ul><li>kozo-ni's usecase
+<ul><li>retrieve a organism's all metabolic reactions from KEGG
+</li><li>convert node format from [compound -&gt; enzyme -&gt; compound] to [compound -&gt; compound] or [enzyme -&gt; enzyme] like following paper
+<ul><li><a class="ext-link" href="http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767"><span class="icon"> </span>http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767</a>
+</li></ul></li><li>calculate betweeneth and find bottlenecks (currently I use <a class="missing wiki">CentiScaPe?</a> plugin or igraph[R library])
+</li><li>map gene expression to enzyme
+</li></ul></li></ul></li><li>Genespring
+</li><li>TMeV
+</li><li>PREP+07  ( <a class="ext-link" href="http://www.bitlab-es.com/prep/"><span class="icon"> </span>http://www.bitlab-es.com/prep/</a> ) <a class="ext-link" href="http://www.biomedcentral.com/1471-2105/10/16"><span class="icon"> </span>http://www.biomedcentral.com/1471-2105/10/16</a>
+</li><li>bluejay
+</li><li>Biocichlid
+</li><li>FANTOM4 eeDB - Jessica Severin@RIKEN
+<ul><li><a class="ext-link" href="http://fantom.gsc.riken.jp/4/edgeexpress/view/"><span class="icon"> </span>FANTOM4 EdgeExpressDB</a> -- currently protected; available soon
+</li></ul></li><li>genoDive
+<ul><li>will be available with GFF3 file or from DAS server
+</li></ul></li></ul></li></ul><ul><li>Genome
+<ul><li>Ensembl
+</li><li>UCSC
+</li><li>GBrowse
+</li><li>PARP (multi genomes: m) waspresented by Jan@Sanger  (<a class="ext-link" href="http://github.com/jandot/parp/tree/double_circular"><span class="icon"> </span>http://github.com/jandot/parp/tree/double_circular</a>)
+</li><li>genoDive was presented by Shinobu@Kazusa and Kunihiro@UT ( <a class="ext-link" href="http://genodive.org/"><span class="icon"> </span>http://genodive.org/</a>)
+</li><li>A genome viewer projected on a wall type display was presented by Kunihiro@UT
+</li><li>CGAS (m) by Masumi@hokudai ( <a class="ext-link" href="http://cgas.ist.hokudai.ac.jp"><span class="icon"> </span>http://cgas.ist.hokudai.ac.jp</a> )
+</li><li>Genome Projector was presented by Kazuharu@Keio ( <a class="ext-link" href="http://www.g-language.org/GenomeProjector/"><span class="icon"> </span>http://www.g-language.org/GenomeProjector/</a> )
+</li><li>bluejay  ( <a class="ext-link" href="http://bluejay.ucalgary.ca/"><span class="icon"> </span>http://bluejay.ucalgary.ca/</a> )
+</li><li>X..map  ( <a class="ext-link" href="http://xmap.picr.man.ac.uk/"><span class="icon"> </span>http://xmap.picr.man.ac.uk/</a> )
+</li><li>google GenomeBrowser
+</li><li>EdgeExpressDB eeDB gLyphs prototype -- final stages of feature addition and paper writing
+</li><li>MaDaS ( <a class="ext-link" href="http://madas2.bioinfo.cnio.es/"><span class="icon"> </span>http://madas2.bioinfo.cnio.es/</a> , click on "Go directly to example" in order to see an example)
+</li></ul></li></ul><h2 id="UsecaseData">Usecase/Data</h2>
+<ul><li>Cytoscape
+<ul><li>kozo-ni(kozo-ni@…)
+<ul><li>usecase
+<ul><li>retrieve an organism's all metabolic reactions from KEGG
+</li><li>convert node format from [compound -&gt; enzyme -&gt; compound] to [compound -&gt; compound] or [enzyme -&gt; enzyme] like following paper
+<ul><li><a class="ext-link" href="http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767"><span class="icon"> </span>http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767</a>
+</li></ul></li><li>calculate betweeneth and find bottlenecks (currently I use <a class="missing wiki">CentiScaPe?</a> plugin or igraph[R library])
+</li><li>map gene expression to enzyme
+</li></ul></li><li>data
+<ul><li>affymetrix gene-chip expression data
+</li></ul></li><li>functionality needs
+<ul><li>get an organism's all metabolic reactions from KEGG
+</li><li>draw enzyme or compound centric network. (In enzyme centric network, enzyme nodes share a common compound. In compound centric network, compound nodes share a common enzyme.)
+</li><li>time-series expression mapping function
+</li></ul></li><li>difficulty
+<ul><li>blah,blah,blah 
+</li></ul></li></ul></li></ul></li></ul><ul><li>E-Cell 3D
+<ul><li>show dynamics of cellular simulations as well as the network
+</li><li>debug a simulation model - a molecule could be depleted or too concentrated, steady-state (balanced flux), rhythms
+</li><li>looking at the overall behavior
+</li></ul></li></ul><ul><li>Genome Projector
+<ul><li>look at a feature of interest from several different perspectives (zoom level + context)
+</li><li>overlay data
+</li></ul></li></ul><ul><li>pARP
+<ul><li>show links between several features on one genome, e.g. mappings of readpair data
+</li></ul></li></ul><ul><li>genoDive
+<ul><li>visualize a whole genome data from chromosome level to sequence level seamlessly and interactively
+</li><li>easy to use user interface and provide some new accessibility features
+</li><li>genome oriented DAS client
+</li><li>built in C++, OpenGL.
+</li></ul></li></ul><ul><li>CGAS
+<ul><li>visualize sequence alignments of genome sequences by dot plot with annotations.
+</li><li>dynamic zooming and browsing.
+</li><li>data
+<ul><li>users' alignment data &amp; annotation from NCBI.
+</li></ul></li></ul></li></ul><h2 id="Futuredirections">Future directions</h2>
+<ul><li>semantic zooming
+<ul><li>need for queries (DAS?) to define semantic abstraction of data
+</li><li>server-side implementation to handle semantic abstraction level of returned data 
+</li></ul></li><li>better inter-operability between large data servers and visualization systems
+<ul><li>builiding collaborations and starting new work together
+</li></ul></li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="VisualizationWg@format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

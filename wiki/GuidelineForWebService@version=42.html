@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      GuidelineForWebService – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/GuidelineForWebService?version=42&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="GuidelineForWebService.html" title="View latest version" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="GuidelineForWebService@version=41.html" title="Version 41" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="GuidelineForWebService@version=41.html" title="Version 41">Previous Version</a></span></li><li><a href="GuidelineForWebService.html" title="View latest version">View Latest Version</a></li><li><span class="missing">Next Version &rarr;</span></li><li class="last"><a href="GuidelineForWebService@action=diff&amp;version=42.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 42 (modified by atsuko, <a class="timeline" href="../timeline@from=2009-10-07T19%253A06%253A20+0900&amp;precision=second.html" title="2009-10-07T19:06:20+0900 in Timeline">15 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="GuidelineforWebServicesManifestover.2.0">Guideline for Web Services (Manifesto ver.2.0)</h1>
+<p>
+This document is a guideline to design web services toward integration.
+</p>
+<ul><li>REST
+<ul><li>For a database service, REST services to call entries and search by a keyword should be provided.
+</li><li>To unify query formats, the query languages should conform to Common Query Language.
+</li><li>A method to get the number of hits for a keyword should be provided.
+</li><li>A method to get the list of hit entries for a keyword should be provided.
+</li><li>A method to get the entry from an ID should be provided.
+<ul><li>If the entry does not exist, the method should return code 404 and an empty entry.
+</li></ul></li><li>Path parameters (/foo/bar/baz) should be used for a REST URL and query parameters (param1=value1&amp;param2=value2) should not be used.
+<ul><li>Lower-case letters should be used for path parameters in principle.
+</li><li>If a URL ends "/", a list of possible strings after the URL should be returned in principle. 
+</li></ul></li><li>When a method returns a list, each line should correspond to an entry and each line should be divided by tab into fields.
+<ul><li>As REST web services can be called from AJAX, an alternative could be <a class="ext-link" href="http://www.json.org/"><span class="icon"> </span>JSON</a>.
+</li></ul></li><li><a class="ext-link" href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"><span class="icon"> </span>HTTP codes</a> should be used for error signaling. It is allowed to also send in the answer some text.
+</li></ul></li></ul><ul><li>SOAP
+<ul><li>A manual for each method should be provided.
+<ul><li>The manual should include examples of parameters such that the method works well by them.
+</li></ul></li><li>Each method should be verified to use Java (for instance, <a class="ext-link" href="https://jax-ws.dev.java.net/"><span class="icon"> </span>JAX-WS</a> or <a class="ext-link" href="https://jaxb.dev.java.net/"><span class="icon"> </span>JAXB</a>), Perl (<a class="ext-link" href="http://www.soaplite.com/"><span class="icon"> </span>SOAP::Lite</a>), Ruby and Python (<a class="ext-link" href="http://www.ibm.com/developerworks/webservices/library/ws-pyth5/"><span class="icon"> </span>SOAP.py</a>, <a class="ext-link" href="http://pywebsvcs.sourceforge.net/"><span class="icon"> </span>ZSI</a>, <a class="ext-link" href="http://code.google.com/p/tgws/"><span class="icon"> </span>TGWebServices</a> or <a class="ext-link" href="http://trac.optio.webfactional.com/"><span class="icon"> </span>soaplib</a>).
+<ul><li>Providing sample codes for the common SOAP toolkits in such languages is recommended.
+</li><li>Providing test case projects for free testing packages like <a class="ext-link" href="http://www.soapui.org/"><span class="icon"> </span>soapUI</a>
+</li></ul></li><li>For asynchronous services, a job ID should be provided.
+</li><li>When any unrecoverable error occurs during processing at a server, a method should return "SOAP Fault".
+</li></ul></li></ul><ul><li>The following data types should be used:
+<ul><li><a class="ext-link" href="http://www.insdc.org/page.php?page=home"><span class="icon"> </span>INSDC INSDSeq</a> for sequences,
+</li><li><a class="ext-link" href="http://www.mged.org/Workgroups/MIAME/miame.html"><span class="icon"> </span>MIAME</a> for expression data,
+</li><li><a class="ext-link" href="http://glycomics.ccrc.uga.edu/GLYDE-II/"><span class="icon"> </span>GLYDE-II</a> for glycans,
+</li><li>Tab format for key-value.
+</li></ul></li></ul><ul><li>REST or SOAP
+<ul><li>For retieval methods (to get an entry or search entries by keywords), REST is recommended. For methods of analysis service, SOAP is recommended.
+</li></ul></li></ul><h1 id="TogoWSGuidelines">TogoWS Guidelines</h1>
+<h2 id="REST">REST</h2>
+<p>
+TogoWS stated the rulers to design the services  to call and search entries as below:
+</p>
+<ul><li><a class="ext-link" href="http://togows.dbcls.jp/site/services.html"><span class="icon"> </span>http://togows.dbcls.jp/site/services.html</a>
+</li><li><a class="ext-link" href="http://togows.dbcls.jp/site/rest.html"><span class="icon"> </span>http://togows.dbcls.jp/site/rest.html</a>
+</li></ul><h3 id="Howtocalltheentries">How to call the entries</h3>
+<pre class="wiki">http://togows.dbcls.jp/entry/database/entry_id[,entry_id2,...]/field[.format]
+</pre><p>
+If the name space of the databases are in URL：
+</p>
+<ul><li><a class="ext-link" href="http://frnadb.example.org/entry/id"><span class="icon"> </span>http://frnadb.example.org/entry/id</a> instead of <a class="ext-link" href="http://frnadb.example.org/entry/frnadb/id"><span class="icon"> </span>http://frnadb.example.org/entry/frnadb/id</a>
+</li></ul><p>
+How to add the name spaces for the institution, release_numer of the database: 
+</p>
+<ul><li><a class="ext-link" href="http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345"><span class="icon"> </span>http://togows.dbcls.jp/entry/birc-hinv-5.0/HIT0012345</a>
+</li></ul><p>
+NOTE:
+The default fotmat for the entries is “.txt”, and can be in the specified format by adding the suffix, such as “.xml”. 
+</p>
+<p>
+Calling a part of the entry：
+The method to call the part of the entries by field names is the extension of TogoWS using <a class="missing wiki">BioRuby/BioPerl?</a>
+</p>
+<h3 id="Howtosearchtheentries">How to search the entries</h3>
+<pre class="wiki">http://togows.dbcls.jp/search/database/query+string[.format][/offset,limit[.format]] 
+http://togows.dbcls.jp/search/database/query+string/count
+</pre><p>
+The format of "query string" to be based on “Common Query Language" <a class="ext-link" href="http://en.wikipedia.org/wiki/Common_Query_Language"><span class="icon"> </span>Common Query Language</a>
+</p>
+<h3 id="TheconversionofdataformatandID">The conversion of data format and ID</h3>
+<pre class="wiki">http://togows.dbcls.jp/convert/data_source.format
+</pre><h3 id="Metadata">Metadata</h3>
+<ul><li>The list of the databases
+</li></ul><pre class="wiki">http://togows.dbcls.jp/entry/
+http://togows.dbcls.jp/search/
+</pre><ul><li>The list of the fields
+</li></ul><pre class="wiki">http://togows.dbcls.jp/entry/DBname/
+</pre><ul><li>The list of the formats
+</li></ul><pre class="wiki">http://togows.dbcls.jp/entry/DBname/formats
+</pre><h2 id="SOAP">SOAP</h2>
+<ul><li>Required test environment
+<ul><li>Perl: Soap::Lite 0.69
+</li><li>Ruby: SOAP4R 1.5.5 (Ruby 1.8.6 bundle)
+</li><li>Python: SOAPpy 0.12.0
+</li><li>Java: Axis 1.4
+</li></ul></li><li>SOAP version 1.2, at least
+</li><li>Calling a method with asynchronous
+<ul><li>The name for the method with asynchronous end with “Async” and return job ID
+</li><li>Rerurn job ID to “<a class="missing wiki">CheckAsyncStatus?</a>?” method and give either RUNNING, COMPLETED, or ERROR
+</li><li>Method name for the method with asynchronous mst be” <a class="missing wiki">BeginInvoke?</a> methods＋Result” and stae job ID as a parameter
+</li></ul></li></ul><h2 id="History">History</h2>
+<ul><li>version <a class="missing wiki">Manifest2.0_e?</a> (2009/03/20)
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/GuidelineForWebService?version=42&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

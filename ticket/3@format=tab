@@ -1,0 +1,5 @@
+id	summary	reporter	owner	description	type	status	priority	milestone	component	version	resolution	keywords	cc
+3	Select a journal for publication of the meeting report	ktym	somebody	" * Arek Kasprzyk for ""Database"" 
+ * Alfonso Valencia for ""Bioinformatics"" 
+ * Alex Bateman for ""NAR"" 
+ 	 "	defect	new	major		component1				

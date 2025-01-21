@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      Report (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/Report?action=history" title="Page history" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/Report?action=diff&amp;version=13" title="Version 13" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/Report?action=diff&amp;version=13" title="Version 13">Previous Change</a></span></li><li><a href="/wiki/Report?action=history" title="Page history">Wiki History</a></li><li class="last"><span class="missing">Next Change &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/Report?version=13">Version 13</a> and
+        <a href="/wiki/Report?version=14">Version 14</a> of
+        <a href="/wiki/Report?version=14">Report</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/Report?version=14"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="14" />
+          <input type="hidden" name="old_version" value="13" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/07/21 21:15:51 (<a class="timeline" href="/timeline?from=2009-07-21T21%3A15%3A51%2B0900&amp;precision=second" title="2009-07-21T21:15:51+0900 in Timeline">15 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          mn
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/Report?version=14">Report</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 13">
+                    <a href="/wiki/Report?version=13#L296">
+                      v13</a>
+                  </th>
+                  <th title="Version 14">
+                    <a href="/wiki/Report?version=14#L296">
+                      v14</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>296</th><th>296</th><td class="l"><span>developed the solutions for the issues. Galaxy is an interactive</span> </td>
+                  </tr><tr>
+                          <th>297</th><th>297</th><td class="l"><span>platform to process biological data using various tools to obtain form</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>298</th><th> </th><td class="l"><span>data sources, to analyze and to share the data. Galaxy is as a data processing hub to import from various data sources</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>298</th><td class="r"><span>data sources, to analyze and to share the data. </span> </td>
+                      </tr><tr>
+                        <th> </th><th>299</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>300</th><td class="r"><span>Galaxy is as a data processing hub to import from various data sources</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>299</th><th>301</th><td class="l"><span>such as local files, web site urls, BioMart and UCSC Genome Browser,</span> </td>
+                  </tr><tr>
+                          <th>300</th><th>302</th><td class="l"><span>and to export to various applications as well. To enhance this hub</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/Report?version=13#L302">…</a></th>
+                  <th><a href="/wiki/Report?version=14#L304">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>302</th><th>304</th><td class="l"><span>text-mining tools which are the rest of the Galaxy tools. We developed</span> </td>
+                  </tr><tr>
+                          <th>303</th><th>305</th><td class="l"><span>two-way communication to import data from wormbase and export data to</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>304</th><th> </th><td class="l"><span>wormbase on gbowse.&nbsp; We developed the data import tool via TogoWS to extend data sources</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>306</th><td class="r"><span>wormbase on gbowse.&nbsp; </span> </td>
+                      </tr><tr>
+                        <th> </th><th>307</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>308</th><td class="r"><span>We developed the data import tool via TogoWS to extend data sources</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>305</th><th>309</th><td class="l"><span>including databases on the NCBI, EBI, KEGG, DDBJ and PDBj web service</span> </td>
+                  </tr><tr>
+                          <th>306</th><th>310</th><td class="l"><span>API. We developed a bookmarklet to visualize the selected database ID</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/Report?version=13#L308">…</a></th>
+                  <th><a href="/wiki/Report?version=14#L312">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>308</th><th>312</th><td class="l"><span>replaced by the semantics web technology. And we developed text-mining</span> </td>
+                  </tr><tr>
+                          <th>309</th><th>313</th><td class="l"><span>tools against the MEDLINE abstract. Such the research line is</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>310</th><th> </th><td class="l"><span>prospective.&nbsp; On the usability issues, Galaxy could not deal with non-ascii</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>314</th><td class="r"><span>prospective. </span> </td>
+                      </tr><tr>
+                        <th> </th><th>315</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>316</th><td class="r"><span>On the usability issues, Galaxy could not deal with non-ascii</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>311</th><th>317</th><td class="l"><span>characters in the data and the messages. The characters often appear</span> </td>
+                  </tr><tr>
+                          <th>312</th><th>318</th><td class="l"><span>in the gene symbols and the full text articles. And Galaxy have</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/Report?version=13#L318">…</a></th>
+                  <th><a href="/wiki/Report?version=14#L324">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>318</th><th>324</th><td class="l"><span>using the standard GetText library and the UTF-8 character set. Galaxy</span> </td>
+                  </tr><tr>
+                          <th>319</th><th>325</th><td class="l"><span>can use the external authentication system such as OpenID. We</span> </td>
+                  </tr>
+            </tbody><tbody class="mod">
+                      <tr class="first">
+                        <th>320</th><th> </th><td class="l"><span>developed the mod_openid based front application.&nbsp; In addition, we discussed the user support materials. Although a high</span> </td>
+                      </tr>
+                      <tr>
+                        <th> </th><th>326</th><td class="r"><span>developed the mod_openid based front application.&nbsp; </span> </td>
+                      </tr><tr>
+                        <th> </th><th>327</th><td class="r"><span></span> </td>
+                      </tr><tr class="last">
+                        <th> </th><th>328</th><td class="r"><span>In addition, we discussed the user support materials. Although a high</span> </td>
+                      </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>321</th><th>329</th><td class="l"><span>standard of graphical user interface on the web application is too</span> </td>
+                  </tr><tr>
+                          <th>322</th><th>330</th><td class="l"><span>complex to describe text, it is difficult to communicate between</span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

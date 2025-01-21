@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteG-language – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/SatelliteG-language?version=7&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="SatelliteG-language.html" title="View latest version" />
+        <link rel="next" href="SatelliteG-language@version=8.html" title="Version 8" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="SatelliteG-language@version=6.html" title="Version 6" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="SatelliteG-language@version=6.html" title="Version 6">Previous Version</a></span></li><li><a href="SatelliteG-language.html" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="SatelliteG-language@version=8.html" title="Version 8">Next Version</a> &rarr;</span></li><li class="last"><a href="SatelliteG-language@action=diff&amp;version=7.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 7 (modified by gaou, <a class="timeline" href="../timeline@from=2009-03-19T23%253A32%253A59+0900&amp;precision=second.html" title="2009-03-19T23:32:59+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SatellitemeetingforG-languagedevelopment">Satellite meeting for G-language development</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+Development of REST/SOAP web services for G-language Genome Analysis Environment
+</p>
+<h2 id="Participants">Participants</h2>
+<ul><li>Kazuharu Arakawa
+</li><li>Nobuhiro Kido
+</li><li>Kazuki Oshita
+</li></ul><h2 id="REST">REST</h2>
+<h3 id="genomeflatfileaccess">genome flatfile access</h3>
+<ul><li>Base URL (list of available genomes):<br />
+<a class="ext-link" href="http://www.g-language.org/gb/"><span class="icon"> </span>http://www.g-language.org/gb/</a>
+</li><li>Nucleotide composition<br />
+</li></ul><p>
+<tt>http://www.g-language.org/gb/[genome]</tt>
+</p>
+<ul><li>examples:
+</li></ul><blockquote>
+<blockquote>
+<p>
+<a class="ext-link" href="http://www.g-language.org/gb/ecoli"><span class="icon"> </span>http://www.g-language.org/gb/ecoli</a> (G-language preset genome)<br />
+<a class="ext-link" href="http://www.g-language.org/gb/NC_000908"><span class="icon"> </span>http://www.g-language.org/gb/NC_000908</a> (NCBI <a class="missing wiki">RefSeq?</a> accession)<br />
+<a class="ext-link" href="http://www.g-language.org/gb/B619CD"><span class="icon"> </span>http://www.g-language.org/gb/B619CD</a> (G-language REST temporary reference id)<br />
+</p>
+</blockquote>
+</blockquote>
+<ul><li>Gene features<br />
+</li></ul><p>
+<tt>http://www.g-language.org/gb/ecoli/[gene]</tt>
+</p>
+<ul><li>examples:
+</li></ul><blockquote>
+<blockquote>
+<p>
+<a class="ext-link" href="http://www.g-language.org/gb/ecoli/recA"><span class="icon"> </span>http://www.g-language.org/gb/ecoli/recA</a> (common gene name)<br />
+<a class="ext-link" href="http://www.g-language.org/gb/ecoli/b2699"><span class="icon"> </span>http://www.g-language.org/gb/ecoli/b2699</a> (canonical gene name / locus tag)<br />
+<a class="ext-link" href="http://www.g-language.org/gb/ecoli/FEATURE5804"><span class="icon"> </span>http://www.g-language.org/gb/ecoli/FEATURE5804</a> (G-language feature id)<br />
+<a class="ext-link" href="http://www.g-language.org/gb/ecoli/CDS2646"><span class="icon"> </span>http://www.g-language.org/gb/ecoli/CDS2646</a> (G-language CDS id)<br />
+</p>
+</blockquote>
+</blockquote>
+<p>
+      
+</p>
+<h2 id="SOAP">SOAP</h2>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="../attachment/wiki/SatelliteG-language/pict5.gif.html" title="View attachment">pict5.gif</a>
+      <a href="../raw-attachment/wiki/SatelliteG-language/pict5.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="24076 bytes">23.5 KB</span>) - added by <em>t07122ko</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T12%253A58%253A06+0900&amp;precision=second.html" title="2009-03-20T12:58:06+0900 in Timeline">16 years</a> ago.
+                <q><a class="missing wiki">ScreenShot?</a>  (Taverna)</q>
+              </li>
+              <li>
+      <a href="http://hackathon2.dbcls.jp/attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow" title="View attachment">getFasta2gcskew.t2flow</a>
+      <a href="../raw-attachment/wiki/SatelliteG-language/getFasta2gcskew.t2flow" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="22740 bytes">22.2 KB</span>) - added by <em>t07122ko</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T13%253A02%253A55+0900&amp;precision=second.html" title="2009-03-20T13:02:55+0900 in Timeline">16 years</a> ago.
+                <q>G-language Taverna Workflow (Example)</q>
+              </li>
+              <li>
+      <a href="../attachment/wiki/SatelliteG-language/incre.png.html" title="View attachment">incre.png</a>
+      <a href="../raw-attachment/wiki/SatelliteG-language/incre.png" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="40967 bytes">40.0 KB</span>) - added by <em>t07505nk</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T14%253A53%253A26+0900&amp;precision=second.html" title="2009-03-20T14:53:26+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/SatelliteG-language/section.png.html" title="View attachment">section.png</a>
+      <a href="../raw-attachment/wiki/SatelliteG-language/section.png" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="79895 bytes">78.0 KB</span>) - added by <em>t07505nk</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T14%253A53%253A55+0900&amp;precision=second.html" title="2009-03-20T14:53:55+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/SatelliteG-language?version=7&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

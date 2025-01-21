@@ -1,0 +1,98 @@
+= Satellite meeting for Literature and Text mining related issues =
+
+== Topics ==
+
+Different web tools allow researchers to search literature databases and integrate semantic information extracted from text with external databases and ontologies. Some of them even provide accessible APIs so users can build their own text mining pipelines.
+
+'''Enhanced literature search and retrieval engines'''
+
+[http://www.knewco.com/]
+
+[http://www.gopubmed.com/]
+
+[http://www.novoseek.com/]
+
+[http://www.ihop-net.org/UniPub/iHOP/]
+
+[http://www.ebi.ac.uk/citexplore/]
+
+[http://www.ebi.ac.uk/Rebholz/software.html EBI text mining tools]
+
+'''Text mining web services'''
+
+[http://www.adaptivedisclosure.org/aida/workflows BioAID workflows]
+
+[http://ubio.bioinfo.cnio.es/biotools/iHOP/ iHOP webservices]
+
+[http://www.ebi.ac.uk/whatizit Whatizit]
+
+[http://www.biosemantics.org]
+
+[http://nactem.ac.uk/]
+
+TM related web services provided by [http://lifesciencedb.jp/ DBCLS]
+  * [http://allie.dbcls.jp/ Allie]
+  * [http://orefil.dbcls.jp/ OReFiL]
+
+
+'''Collaborative annotation tools'''
+
+  * [http://a.kazusa.or.jp/]
+  * [http://www.wired-marker.org/en/update.html]
+  * [http://www.shiftspace.org/]
+  * [http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=XConc+Suite]
+  * Although [http://www.zotero.org Zotero] is not though as a collaborative annotation tool (or even an annotation tool), [http://www.zotero.org/support/1.5_beta next release (1.5)] could be used for some primitive, collaborative annotations. José María has done some tests about adding notes and highlights to HTML and PDF snapshots from some articles, and it worked on first case, but not on the second one. Zotero 1.5 allows storing the information in a server, so various computers can have the same synchronized view of the same Zotero repository.
+
+'''Assessment of text mining tools (both engines and web services)'''
+
+[http://bcms.bioinfo.cnio.es/ BioCreative MetaServer Platform] ([http://bcms.bioinfo.cnio.es/site_media/BCMS_Talk_SMBM08.pdf talk from Florian Leitner about the system])
+
+[http://bcms.bioinfo.cnio.es/xmlrpc/ XML-RPC interface of BCMS]
+
+
+'''ieXML: how to standardize the annotation of named entities'''
+
+[http://www.ebi.ac.uk/Rebholz-srv/IeXML/]
+
+
+'''Other stuff'''
+
+[http://www.ebi.ac.uk/Rebholz/resources.html]
+
+[http://ex.perimental.net/scaiview/] 
+(This shows the front-end of a text-mining system I (Tobias) developed previously. It has overlapped tagging as a result of multi-class NER and fulltext search)
+
+== Attendees ==
+ * [http://www.linkedin.com/in/albertolabarga Alberto Labarga] ([http://www.ebi.ac.uk/webservices EBI], [http://www.ebi.ac.uk/dasty Dasty], [http://www.scientifik.info/elsevier Elsevier Grand Challenge],  Univ. of Granada, Spain)
+ * Yulia Kovarskaya
+ * Hong-Woo Chun
+ * Yasunori Yamamoto
+ * Tobias Gattermayer
+ * [http://www.linkedin.com/pub/7/213/b28 José María Fernández]
+ * Pierre Lindenbaum
+ * Atsuko Yamaguchi
+
+
+== Results ==
+ * Alberto Labarga 
+    {{{
+#!html
+<div style="width:425px;text-align:left" id="__ss_1155565"><a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" href="http://www.slideshare.net/alabarga/review-of-text-mining-systems-related-to-life-sciences?type=presentation" title="review of text mining systems related to life sciences">review of text mining systems related to life sciences</a><object style="margin:0px" width="425" height="355"><param name="movie" value="http://static.slideshare.net/swf/ssplayer2.swf?doc=reviewtextmining-090317015659-phpapp01&stripped_title=review-of-text-mining-systems-related-to-life-sciences" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slideshare.net/swf/ssplayer2.swf?doc=reviewtextmining-090317015659-phpapp01&stripped_title=review-of-text-mining-systems-related-to-life-sciences" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;">View more <a style="text-decoration:underline;" href="http://www.slideshare.net/">presentations</a> from <a style="text-decoration:underline;" href="http://www.slideshare.net/alabarga">Alberto Labarga</a>.</div></div>
+}}}
+ 
+ * Hong-Woo Chun
+   * Introduction of Wired-Marker and XConc that are annotation tools and publicly available to use.
+
+ * We explored the use of [http://www.urbigene.com/foaf/ scifoaf] (Pierre Lindenbaum) -> We need unique IDs (URI) for authors in publications!
+
+ * We implemented some clients for [http://bcms.bioinfo.cnio.es/xmlrpc/ XML-RPC interface of BCMS] and [http://ubio.bioinfo.cnio.es/biotools/iHOP/ iHOP webservices]
+
+ * We reviewed different solutions for collaborative anotations
+
+
+== TODOs ==
+
+ * provide [http://www.ebi.ac.uk/Rebholz-srv/IeXML/ ieXML ] support for existing services 
+ * further integration of automatic annotation in the collaborative annotation tools
+
+

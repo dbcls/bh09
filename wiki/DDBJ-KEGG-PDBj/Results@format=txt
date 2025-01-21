@@ -1,0 +1,43 @@
+= A DDBJ-KEGG-PDBj workflow: from pathways to protein-protein interactions =
+
+ * For the details of the project, see [wiki:DDBJ-KEGG-PDBj].
+
+
+== Members ==
+ * Yasumasa Shigemoto (WABI/SABI; DDBJ, Japan)
+ * Akira Kinjo (PDBj, Japan)
+ * Soichi Ogishima (Tokyo Medical and Dental Univ, Japan)
+ * Masumi Itoh (Hokkaido Univ)
+
+= The objective =
+Given a KEGG pathway ID of a specific species, 
+ 1. Identify homologous proteins of the pathway.
+ 2. Infer possible protein-protein interactions between components of the homologous pathways.
+
+= How? =
+
+ 1. Input: KEGG pathway ID
+ 1. Get amino acid sequences of all the proteins involved in the given pathway. (KEGG API)
+ 1. For each protein sequence, run BLAST against the !UniProt (!SwissProt / !TrEMBL) database to identify its homologs. (WABI)
+ 1. Sort the BLAST results according to species.  (a local program)
+  * At this point, we will have a phylogenetic profile.
+ 1. For each BLAST hit (a !UniProt entry), run BLAST against PDB. (PDBj !SeqNavi API).
+ 1. Find ''physical'' interactions between different components. (a local program)
+  * That is, if two (!UniProt) sequences are homologous to different chains of the same PDB entry, they are predicted to be in physical contact.
+ 1. Output the phylogenetic profile and the predicted species-wise PPI.
+
+= An example =
+
+ 1. KEGG pathway (TCA cycle in ''E. coli''): path:eco00020 [[Image(eco00020.gif)]].
+ 1. [http://hackathon2.dbcls.jp/attachment/wiki/DDBJ-KEGG-PDBj/Results/sp_kegggene_matrix.2.xls Phylogenetic profile]
+ 1. The pathway colored according to homologs in ''Acinetobacter'' [[Image(Acinetobacter_sp._strain_ADP1_..gif)]]
+ 1. [http://hackathon2.dbcls.jp/attachment/wiki/DDBJ-KEGG-PDBj/Results/ppi_by_species.txt PPI list]
+ 1. The pathway with PPI edges in ''Yersinia pestis''  [[Image(Yersinia_pestis.gif)]]
+
+= What we learned =
+ 1. We had to do a significant amount of coding in spite of the wealth of Web services.
+ 1. It takes a long time to finish all the flow.
+ 1. By actually solving biologically oriented problems, we can identify some typical use cases which might be useful for further development of web services.
+  * e.g. 1. Given a set of gene names, return a phylogenetic profile.
+  * e.g. 2. Given a set of blast hits, group them according to their species.
+

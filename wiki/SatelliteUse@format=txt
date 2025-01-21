@@ -1,0 +1,93 @@
+
+Satellite meeting for use-cases
+
+Topics ¶
+
+Participants¶
+ * 
+
+
+
+
+Date ¶
+
+    * 2009/3/19 15:00-18:00 
+
+Room ¶
+
+    * Chura Hall (3F)
+
+
+Presentations ¶
+
+Fill:
+
+    * Name of the presenter
+          o Title of the talk
+          o Attachments (PPT or PDF slides etc.) 
+
+Notes ¶
+
+   
+
+    Log of use-case workgroup
+
+Data
+-SNPs, Affy provided by Prof.Kim
+    SNPs data come from Affymatrix chip of stroke patients and normal people (contain 262,338 SNPs)
+  
+    - ANNOTATOR currently cannot analyse on SNPs data directly
+    - Galaxy (http://galaxy.esphealth.org/) RGenetics
+        quality control, ancestry and case-control analysis
+    - BioMart
+
+BioMart
+- have to know dataset, filter, attribute
+- can use Perl API,..
+- Martview
+- DAS access
+- Martview
+- can set up server and use in-house
+
+Question
+- Takeshi asked about how to annoate in-house data with comparing with public genome data using BioMart.
+- For example, how to annotate Halocynthia roretzi or Molgula tectiformis ESTs comparing with Ciona intestinalis and Ciona savigni using BioMart.
+Answer
+- Convert Halocynthia data into BioMart format. Install BioMart server locally. Then merge public DB and local data together.
+- BioMart format is simple.
+
+
+Takeshi present
+- minor animal (closet animal Ciona)
+- how can analyze Halocynthia roretzi and M.tectiformis which are rare annotation.
+- type of data is ESTs, assembled EST cluster,,,etc,,
+- potential flow: BioMart -> ANNOTATOR -> TogoDB
+
+DL ESTs of Halocynthia roretzi from NCBI/Taxonomy
+
+TogoDB by Toshiaki
+- upload table format  (table services for uploading data will be able to access using WS)
+
+
+jORCA by Oswaldo
+
+-mapped WABI services
+- jORCA: WABI WSDL application can run in local machine after installation
+- jORCA can tell which kind of analysis can do with our multifasta format file or anykind of format. For example, using Magallanes: INB*,
+if put "FASTA" in Find box, the result come up with 23 tools that can use for analysis. For analysis use myexperiment.org
+*Magallanes: INB (Services discovering that discover what kind of analysis can provide for your data format)
+
+
+ANNOTATOR
+
+- how different between ANNOTATOR and InterProscan
+- how can I know the version of each DB use in Prim-seq-algorithm
+- it would be nice if user
+
+
+Results ¶
+
+
+TODOs ¶
+
+

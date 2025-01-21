@@ -1,0 +1,134 @@
+= Satellite meeting for Data Visualization =
+
+== Topics ==
+
+Visualization for large datasets including:
+ * Protein-Protein Interaction
+ * Pathways
+ * Genome
+ * other
+
+This includes development of easy-to-use backend data services such as 
+ * Interaction network data service
+ * Annotation service
+
+== Chairperson ==
+ * Bruno Aranda (baranda@ebi.ac.uk)
+
+== Participants ==
+
+ * Keichiro Ono (kono@ucsd.edu)
+ * Soichi Ogishima (ogishima@sysbioevo.org)
+ * Kozo Nishida (kozo-ni@is.naist.jp)
+ * Yasukazu "yaskaz" Nakamura (yaskaz at ddbj.org)
+ * Shinobu Okamoto ( so at kazusa.or.jp -- genoDive)
+ * Kunihiro Nishimura (kuni at cyber.t.u-tokyo.ac.jp -- genoDive)
+ * Isaac Ho ( iyho@lbl.gov -- JGI / UCSF )
+ * Yunsun Nam (namy002@gmail.com)
+ * Pierre Lindenbaum
+ * Jessica Severin (severin@gsc.riken.jp)
+
+== Presentation of visualization tools from the participants ==
+
+[http://hackathon2.dbcls.jp/wiki/VisualizationWg]
+
+== Targets ==
+ * Last yeat in the hackathon, we have developed a common query web service API for interaction databases called PSICQUIC.  Some of the service providers have published their service and now we should think about how to use the service in client and make them easy-to-use for all service users.
+ * The goal of this group is the following:
+   * Make backend service more easy-to-use client software
+      * Cleaner API
+      * REST support
+      * with emerging larger datasets, visualization may need to change
+   * Create intuitive UI for client software
+   * Design more sophisticated visualization
+
+== Date ==
+
+ * Most of the time during the hackathon.  Feel free to join anytime :-)
+
+== Room ==
+
+ * Chura Hall (3F)
+
+== Presentations ==
+
+
+== Notes ==
+
+ * BioMartApiRequest
+
+ * Software
+   * Cytoscape
+   * GraphViz
+   * Ubigraph
+   * E-cell 3D
+   * N-Browse
+   * BioCichlid
+   * genoDive
+   * FANTOM4 eeDB : transcriptional network and expression
+
+ * Data Provider
+   * Interactions
+     * IntAct
+     * MINT
+     * BioGRID
+     * STRING
+   * Pathways
+     * KEGG
+     * Reactome
+     * BRENDA
+   * Annotations(service)
+     * Biomart
+     * Entrez Gene
+
+ * Large-Scale Data Visualization
+  * Backend
+    * Import data - PSICQUIC, DAS-MI
+    * Edit data in database interactively - how?
+
+  * Interactivity
+
+ * VisualizationWg
+
+== Results ==
+ * How to create Processing OSGi bundle (Japanese)
+   * http://d.hatena.ne.jp/kozo-ni/20090318#1237335991
+ * pARP 3D visualization prototype (by Jan@Sanger, Kunihiro@UT)
+   * Got detail display working (on right hand side): http://www.flickr.com/photos/82932180@N00/3364927005/
+   * Kunihiro wrote a proof-of-concept for 3D (to display multiple individuals simultaneously) in processing: http://www.flickr.com/photos/82932180@N00/3368845815/
+ * Generic ID mapping for GenMAPP Data Import plugin for Cytoscape ( Isaac Ho )
+   * maps any network based on GenMAPP-supported data libraries ( e.g, KEGG, Affy, Ensembl ) to any expression data based on these libraries, by converting all ids to their Ensembl equivalents. Uses a webservice that points to the GenMAPP db server.    
+   * Kei Ono and I discussed implementation issues ( e.g, plugin division of labor, best place for id conversion )  
+   * 60% complete 
+
+ * PSICQUIC: Bruno implemented a REST version of the PSICQUIC service. It returns the standard [ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/README PSI-MITAB] format.
+
+ * Keiichiro Ono and Kozo Nishida have released and tested OSGi-fied version of Processing core.  It is available here (maven repository):
+    * http://cytoscape.wodaklab.org/nexus/content/repositories/snapshots/org/cytoscape/processing-core-osgi/
+    * Confirmed to work with Apache Felix 1.4.1 + Spring Framework 2.5 + Spring Dynamic Modules 1.1.2
+    * Can be used for large-scale application.
+      * We can use Processing application for rapid-prototyping, and use the (OSGi) library version of Processing for production release.
+ * Kunihiro Nishimura wrote a prototype interaction demo with a physical controller
+   * video
+      * http://www.cyber.t.u-tokyo.ac.jp/~kuni/tmp/Physical_Controller_kunihiro.m4v
+
+== TODOs ==
+
+=== Rendering ===
+ * Build a flexible toolkit for biological data visualization.  Some of the works above are done by Processing and it is a good candidate for building such toolkit.
+    * OpenGL java library (JOGL) should be converted to OSGi for Cytoscape + Processing for large-scale visualization to utilize hardware-acceralation.
+    * Integrate Processing rendering engine to Cytoscape for more flexible visualization, including animation, 3D, etc.
+    * Genome-Browsers can take advantage of this type of toolkit, too.
+      * What are the common components we need?
+
+ * Visualize time-series microarray data using Cytoscape
+   * Animation (using dynamic layout)
+
+ * More biologically meaningful graph layout
+   * List up several methods of graph layout 
+
+=== Backend Data Services ===
+ * Make BioMart Cytoscape plugin into SOAP/REST hybrid for nicer GUI and performance.  Still Biomart SOAP service has problems if developer uses Java code generator (WSDL2Java/CXF)
+ * Use DAS and other services for streaming data for visualization (just like genoDive does). 
+ * PSICQUIC service is now available as REST and SOAP.  We need to promote this standard to the interaction data service providers.
+

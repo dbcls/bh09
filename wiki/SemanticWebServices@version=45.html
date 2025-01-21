@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SemanticWebServices – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/SemanticWebServices?version=45&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="SemanticWebServices.html" title="View latest version" />
+        <link rel="next" href="SemanticWebServices@version=46.html" title="Version 46" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="SemanticWebServices@version=44.html" title="Version 44" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="SemanticWebServices@version=44.html" title="Version 44">Previous Version</a></span></li><li><a href="SemanticWebServices.html" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="SemanticWebServices@version=46.html" title="Version 46">Next Version</a> &rarr;</span></li><li class="last"><a href="SemanticWebServices@action=diff&amp;version=45.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 45 (modified by rvos, <a class="timeline" href="../timeline@from=2009-03-20T11%253A58%253A09+0900&amp;precision=second.html" title="2009-03-20T11:58:09+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <p>
+</p><div class="wiki-toc"><ol><li><a href="SemanticWebServices@version=45.html#SemanticWebServicesObjectives">Semantic Web Services Objectives</a></li><li>
+<a href="SemanticWebServices@version=45.html#Participants">Participants</a></li><li>
+<a href="SemanticWebServices@version=45.html#DECISIONSMADE">DECISIONS MADE</a><ol><li><a href="SemanticWebServices@version=45.html#SADIAPIDecisions">SADI API Decisions</a></li><li>
+<a href="SemanticWebServices@version=45.html#WebServicestoWrap">Web Services to Wrap</a></li></ol></li><li>
+<a href="SemanticWebServices@version=45.html#Semanticwebservices">Semantic web services</a><ol><li><a href="SemanticWebServices@version=45.html#Whythesemanticweb">Why the semantic web?</a></li><li>
+<a href="SemanticWebServices@version=45.html#Contributingtechnologies">Contributing technologies</a><ol><li><a href="SemanticWebServices@version=45.html#RDF">RDF</a><ol><li><a href="SemanticWebServices@version=45.html#Simpleexample">Simple example</a></li><li>
+<a href="SemanticWebServices@version=45.html#Examplewithmorenamespaces">Example with more namespaces</a></li><li>
+<a href="SemanticWebServices@version=45.html#Realexample">Real example</a></li><li>
+<a href="SemanticWebServices@version=45.html#Biologicalexample">Biological example</a></li></ol></li><li>
+<a href="SemanticWebServices@version=45.html#OWL">OWL</a></li><li>
+<a href="SemanticWebServices@version=45.html#SAWSDL">SAWSDL</a></li></ol></li><li>
+<a href="SemanticWebServices@version=45.html#Implementingasemanticwebservice">Implementing a semantic web service</a><ol><li><a href="SemanticWebServices@version=45.html#Generalapproachforretro-fittingwebservices">General approach for retro-fitting web services</a></li></ol></li><li>
+<a href="SemanticWebServices@version=45.html#Resources">Resources</a></li></ol></li></ol></div><p>
+</p>
+<h1 id="SemanticWebServicesObjectives">Semantic Web Services Objectives</h1>
+<ul><li>Mark Wilkinson
+<ul><li><i>Create a list of datatypes representing the core datatypes for the WABI services</i>
+<ul><li>STATUS: DONE by Oswaldo
+</li></ul></li><li>Create OWL Classes representing these datatypes
+<ul><li>STATUS: on hold; Oswaldo is mapping to Moby Classes - Mark will map to OWL Classes when he is finished
+</li></ul></li><li>Documentation of SADI (This should include movies of the demo's so that people can see it in-action)
+<ul><li>STATUS:  <a class="ext-link" href="http://sadiframework.org"><span class="icon"> </span>Website</a> extensively updated 
+</li></ul></li></ul></li></ul><ul><li>Luke McCarthy
+<ul><li>re-code core SADI code such that services add predicates, rather than client
+</li><li>Study Paul Gordon's WSDL-2-Moby tool and map some WABI services to <a class="missing wiki">BioMoby?</a> for practice
+</li><li>tweak Paul's WSDL-2-Moby tool to be a WSDL-2-SADI tool
+</li><li>create some WABI-SADI services
+</li></ul></li></ul><h1 id="Participants">Participants</h1>
+<h1 id="DECISIONSMADE">DECISIONS MADE</h1>
+<h2 id="SADIAPIDecisions">SADI API Decisions</h2>
+<ul><li>Service provider will "decorate" input by adding a new predicate/object to the incoming data; this is no longer a client-side task
+</li><li>Client <strong><i>must</i></strong> semantically-type their input data according to the OWL document describing the service provider's input
+<ul><li>this allows the service to find the input nodes based on their rdf:type rather than having to reason-over the incoming data.
+</li><li>service provider will strip this rdf:type tag off of the data before sending it back to the client.
+</li></ul></li><li>Service providers <strong><i>must</i></strong> semantically-type their output data according to the OWL document describing their output such that the client can recognize the nodes that have been decorated by the service.  Clients may chose (probably will want to) strip the rdf:type tag off of the returning data.
+</li></ul><h2 id="WebServicestoWrap">Web Services to Wrap</h2>
+<ul><li>We decided that WABI services cannot be efficiently wrapped <i>en masse</i> because many (most?) of them output non-standardized, tab-delimited flatfiles; adding semantics into these files would require us to write a special parser for each service... BZZZZT!  We suggest that, at a minimum, WABI services should output XML such that we can use generic parsers and generic tools (e.g. XSLT) to add semantics into these services.
+</li><li>TOGO services are nicer, but don't have a WSDL (because they are RESTful).  As such, there is no way for us to wrap them other than one-by-one...  BZZZZZZT!
+</li><li>We have asked Oswaldo to suggest which WABI services he thinks are most interesting/useful for his integration with the Spanish INB, and we will wrap these services during the hackathon as SADI and/or Moby services.
+</li></ul><h1 id="Semanticwebservices">Semantic web services</h1>
+<p>
+The holy grail of web service interoperability is hampered along three axes: syntax, semantics and interface. In terms of core data syntax, bioinformatics tools consume and produce data in many different formats, some of which are loosely defined syntactically (e.g. legacy flat file formats). In addition, the semantics of what we are trying to do with data, and what we mean by encoding data in a certain way, are often loosely defined. Many file formats are abused and overloaded to add semantics to fields that weren't intended for that (e.g. in comments, definition lines, key/value fields). Lastly, there is a proliferation of interfaces, each of which probably make sense on their own (e.g. RESTful APIs) but they all aren't interoperable in a way that a machine can make sense of by itself.  The semantic web is technically comprised of a stack of common standards and technologies that can be applied to these three axes of syntax, semantics and interface. By adopting these common standards different service providers will be able to promote interoperability. 
+</p>
+<h2 id="Whythesemanticweb">Why the semantic web?</h2>
+<p>
+At a philosophical level, the semantic web enhances science because it forces us to clearly and formally define meanings, intentions and problems. This in turn promotes collaboration, reproducibility and more precise communication. At a technical level, the semantic web makes it easier to get other specialists' data and its computational meaning. Syntax is not enough for this, because syntax can be abused and misinterpreted - true tape safety and end-user usability depends on well-defined semantics. An additional technical benefit is that defining the semantics (i.e. what you mean, what you intend to do), you don't have to hardcode to a particular syntax; hence, web service components become more flexible.
+</p>
+<h2 id="Contributingtechnologies">Contributing technologies</h2>
+<p>
+The following subsections describe the core technologies that are involved in developing semantic web services (RDF, OWL, SAWSDL).
+</p>
+<h3 id="RDF">RDF</h3>
+<p>
+<a class="ext-link" href="http://www.w3.org/RDF/"><span class="icon"> </span>RDF</a> assumes that anything in the world can be described in triples, i.e. statements consisting of subject, predicate, object. <a class="ext-link" href="http://www.w3.org/TR/rdf-syntax-grammar/"><span class="icon"> </span>RDF/XML</a> is just one serialization of the concept of triples (other ways are <a class="ext-link" href="http://www.w3.org/DesignIssues/Notation3"><span class="icon"> </span>N3</a>, <a class="ext-link" href="http://www.json.org/"><span class="icon"> </span>JSON</a>, <a class="ext-link" href="http://www.w3.org/TR/rdfa-syntax/"><span class="icon"> </span>RDFa</a> etc.). An RDF/XML document imports at least two namespaces: rdf and <a class="ext-link" href="http://www.w3.org/TR/rdf-schema/"><span class="icon"> </span>rdfs</a>. 
+</p>
+<h4 id="Simpleexample">Simple example</h4>
+<p>
+rdf:Description element defines the subject, rdf:about attribute defines a resource that is the subject. rdfs:label, for example, attaches a human readable label to a subject.
+</p>
+<p>
+XML representation of RDF:
+</p>
+<pre class="wiki">&lt;rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+
+	&lt;rdf:Description rdf:about="http://elmonline.ca/luke"&gt;
+		&lt;rdfs:label&gt;Luke McCarthy's web page&lt;/rdfs:label&gt;
+	&lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;
+</pre><p>
+Expanded human-readable representation:
+</p>
+<pre class="wiki">subject: &lt;http://elmonline.ca/luke&gt;
+predicate: 'rdfs:label' =&gt; &lt;http://http://www.w3.org/2000/01/rdf-schema#label&gt;
+object: "Luke McCarthy's web page"
+</pre><p>
+Condensed human-readable representation:
+</p>
+<pre class="wiki">&lt;http://elmonline.ca/luke&gt; &lt;http://www.w3.org/2000/01/rdf-schema#label&gt;  "Luke McCarthy's blog"
+</pre><p>
+Graphical representation:
+<a class="ext-link" href="http://elmonline.ca/sw/examples/simpler.png"><span class="icon"> </span>http://elmonline.ca/sw/examples/simpler.png</a>
+</p>
+<h4 id="Examplewithmorenamespaces">Example with more namespaces</h4>
+<p>
+subject is now defined on element foaf:Person (again by rdf:about), subject has multiple predicates: foaf:name (his name), foaf:page (which in turn encloses another triple: foaf:Document =&gt; dc:title =&gt; literal)
+</p>
+<p>
+XML representation of RDF:
+</p>
+<pre class="wiki">&lt;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;foaf:Person rdf:about="http://sw.elmonline.ca/elm"&gt;
+    &lt;foaf:name&gt;Luke McCarthy&lt;/foaf:name&gt;
+    &lt;foaf:page&gt;
+      &lt;foaf:Document rdf:about="http://elmonline.ca/luke"&gt;
+        &lt;dc:title&gt;Luke McCarthy's web page&lt;/dc:title&gt;
+      &lt;/foaf:Document&gt;
+    &lt;/foaf:page&gt;
+  &lt;/foaf:Person&gt;
+
+&lt;/rdf:RDF&gt;
+</pre><p>
+Condensed human-readable representation:
+</p>
+<pre class="wiki">&lt;http://sw.elmonline.ca/elm&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;  &lt;http://xmlns.com/foaf/0.1/Person&gt; .
+&lt;http://sw.elmonline.ca/elm&gt; &lt;http://xmlns.com/foaf/0.1/name&gt;  "Luke McCarthy" .
+&lt;http://sw.elmonline.ca/elm&gt; &lt;http://xmlns.com/foaf/0.1/page&gt;  &lt;http://elmonline.ca/luke&gt; .
+&lt;http://elmonline.ca/luke&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;  &lt;http://xmlns.com/foaf/0.1/Document&gt; .
+&lt;http://elmonline.ca/luke&gt; &lt;http://purl.org/dc/elements/1.1/title&gt;  "Luke McCarthy's web page"
+</pre><p>
+Graphical representation:
+<a class="ext-link" href="http://elmonline.ca/sw/examples/simple.png"><span class="icon"> </span>http://elmonline.ca/sw/examples/simple.png</a>
+</p>
+<h4 id="Realexample">Real example</h4>
+<p>
+a set of triples describing Tim Berners-Lee using foaf (<a class="ext-link" href="http://www.foaf-project.org/"><span class="icon"> </span>Friend of a Friend</a>), dc (<a class="ext-link" href="http://dublincore.org/"><span class="icon"> </span>Dublin core</a>), rss (<a class="ext-link" href="http://en.wikipedia.org/wiki/RSS_(file_format)"><span class="icon"> </span>Really Simple Syndication</a>), rdfs.
+</p>
+<p>
+XML representation of RDF:
+</p>
+<pre class="wiki">&lt;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rss="http://purl.org/rss/1.0/"
+  xmlns:html="http://www.w3.org/1999/xhtml"&gt;
+
+  &lt;foaf:Agent rdf:nodeID="id2246148"&gt; 
+    &lt;foaf:name&gt;Tim Berners-Lee&lt;/foaf:name&gt; 
+    &lt;foaf:weblog&gt; 
+      &lt;foaf:Document rdf:about="http://dig.csail.mit.edu/breadcrumbs/blog/4"&gt; 
+        &lt;dc:title&gt;Tim Berners-Lee&lt;/dc:title&gt; 
+        &lt;rdfs:seeAlso&gt; 
+          &lt;rss:channel rdf:about="http://dig.csail.mit.edu/breadcrumbs/blog/feed/4"&gt; 
+            &lt;foaf:maker rdf:nodeID="id2246148"/&gt; 
+            &lt;foaf:topic rdf:resource="http://www.w3.org/2001/sw/"/&gt; 
+            &lt;foaf:topic rdf:resource="http://www.w3.org/RDF/"/&gt; 
+          &lt;/rss:channel&gt;
+        &lt;/rdfs:seeAlso&gt; 
+      &lt;/foaf:Document&gt; 
+    &lt;/foaf:weblog&gt; 
+    &lt;foaf:interest rdf:resource="http://www.w3.org/2001/sw/"/&gt; 
+    &lt;foaf:interest rdf:resource="http://www.w3.org/RDF/"/&gt; 
+  &lt;/foaf:Agent&gt;
+
+&lt;/rdf:RDF&gt;
+</pre><p>
+Condensed human-readable representation:
+</p>
+<pre class="wiki">&lt;id2246148&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;  &lt;http://xmlns.com/foaf/0.1/Agent&gt; .
+&lt;id2246148&gt; &lt;http://xmlns.com/foaf/0.1/name&gt;  "Tim Berners-Lee" .
+&lt;id2246148&gt; &lt;http://xmlns.com/foaf/0.1/interest&gt;  &lt;http://www.w3.org/RDF/&gt; .
+&lt;id2246148&gt; &lt;http://xmlns.com/foaf/0.1/interest&gt;  &lt;http://www.w3.org/2001/sw/&gt; .
+&lt;id2246148&gt; &lt;http://xmlns.com/foaf/0.1/weblog&gt;  &lt;http://dig.csail.mit.edu/breadcrumbs/blog/4&gt; .
+# this says that there is an Agent named Tim Berners-Lee who is interested in RDF and the Semantic Web and has a weblog (identified by http://dig.csail.mit.edu/breadcrumbs/blog/4)
+
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/4&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;  &lt;http://xmlns.com/foaf/0.1/Document&gt; .
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/4&gt; &lt;http://purl.org/dc/elements/1.1/title&gt;  "Tim Berners-Lee" .
+# this says that the weblog identified above is a Document titled "Tim Berners-Lee"
+
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/4&gt; &lt;http://www.w3.org/2000/01/rdf-schema#seeAlso&gt;  &lt;http://dig.csail.mit.edu/breadcrumbs/blog/feed/4&gt; .
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/feed/4&gt; &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;  &lt;http://purl.org/rss/1.0/channel&gt; .
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/feed/4&gt; &lt;http://xmlns.com/foaf/0.1/maker&gt;  &lt;id2246148&gt; .
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/feed/4&gt; &lt;http://xmlns.com/foaf/0.1/topic&gt;  &lt;http://www.w3.org/RDF/&gt; .
+&lt;http://dig.csail.mit.edu/breadcrumbs/blog/feed/4&gt; &lt;http://xmlns.com/foaf/0.1/topic&gt;  &lt;http://www.w3.org/2001/sw/&gt; .
+# this says that the weblog identified by http://dig.csail.mit.edu/breadcrumbs/blog/4 has an alternative representation (rdfs:seeAlso) that is the RSS feed (rss:channel) identified by http://dig.csail.mit.edu/breadcrumbs/blog/feed/4.  This feed is about RDF and the Semantic Web and is written by the Agent above (Tim Berners-Lee)
+</pre><h4 id="Biologicalexample">Biological example</h4>
+<p>
+a UniProt record: <a class="ext-link" href="http://www.uniprot.org/uniprot/P47989.rdf"><span class="icon"> </span>http://www.uniprot.org/uniprot/P47989.rdf</a>
+</p>
+<h3 id="OWL">OWL</h3>
+<p>
+While RDF just defines triples, <a class="ext-link" href="http://www.w3.org/TR/owl-features/"><span class="icon"> </span>OWL</a> (Web Ontology Language) allows for defining classes of things, as opposed to opaque resources, for subjects (class), predicates (property) and objects (class). The previous examples that included things such as foaf:Person were using instances of classes from OWL ontologies.
+</p>
+<ul><li>Simple example: an OWL ontology that describes a single class defined by duck-typing - anything belongs to CaffeineMetabolismParticipant if its value for isParticipantIn is the KEGG pathway for caffeine metabolism.
+</li></ul><h3 id="SAWSDL">SAWSDL</h3>
+<p>
+Web services interfaces are described using web service description language (<a class="ext-link" href="http://www.w3.org/TR/wsdl"><span class="icon"> </span>WSDL</a>). In WSDL documents, semantic web services want to define the semantics of their inputs, outputs  and services. This is done using <a class="ext-link" href="http://www.w3.org/2002/ws/sawsdl/"><span class="icon"> </span>SAWSDL</a>, which provides for the attributes modelReference (which defines the OWL class), liftingSchema (which links to an  <a class="ext-link" href="http://www.w3.org/TR/xslt"><span class="icon"> </span>xslt</a> that lifts the  <a class="ext-link" href="http://www.w3.org/XML/"><span class="icon"> </span>xml</a> syntax into rdf) and loweringSchema (which links to an xslt that converts the rdf back to xml).
+</p>
+<h2 id="Implementingasemanticwebservice">Implementing a semantic web service</h2>
+<h3 id="Generalapproachforretro-fittingwebservices">General approach for retro-fitting web services</h3>
+<p>
+Assuming you have a web service that consumes and produces xml and that is described using a WSDL, here are the steps you would need to take:
+</p>
+<ul><li>create a mapping, conceptually, between your xml and relevant owl classes and properties (this involves searching currently published ontologies)
+</li><li>given that mapping, create xslt style sheets to translate your xml to an rdf/xml instance document and vice versa
+</li><li>in your wsdl, define how the input and output xml can be lifted to rdf/xml by pointing to the xml=&gt;rdf stylesheet file in the liftingSchema attribute
+</li><li>also define how the input and output can be lowered from rdf/xml to your xml by pointing to the rdf=&gt;xml stylesheet file in the loweringSchema attribute
+</li><li>for the simpleTypes and complexTypes in the inputs and outputs, define which owl classes they map onto using the modelReference attribute, which points to a class uri.
+</li></ul><h2 id="Resources">Resources</h2>
+<ul><li><a class="ext-link" href="http://sadiframework.org"><span class="icon"> </span>SADI</a>
+</li><li><a class="ext-link" href="http://evolutionaryontology.org"><span class="icon"> </span>CDAO</a>
+</li><li><a class="ext-link" href="http://evoinfo.nescent.org"><span class="icon"> </span>EvoInfo</a>
+</li><li><a class="ext-link" href="http://www.nexml.org"><span class="icon"> </span>NeXML</a>
+</li><li><a class="ext-link" href="http://bioontology.org/"><span class="icon"> </span>NCBO</a>
+</li><li><a class="ext-link" href="http://bioportal.bioontology.org/"><span class="icon"> </span>BioPortal</a>
+</li><li><a class="ext-link" href="http://iws.seu.edu.cn/services/falcons/objectsearch/index.jsp"><span class="icon"> </span>semantic search engine</a>
+</li><li><a class="ext-link" href="http://protege.stanford.edu/"><span class="icon"> </span>protege owl editor (get version 4.0!)</a>
+</li><li><a class="ext-link" href="http://jena.sourceforge.net/"><span class="icon"> </span>Jena</a>
+</li><li><a class="ext-link" href="http://clarkparsia.com/pellet/"><span class="icon"> </span>Pellet reasoner</a>
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/SemanticWebServices?version=45&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

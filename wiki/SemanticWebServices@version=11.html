@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SemanticWebServices – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/SemanticWebServices?version=11&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="SemanticWebServices.html" title="View latest version" />
+        <link rel="next" href="SemanticWebServices@version=12.html" title="Version 12" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="SemanticWebServices@version=10.html" title="Version 10" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="SemanticWebServices@version=10.html" title="Version 10">Previous Version</a></span></li><li><a href="SemanticWebServices.html" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="SemanticWebServices@version=12.html" title="Version 12">Next Version</a> &rarr;</span></li><li class="last"><a href="SemanticWebServices@action=diff&amp;version=11.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 11 (modified by rvos, <a class="timeline" href="../timeline@from=2009-03-20T09%253A50%253A25+0900&amp;precision=second.html" title="2009-03-20T09:50:25+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SemanticWebServicesObjectives">Semantic Web Services Objectives</h1>
+<ul><li>Mark Wilkinson
+<ul><li>Create a list of datatypes representing the core datatypes for the WABI services
+</li><li>Create OWL Classes representing these datatypes
+</li><li>Documentation of SADI (This should include movies of the demo's so that people can see it in-action)
+</li></ul></li></ul><ul><li>Luke McCarthy
+<ul><li>re-code core SADI code such that services add predicates, rather than client
+</li><li>Study Paul Gordon's WSDL-2-Moby tool and map some WABI services to <a class="missing wiki">BioMoby?</a> for practice
+</li><li>tweak Paul's WSDL-2-Moby tool to be a WSDL-2-SADI tool
+</li><li>create some WABI-SADI services
+</li></ul></li></ul><h1 id="DECISIONSMADE">DECISIONS MADE</h1>
+<h2 id="SADIAPIDecisions">SADI API Decisions</h2>
+<ul><li>Service provider will "decorate" input by adding a new predicate/object to the incoming data; this is no longer a client-side task
+</li><li>Client <strong><i>must</i></strong> semantically-type their input data according to the OWL document describing the service provider's input
+<ul><li>this allows the service to find the input nodes based on their rdf:type rather than having to reason-over the incoming data.
+</li><li>service provider will strip this rdf:type tag off of the data before sending it back to the client.
+</li></ul></li><li>Service providers <strong><i>must</i></strong> semantically-type their output data according to the OWL document describing their output such that the client can recognize the nodes that have been decorated by the service.  Clients may chose (probably will want to) strip the rdf:type tag off of the returning data.
+</li></ul><h2 id="WebServicestoWrap">Web Services to Wrap</h2>
+<ul><li>We decided that WABI services cannot be efficiently wrapped <i>en masse</i> because many (most?) of them output non-standardized, tab-delimited flatfiles; adding semantics into these files would require us to write a special parser for each service... BZZZZT!  We suggest that, at a minimum, WABI services should output XML such that we can use generic parsers and generic tools (e.g. XSLT) to add semantics into these services.
+</li><li>TOGO services are nicer, but don't have a WSDL (because they are RESTful).  As such, there is no way for us to wrap them other than one-by-one...  BZZZZZZT!
+</li><li>We have asked Oswaldo to suggest which WABI services he thinks are most interesting/useful for his integration with the Spanish INB, and we will wrap these services during the hackathon as SADI and/or Moby services.
+</li></ul><h2 id="Subgroupsummary">Subgroup summary</h2>
+<h3 id="Whysemanticwebservices">Why semantic web services</h3>
+<p>
+The holy grail of web service interoperability is hampered along three axes: syntax, semantics and interface. In terms of core data syntax, bioinformatics tools consume and produce data in many different formats, some of which are loosely defined syntactically (e.g. legacy flat file formats). In addition, the semantics of what we are trying to do with data, and what we mean by encoding data in a certain way, are often loosely defined. Many file formats are abused and overloaded to add semantics to fields that weren't intended for that (e.g. in comments, definition lines, key/value fields). Lastly, there is a proliferation of interfaces, each of which probably make sense on their own (e.g. RESTful APIs) but they all aren't interoperable in a way that a machine can make sense of by itself. By adopting common standards to define syntax, semantics and interface, different service providers will be able to promote interoperability. Hence, this subgroup consists of people discussing the application of such technologies as WSDL, SAWSDL, OWL, RDF/XML (and other XML tools, i.e. XML schema, transforms).
+</p>
+<h3 id="Technically">Technically</h3>
+<h3 id="Philosophically">Philosophically</h3>
+<h3 id="Stateofthepractice">State of the practice</h3>
+<h4 id="RDF">RDF</h4>
+<p>
+RDF assumes that anything in the world can be described in triples, i.e. statements consisting of subject, predicate, object. RDF/XML is just one serialization of the concept of triples (other ways are M3, JSON, RDFa etc.). An RDF/XML document imports at least two namespaces: rdf and rdfs. 
+</p>
+<ul><li>Simple example: rdf:Description element defines the subject, rdf:about attribute defines a resource that is the subject. rdfs:label, for example, attaches a human readable label to a subject.
+</li><li>Example with more namespaces: subject is now defined on element foaf:Person (again by rdf:about), subject has multiple predicates: foaf:name (his name), foaf:page (which in turn encloses another triple: foaf:Document =&gt; dc:title =&gt; literal)
+</li><li>Real example: a set of triples describing Tim Berners-Lee using foaf, dc, rss, rdfs.
+</li><li>Biological example: a UniProt record
+</li></ul><h3 id="Stateoftheart">State of the art</h3>
+<h3 id="Who">Who</h3>
+<h4 id="Current">Current</h4>
+<ul><li>SADI
+</li><li>EvoInfo
+</li></ul><h4 id="Willing">Willing</h4>
+<h3 id="Acronymsoup">Acronym soup</h3>
+<ul><li>RDF
+</li><li>RDF/XML
+</li><li>RDFS
+</li><li>M3
+</li><li>JSON
+</li><li>RDFa
+</li><li>OWL
+</li><li>WSDL
+</li><li>SAWSDL
+</li><li>XSLT
+</li><li>XML
+</li><li>DC
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/SemanticWebServices?version=11&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

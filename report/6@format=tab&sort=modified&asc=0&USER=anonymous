@@ -1,0 +1,5 @@
+__color__	__group__	__style__	ticket	summary	component	status	resolution	version	type	priority	owner	modified	_time	_reporter
+3			3	Select a journal for publication of the meeting report	component1	new			defect	major	somebody	2009-03-05T10:50:34+0900	21:58:51+0900	ktym
+3		color: #777; background: #ddd; border-color: #ccc;	1	Create the Hackathon Poster	component1	closed	fixed		defect	major	somebody	2009-03-05T10:49:54+0900	21:47:45+0900	ktym
+3		color: #777; background: #ddd; border-color: #ccc;	4	Prepare KML file and/or Google myMap	component1	closed	fixed		defect	major	somebody	2009-03-05T10:49:28+0900	20:36:33+0900	ktym
+3			2	Prepare for the BioLiquorthon	component1	new			defect	major	somebody	2009-02-06T21:48:53+0900	21:48:53+0900	ktym

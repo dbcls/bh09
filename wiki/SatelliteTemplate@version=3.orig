@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteTemplate – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteTemplate?version=3&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteTemplate" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteTemplate?version=4" title="Version 4" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteTemplate?version=2" title="Version 2" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteTemplate?version=2" title="Version 2">Previous Version</a></span></li><li><a href="/wiki/SatelliteTemplate" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteTemplate?version=4" title="Version 4">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteTemplate?action=diff&amp;version=3">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 3 (modified by ktym, <a class="timeline" href="/timeline?from=2009-03-05T04%3A39%3A27%2B0900&amp;precision=second" title="2009-03-05T04:39:27+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="TopicsObjectives">Topics / Objectives</h1>
+<p>
+(This page is a template for satellite meetings - Create a page prefixed with "Satellite" eg. <a class="wiki" href="/wiki/SatelliteBioMoby">SatelliteBioMoby</a> and copy &amp; paste the contents of this page, then edit)
+</p>
+<p>
+Edit:
+</p>
+<p>
+Give a brief introduction of the usage of the XXX software and get inputs from Solexa users.
+</p>
+<h2 id="Date">Date</h2>
+<p>
+Edit:
+</p>
+<ul><li>2009/3/17 10:00-11:00
+</li></ul><h2 id="Room">Room</h2>
+<p>
+Select one:
+</p>
+<ul><li>Chura Hall (3F)
+</li><li>Seminar Room (1F)
+</li><li>Meeting Room (1F)
+</li><li>Deck
+</li><li>Beach
+</li></ul><h2 id="Presentations">Presentations</h2>
+<p>
+Fill:
+</p>
+<ul><li>Name of the presenter
+<ul><li>Title of the talk
+</li><li>Attachments (PPT or PDF slides etc.) 
+</li></ul></li></ul><h2 id="Notes">Notes</h2>
+<ul><li>blah, blah, blah - YOUR NAME
+</li><li>blah, blah, blah - YOUR NAME
+</li><li>blah, blah, blah - YOUR NAME
+</li></ul><h2 id="Results">Results</h2>
+<p>
+Lorem ipsum dolor sit amet, ligula nulla pretium, rhoncus tempor placerat fermentum, enim integer ad vestibulum volutpat. Nisl turpis est, vel elit, congue wisi enim nunc ultricies sit, magna tincidunt. Maecenas aliquam maecenas ligula nostra, accumsan taciti. Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. nec leo, temporibus scelerisque nec.
+Ac dolor ac adipiscing amet bibendum nullam, massa lacus molestie ut libero nec, diam et, pharetra sodales eget, feugiat ullamcorper id tempor eget id vitae. Mauris pretium eget aliquet, lectus tincidunt. Porttitor mollis libero senectus pulvinar. Etiam molestie mauris ligula eget laoreet, vehicula eleifend. Repellat orci eget erat et, sem cum, ultricies sollicitudin amet eleifend dolor nullam erat, malesuada est leo ac. Varius congue wisi enim natoque turpis elementum est. 
+</p>
+<p>
+Duis montes, tellus lobortis lacus amet arcu et. In vitae vel, wisi at, id praesent libero faucibus porta egestas, quisque praesent ipsum fermentum placerat tempor. Curabitur auctor, erat mollis sed fusce, turpis vivamus a dictumst congue magnis. Aliquam amet ullamcorper dignissim molestie, gravida mollis. Tortor vitae tortor eros wisi facilisis. Consectetuer arcu ipsum ornare pellentesque, feugiat at. Aptent morbi nibh mauris a, tortor eu vel vel suscipit. Donec quam, erat ut vel cursus. Praesent integer leo orci aliquam, nibh a. Diam nobis eget, erat.
+</p>
+<blockquote>
+<p>
+natoque integer fringilla viverra ferment placerat tempor. Curabitur auctor, erat mollis sed fusce, turpis vivamus a dictumst congue magnis. Aliquam amet ullamcorper dignissim molestie, gravida mollis. Tortor vitae tortor eros wisi facilisis. Consectetuer vivamus a dictumst auctor, erat mollis. 
+</p>
+</blockquote>
+<h2 id="TODOs">TODOs</h2>
+<ul><li>blah, blah, blah
+</li><li>blah, blah, blah
+</li><li>blah, blah, blah
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteTemplate?version=3&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

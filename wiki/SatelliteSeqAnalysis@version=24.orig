@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteSeqAnalysis – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteSeqAnalysis?version=24&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteSeqAnalysis" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteSeqAnalysis?version=25" title="Version 25" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteSeqAnalysis?version=23" title="Version 23" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteSeqAnalysis?version=23" title="Version 23">Previous Version</a></span></li><li><a href="/wiki/SatelliteSeqAnalysis" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteSeqAnalysis?version=25" title="Version 25">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteSeqAnalysis?action=diff&amp;version=24">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 24 (modified by alberto.labarga, <a class="timeline" href="/timeline?from=2009-03-20T17%3A27%3A12%2B0900&amp;precision=second" title="2009-03-20T17:27:12+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SatellitemeetingforSequenceanalysistoolsfromthenextgenerationsequencer">Satellite meeting for Sequence analysis tools from the next generation sequencer</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+To share our knowledges about sequence analysis tools.
+Please write what you know about the tools. 
+</p>
+<p>
+Also see <a class="ext-link" href="http://www.oxfordjournals.org/our_journals/bioinformatics/nextgenerationsequencing.html"><span class="icon"> </span>Bioinformatics for Next Generation Sequencing virtual issue</a> -- yaskaz@ddbj (thanks to ichan) and <a class="ext-link" href="http://www.nature.com/nbt/journal/v26/n10/fig_tab/nbt1486_T3.html"><span class="icon"> </span>Table 3 of  Jay Shendure &amp; Hanlee Ji., Next-generation DNA sequencing, Nature Biotech.</a> (thanks to hinaichigo)
+</p>
+<h2 id="Mappingtools">Mapping tools</h2>
+<p>
+Maq<br />
+ELAND<br />
+<a class="ext-link" href="http://bowtie-bio.sourceforge.net/index.shtml"><span class="icon"> </span>BOWTIE</a> Ultra-short reads, Burrows-Wheeler index. <br />
+<a class="ext-link" href="http://www.dnastar.com/"><span class="icon"> </span>Lasergene</a> Support 454/Solexa. GUI interface for displaying alignments and contigs organization (scaffolds) <br />
+<a class="ext-link" href="http://www.454.com/products-solutions/analysis-tools/gs-reference-mapper.asp"><span class="icon"> </span>GSMapper</a>
+</p>
+<ul><li> Map reads to any reference genome and generate a consensus sequence.
+</li><li>Easily view all differences compared to the reference sequence with automatic output to separate files: Insertions (blocks up to 50 bases), Deletions (blocks up to 50 bases), SNPs
+</li><li>Quickly identify high confidence difference compared to the reference genome, which are singled out in a separate file.
+</li><li>Compare large, complex genomes of any size including: resequencing of whole genomes from humans, plants, yeasts, bacteria, fungi, viruses, YACs, BACs, fosmids
+</li><li>Data outputs: fna.file (sequence of contigs, FASTA format), qual.file (corresponding Phred equivalent quality score), ace.file (consensus alignment of the reads against a given reference sequence)
+</li></ul><p>
+<br />
+<a class="ext-link" href="http://compbio.cs.toronto.edu/shrimp/"><span class="icon"> </span>SHRiMP</a> supports letter-space (454/Solexa), color-space (Solid) and Helicos 2-pass space. Spaced-seeds followed by S-W. <br />
+<a class="ext-link" href="http://bx.psu.edu/miller_lab/dist/README.lastz-1.01.50/README.lastz-1.01.50.html"><span class="icon"> </span>Lastz</a> Blast(z) variant. Has parameter settings tuned for 454 and Solexa mapping for both reference based assembly and variant discovery. <br />
+<a class="ext-link" href="http://emboss.sourceforge.net/"><span class="icon"> </span>EMBOSS</a>  <br />
+many mores.... but never used.
+</p>
+<h2 id="Assembletools">Assemble tools</h2>
+<p>
+<a class="ext-link" href="http://www.454.com/products-solutions/analysis-tools/gs-de-novo-assembler.asp"><span class="icon"> </span>GSAssembly</a> 
+</p>
+<ul><li> Performs whole genome shotgun assembly of genomes with or without paired-end data.
+</li><li>Order contigs into scaffolds using supported paired-end reads.
+</li><li>Assemble larger, more complex genomes up to 400 megabases in size with a 64-bit assembler or up to 20 megabases with a 32-bit assembler.
+</li><li>Co-assemble with Sanger Sequencing reads.
+</li><li>Select the read files you want to assemble by browsing in the GUI.
+</li><li>Data outputs: fna.file (sequence of contigs, FASTA format), qual.file (corresponding Phred equivalent quality score), ace.file (alignment of the reads to contig sequence)
+</li></ul><p>
+<br />
+<a class="ext-link" href="http://www.dnastar.com/"><span class="icon"> </span>Lasergene</a> Support 454/Solexa. GUI interface for displaying alignments and contigs organization (scaffolds) <br />
+<a class="ext-link" href="http://www.ebi.ac.uk/~zerbino/velvet/"><span class="icon"> </span>Velvet</a><br />
+<a class="ext-link" href="http://emboss.sourceforge.net/"><span class="icon"> </span>EMBOSS</a> <br />
+many mores.... but never used.
+</p>
+<h2 id="Platforms">Platforms</h2>
+<p>
+<a class="ext-link" href="http://www.454.com/"><span class="icon"> </span>Roche, 454</a> <br />
+<a class="ext-link" href="http://www.illumina.com/pages.ilmn?ID=203"><span class="icon"> </span>Illumina, Solexa</a> <br />
+<a class="ext-link" href="http://www.appliedbiosystems.co.jp/website/jp/home/index.jsp"><span class="icon"> </span>AB, Solid</a> <br />
+</p>
+<h2 id="Notes">Notes</h2>
+<p>
+Every new software must handle this "huge" amount of data. <br />
+Some veriations SNP, deletion, insertion can by identified during mapping/assembly process, other things more "new biology" needs more work by bionformaticians.  <br />
+Support from biologists is required in order to discover more new things.
+</p>
+<h2 id="TODOs">TODOs</h2>
+<p>
+Connected to <a class="wiki" href="/wiki/SatelliteBigData">SatelliteBigData</a> a LIMS infrastructure is suggested for tracking history and infer problems coming from wet-lab. <br />
+From <a class="wiki" href="/wiki/SatelliteVisualization">SatelliteVisualization</a> these tools could be very usefull to explore at any level all the informations collected, from the alignment (lower) up to annotation/comparison (higher). The informations are intended as local (faltfile/databases/webservices) or remote (databases/webservices).  <br />
+Editing in real time, providing alternatives for hypothesis. <br />
+</p>
+<p>
+Easy tools to integrate informations coming from different platforms (illumina, 454, solid).
+</p>
+
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteSeqAnalysis?version=24&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+= BioMart - Data Integration and Interoperability =
+
+BioMart is a data-management and integration system for large scale biological data.
+
+Project page: http://www.biomart.org
+
+== Team ==
+
+ * Arek Kasprzyk
+ * Syed Haider
+
+== Goals ==
+
+ * To collaborate with data visualisation & workflow system writers towards better integration of BioMart resources over the web services.
+
+
+== Summary ==
+
+ * Collaborated with [http://hackathon2.dbcls.jp/wiki/SatelliteGalaxy Galaxy], [http://gmod.org/wiki/Gbrowse GBrowse] (2 way communication) and [http://hackathon2.dbcls.jp/wiki/SatelliteVisualization Cytoscape] developers for an improved BioMart Client to access BioMart databases using BioMart web services.  
+
+ * Hands-on session on how to use BioMart and which databases are available on BioMart Central Portal http://www.biomart.org/biomart/martview
+
+For details, see the use cases featuring BioMart:
+
+ * http://hackathon2.dbcls.jp/wiki/SatelliteUseCases
+
+ * http://hackathon2.dbcls.jp/wiki/BioMartApiRequest
+
+== Hands-on ==
+=== Room ===
+ * Chura Hall (3F)
+=== Attendees === 
+    * James Taylor
+    * Tobias Gattermayer
+    * Raoul Bonnal
+    * Mitsuteru Nakao
+    * Takashi Hatakeyama
+    * Atsuko Yamaguchi
+    * Kozo Nishida
+    * Hong-woo Chun
+    * Yasunori Yamamoto
+    * Todd Harris
+    * Shin Kawano
+    * Takatomo Fujisawa
+    * Yunsun Nam
+=== Notes ===
+ * have to know dataset, filter, attribute
+
+ * can use Perl API, URL Access, Web service access (REST as well as SOAP)
+
+ * MartView
+
+ * DAS access
+
+ * can set up in-house server and federate your data with publicly available databases such as: http://www.biomart.org/biomart/martview
+
+

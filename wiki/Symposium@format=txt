@@ -1,0 +1,21 @@
+= !BioHackathon 2009 Symposium =
+
+Public symposium -- talks given by selected speakers.
+
+ * Date: 16 March 2009
+ * Time: 9:00 - 12:00
+ * Place: [http://www.u-tokyo.ac.jp/campusmap/cam01_04_16_e.html Takeda Hall], The University of Tokyo
+
+Neither pre-registration nor symposium fee is required to participate.
+
+== Program ==
+
+|| 9:00 - 9:20 || Toshiaki Katayama || Introduction to the !BioHackathon 2009 and integration efforts in DBCLS ||
+|| 9:20 - 9:40 || James Taylor || Integrated reproducible analysis with Galaxy ||
+|| 9:40 - 10:00 || Tobias Gattermayer	|| Biomolecular Function Discovery with the ANNOTATOR ||
+|| 10:00 - 10:20 || Jessica Severin || Accelerating experimentation and biological discovery within RIKEN OSC !LifeScienceAccelerator -- eeDB gLyphs ||
+|| 10:20 - 10:40 || Arek Kasprzyk || !BioMart and third party applications: Working towards better interoperability ||
+|| 10:40 - 11:00 || Tom Oinn || The Taverna 2 Workflow Engine API : Extensible, High Performance and Easy to Integrate ||
+|| 11:00 - 11:20 || Oswaldo Trelles || Multi-repository architecture for service integration ||
+|| 11:20 - 11:40 || Alberto Labarga || Integrating literature and annotation resources: the Elsevier Grand Challenge experience ||
+|| 11:40 - 12:00 || Hideaki Sugawara || Looking back on a WABI life for tomorrow ||

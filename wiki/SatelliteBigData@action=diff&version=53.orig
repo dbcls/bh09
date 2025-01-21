@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteBigData (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/SatelliteBigData?action=history" title="Page history" />
+        <link rel="next" href="/wiki/SatelliteBigData?action=diff&amp;version=54" title="Version 54" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=52" title="Version 52" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=52" title="Version 52">Previous Change</a></span></li><li><a href="/wiki/SatelliteBigData?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/SatelliteBigData?action=diff&amp;version=54" title="Version 54">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/SatelliteBigData?version=52">Version 52</a> and
+        <a href="/wiki/SatelliteBigData?version=53">Version 53</a> of
+        <a href="/wiki/SatelliteBigData?version=53">SatelliteBigData</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/SatelliteBigData?version=53"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="53" />
+          <input type="hidden" name="old_version" value="52" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/03/20 14:25:22 (<a class="timeline" href="/timeline?from=2009-03-20T14%3A25%3A22%2B0900&amp;precision=second" title="2009-03-20T14:25:22+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          severin
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/SatelliteBigData?version=53">SatelliteBigData</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 52">
+                    <a href="/wiki/SatelliteBigData?version=52#L96">
+                      v52</a>
+                  </th>
+                  <th title="Version 53">
+                    <a href="/wiki/SatelliteBigData?version=53#L96">
+                      v53</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>96</th><th>96</th><td class="l"><span>&nbsp;- maybe not all data will end up in ONE archive (because it is so big). maybe need to query multiple centers to find all data (DDBJ, SRA, GEO, ArrayExpress, korea? China?)</span> </td>
+                  </tr><tr>
+                          <th>97</th><th>97</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="add">
+                  <tr class="first">
+                          <th> </th><th>98</th><td class="r"><ins>What are the common ways we would want to query?</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>99</th><td class="r"><ins>&nbsp;- should we try to define? yes</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>100</th><td class="r"><ins>&nbsp;- who should or can provide the data?</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>101</th><td class="r"><ins>&nbsp; &nbsp;- maybe the the data production centers can also provide access to data</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>102</th><td class="r"><ins>&nbsp; &nbsp;- eventually the DataCenters will also provide fine-grained access</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>103</th><td class="r"><ins>&nbsp; &nbsp;- the new high data production rates are going to make it expensive for central data providers</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>104</th><td class="r"><ins>&nbsp;- region query again we need! means mapping needed by the services</ins> </td>
+                  </tr><tr>
+                          <th> </th><th>105</th><td class="r"><ins>&nbsp;- but also want the read Sequence since we can extract SNP, need quality</ins> </td>
+                  </tr><tr class="last">
+                          <th> </th><th>106</th><td class="r"><ins>&nbsp;- NEED data providers to create complete meta-data descriptions.</ins> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>98</th><th>107</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>99</th><th>108</th><td class="l"><span>==== Processing ====</span> </td>
+                  </tr>
+            </tbody>
+              <tbody class="skipped">
+                <tr>
+                  <th><a href="/wiki/SatelliteBigData?version=52#L140">…</a></th>
+                  <th><a href="/wiki/SatelliteBigData?version=53#L149">…</a></th>
+                  <td> </td>
+                </tr>
+              </tbody>
+            <tbody class="unmod">
+                  <tr>
+                          <th>140</th><th>149</th><td class="l"><span>&nbsp;- SRA is still evaluating technology to do region based access of short-reads</span> </td>
+                  </tr><tr>
+                          <th>141</th><th>150</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="first">
+                          <th>142</th><th> </th><td class="l"><del>Working with existing big data</del> </td>
+                  </tr><tr>
+                          <th>143</th><th> </th><td class="l"><del>&nbsp;- SRA, GEO, ArrayExpress</del> </td>
+                  </tr><tr>
+                          <th>144</th><th> </th><td class="l"><del>&nbsp;- now most of us pull the whole thing down and then work with it</del> </td>
+                  </tr><tr>
+                          <th>145</th><th> </th><td class="l"><del>&nbsp;- sometimes it is even hard to send for submission, sometimes DVD to move it around. not optimal.</del> </td>
+                  </tr><tr>
+                          <th>146</th><th> </th><td class="l"><del>&nbsp;- what are the queries we want to do?</del> </td>
+                  </tr><tr>
+                          <th>147</th><th> </th><td class="l"><del>&nbsp; &nbsp;- what are the reads in this region, definitely </del> </td>
+                  </tr><tr>
+                          <th>148</th><th> </th><td class="l"><del>&nbsp;- but also SRA maybe does not want do everything, but they will not turn data down and want everyone to send them the published data</del> </td>
+                  </tr><tr class="last">
+                          <th>149</th><th> </th><td class="l"><del>&nbsp;- maybe not all data will end up in ONE archive (because it is so big). maybe need to query multiple centers to find all data (DDBJ, SRA, GEO, ArrayExpress, korea? China?)</del> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>150</th><th>151</th><td class="l"><span></span> </td>
+                  </tr>
+            </tbody><tbody class="rem">
+                  <tr class="first">
+                          <th>151</th><th> </th><td class="l"><del>What are the common ways we would want to query?</del> </td>
+                  </tr><tr>
+                          <th>152</th><th> </th><td class="l"><del>&nbsp;- should we try to define? yes</del> </td>
+                  </tr><tr>
+                          <th>153</th><th> </th><td class="l"><del>&nbsp;- who should or can provide the data?</del> </td>
+                  </tr><tr>
+                          <th>154</th><th> </th><td class="l"><del>&nbsp; &nbsp;- maybe the the data production centers can also provide access to data</del> </td>
+                  </tr><tr>
+                          <th>155</th><th> </th><td class="l"><del>&nbsp; &nbsp;- eventually the DataCenters will also provide fine-grained access</del> </td>
+                  </tr><tr>
+                          <th>156</th><th> </th><td class="l"><del>&nbsp; &nbsp;- the new high data production rates are going to make it expensive for central data providers</del> </td>
+                  </tr><tr>
+                          <th>157</th><th> </th><td class="l"><del>&nbsp;- region query again we need! means mapping needed by the services</del> </td>
+                  </tr><tr>
+                          <th>158</th><th> </th><td class="l"><del>&nbsp;- but also want the read Sequence since we can extract SNP, need quality</del> </td>
+                  </tr><tr class="last">
+                          <th>159</th><th> </th><td class="l"><del>&nbsp;- NEED data providers to create complete meta-data descriptions.</del> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>160</th><th>152</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>161</th><th>153</th><td class="l"><span>IN THE END the goal is to find biology. Having access to the individual data elements is critical and this can not be just locked away inside files that can not be internally accessed.</span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

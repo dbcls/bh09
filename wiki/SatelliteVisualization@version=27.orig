@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteVisualization – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteVisualization?version=27&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteVisualization" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteVisualization?version=28" title="Version 28" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteVisualization?version=26" title="Version 26" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteVisualization?version=26" title="Version 26">Previous Version</a></span></li><li><a href="/wiki/SatelliteVisualization" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteVisualization?version=28" title="Version 28">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteVisualization?action=diff&amp;version=27">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 27 (modified by isaacyho, <a class="timeline" href="/timeline?from=2009-03-20T12%3A18%3A38%2B0900&amp;precision=second" title="2009-03-20T12:18:38+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="SatellitemeetingforDataVisualization">Satellite meeting for Data Visualization</h1>
+<h2 id="Topics">Topics</h2>
+<p>
+Visualization for large datasets including:
+</p>
+<ul><li>Protein-Protein Interaction
+</li><li>Pathways
+</li><li>Genome
+</li><li>other
+</li></ul><p>
+This includes development of easy-to-use backend data services such as 
+</p>
+<ul><li>Interaction network data service
+</li><li>Annotation service
+</li></ul><h2 id="Chairperson">Chairperson</h2>
+<ul><li>.
+</li></ul><h2 id="Participants">Participants</h2>
+<ul><li>Bruno Aranda (baranda@…)
+</li><li>Keichiro Ono (kono@…)
+</li><li>Soichi Ogishima (ogishima@…)
+</li><li>Kozo Nishida (kozo-ni@…)
+</li><li>Yasukazu "yaskaz" Nakamura (yaskaz at ddbj.org)
+</li><li>Shinobu Okamoto ( so at kazusa.or.jp -- GenoDive)
+</li><li>Kunihiro Nishimura (kuni at cyber.t.u-tokyo.ac.jp -- GenoDive)
+</li><li>Isaac Ho ( iyho@… -- JGI / UCSF )
+</li><li>Add yourself! :)
+</li></ul><h2 id="Targets">Targets</h2>
+<ul><li>Last yeat in the hackathon, we have developed a common query web service API for interaction databases called PSICQUIC.  Some of the service providers have published their service and now we should think about how to use the service in client and make them easy-to-use for all service users.
+</li><li>The goal of this group is the following:
+<ul><li>Make backend service more easy-to-use client software
+<ul><li>Cleaner API
+</li><li>REST support
+</li></ul></li><li>Create intuitive UI for client software
+</li><li>Design more sphisticated visualization
+</li></ul></li></ul><h2 id="Date">Date</h2>
+<ul><li>Most of the time during the hackathon.  Feel free to join anytime :-)
+</li></ul><h2 id="Room">Room</h2>
+<ul><li>Chura Hall (3F)
+</li></ul><h2 id="Presentations">Presentations</h2>
+<p>
+Fill:
+</p>
+<ul><li>Name of the presenter
+<ul><li>Title of the talk
+</li><li>Attachments (PPT or PDF slides etc.) 
+</li></ul></li></ul><h2 id="Notes">Notes</h2>
+<ul><li><a class="wiki" href="/wiki/BioMartApiRequest">BioMartApiRequest</a>
+</li></ul><ul><li>Software
+<ul><li>Cytoscape
+</li><li><a class="missing wiki">GraphViz?</a>
+</li><li>Ubigraph
+</li><li>E-cell 3D
+</li><li>N-Browse
+</li><li><a class="missing wiki">BioCichlid?</a>
+</li><li><a class="missing wiki">GenoDive?</a>
+</li></ul></li></ul><ul><li>Data Provider
+<ul><li>Interactions
+<ul><li><a class="missing wiki">IntAct?</a>
+</li><li>MINT
+</li><li>BioGRID
+</li><li>STRING
+</li></ul></li><li>Pathways
+<ul><li>KEGG
+</li><li>Reactome
+</li><li>BRENDA
+</li></ul></li><li>Annotations(service)
+<ul><li>Biomart
+</li><li>Entrez Gene
+</li></ul></li></ul></li></ul><ul><li>Large-Scale Data Visualization
+<ul><li>Backend
+<ul><li>Import data - PSICQUIC, DAS-MI
+</li><li>Edit data in database interactively - how?
+</li></ul></li></ul></li></ul><ul><li>Interactivity
+</li></ul><ul><li><a class="wiki" href="/wiki/VisualizationWg">VisualizationWg</a>
+</li></ul><h2 id="Results">Results</h2>
+<ul><li>Generic ID mapping for GenMAPP Data Import plugin ( by Isaac Ho / UCSF )
+</li></ul><blockquote>
+<blockquote>
+<p>
+GenMAPP-CS is a next-generation implementation of GenMAPP, a metabolic pathway visualization tool, as a set of plugins for Cytoscape.  This week I worked on creating a way to map the ids of any network based on GenMAPP-supported data libraries ( e.g, KEGG, Affy, Ensembl ) to the ids of any expression data based on these libraries.  The solution involves converting all ids to Ensembl IDs upon import by calling a webservice on GenMAPP's servers which query their MySQL dbs.  Kei Ono and I discussed issues such as the best place in the plugin code to place the responsibility for id conversion.
+</p>
+</blockquote>
+</blockquote>
+<ul><li>How to create Processing OSGi bundle (Japanese)
+<ul><li><a class="ext-link" href="http://d.hatena.ne.jp/kozo-ni/20090318#1237335991"><span class="icon"> </span>http://d.hatena.ne.jp/kozo-ni/20090318#1237335991</a>
+</li></ul></li><li>pARP 3D visualization prototype (by Jan@Sanger, Kunihiro@UT)
+<ul><li>Got detail display working (on right hand side): <a class="ext-link" href="http://www.flickr.com/photos/82932180@N00/3364927005/"><span class="icon"> </span>http://www.flickr.com/photos/82932180@N00/3364927005/</a>
+</li><li>Kunihiro wrote a proof-of-concept for 3D (to display multiple individuals simultaneously) in processing: <a class="ext-link" href="http://www.flickr.com/photos/82932180@N00/3368845815/"><span class="icon"> </span>http://www.flickr.com/photos/82932180@N00/3368845815/</a>
+</li></ul></li></ul><h2 id="TODOs">TODOs</h2>
+<ul><li>Visualize time-series microarray data using Cytoscape
+<ul><li>Animation (using dynamic layout)
+</li></ul></li><li>More biologically meaningful graph layout
+<ul><li>List up several methods of graph layout
+</li></ul></li></ul>
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/SatelliteVisualization/2009-03-20_3D2.png" title="View attachment">2009-03-20_3D2.png</a>
+      <a href="/raw-attachment/wiki/SatelliteVisualization/2009-03-20_3D2.png" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="154828 bytes">151.2 KB</span>) - added by <em>kuni</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T10%3A48%3A04%2B0900&amp;precision=second" title="2009-03-20T10:48:04+0900 in Timeline">16 years</a> ago.
+                <q>pARP 3D prototype image1</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteVisualization/2009-03-20_3D3.png" title="View attachment">2009-03-20_3D3.png</a>
+      <a href="/raw-attachment/wiki/SatelliteVisualization/2009-03-20_3D3.png" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="81261 bytes">79.4 KB</span>) - added by <em>kuni</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T10%3A48%3A26%2B0900&amp;precision=second" title="2009-03-20T10:48:26+0900 in Timeline">16 years</a> ago.
+                <q>pARP 3D prototype image2</q>
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteVisualization?version=27&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

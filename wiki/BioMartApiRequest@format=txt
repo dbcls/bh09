@@ -1,0 +1,39 @@
+== Biomart API for Cytoscape ==
+
+=== Use Case ===
+
+ * ''I have a network in Cytoscape session and want to import some attributes ONLY FOR genes which exists on current network.''
+ * ''I want to import ID conversion table from Ensemble Gene ID to HGNC Symbol for all human genes'' 
+
+=== Function Request ===
+ 
+ * Cytoscape sends list of IDs/terms as a query.  This list should be included returned data table.  Otherwise, Cytoscape cannot map any attributes.
+ * Cytoscape BioMart client needs nicer GUI just like ''MartView'' web UI.
+    * Need to create category-oriented list of attributes.
+    * Need to tell user Max-selectable value
+
+=== Desired API ===
+{{{
+public interface BioMartUtil {
+	
+
+	public Collection<String> getMartList(URL martLocation);
+	
+	public Collection<String> getIDListFilter(String martName);
+	public Collection<String> getBooleanListFilter(String martName);
+	
+        // Simply returns list of entry as table.  FIRST COLUMN IS ALWAYS ID LIST SENT AS QUERY.
+	public Collection<String[]> getResult(Query query);
+}
+
+}}}
+
+=== Implementation Plan ===
+ * REST API does not support some of the metadata, such as sub-category of attributes and filters
+ * To extract those metadata fields, I need to use SOAP.  However, SOAP has some overhead and not as efficient as REST.
+
+==== Solution ====
+ * For building user interface, use SOAP.  Then the client has full-access to the metadata.
+ * Send actual Query through REST.  This is faster than SOAP.
+
+

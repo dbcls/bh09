@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteBigData (diff) – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="up" href="/wiki/SatelliteBigData?action=history" title="Page history" />
+        <link rel="next" href="/wiki/SatelliteBigData?action=diff&amp;version=65" title="Version 65" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/diff.css" type="text/css" />
+        <link rel="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=63" title="Version 63" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/diff.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/chrome/common/css/diff.css" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/SatelliteBigData?action=diff&amp;version=63" title="Version 63">Previous Change</a></span></li><li><a href="/wiki/SatelliteBigData?action=history" title="Page history">Wiki History</a></li><li class="last"><span><a class="next" href="/wiki/SatelliteBigData?action=diff&amp;version=65" title="Version 65">Next Change</a> &rarr;</span></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <h1>Changes
+        between
+          <a href="/wiki/SatelliteBigData?version=63">Version 63</a> and
+        <a href="/wiki/SatelliteBigData?version=64">Version 64</a> of
+        <a href="/wiki/SatelliteBigData?version=64">SatelliteBigData</a>
+      </h1>
+      <form method="post" id="prefs" action="/wiki/SatelliteBigData?version=64"><div><input type="hidden" name="__FORM_TOKEN" value="2c93bff27ce469855e39283a" /></div>
+        <div>
+          <input type="hidden" name="action" value="diff" />
+          <input type="hidden" name="version" value="64" />
+          <input type="hidden" name="old_version" value="63" />
+    <label for="style">View differences</label>
+    <select id="style" name="style">
+      <option selected="selected" value="inline">inline</option>
+      <option value="sidebyside">side by side</option>
+    </select>
+    <div class="field">
+      Show <input type="text" name="contextlines" id="contextlines" size="2" maxlength="3" value="2" />
+      <label for="contextlines">lines around each change</label>
+    </div>
+    <fieldset id="ignore">
+      <legend>Ignore:</legend>
+      <div class="field">
+        <input type="checkbox" id="ignoreblanklines" name="ignoreblanklines" />
+        <label for="ignoreblanklines">Blank lines</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorecase" name="ignorecase" />
+        <label for="ignorecase">Case changes</label>
+      </div>
+      <div class="field">
+        <input type="checkbox" id="ignorewhitespace" name="ignorewhitespace" />
+        <label for="ignorewhitespace">White space changes</label>
+      </div>
+    </fieldset>
+    <div class="buttons">
+      <input type="submit" name="update" value="Update" />
+    </div>
+        </div>
+      </form>
+      <dl id="overview">
+        <dt class="property time">Timestamp:</dt>
+        <dd class="time">
+          2009/03/20 15:03:18 (<a class="timeline" href="/timeline?from=2009-03-20T15%3A03%3A18%2B0900&amp;precision=second" title="2009-03-20T15:03:18+0900 in Timeline">16 years</a> ago)
+        </dd>
+        <dt class="property author">Author:</dt>
+        <dd class="author">
+          severin
+        </dd>
+        <dt class="property message">Comment:</dt>
+        <dd class="message">
+          
+          <p>
+--
+</p>
+
+        </dd>
+      </dl>
+      <div class="diff">
+        <div class="legend" id="diff-legend">
+          <h3>Legend:</h3>
+          <dl>
+            <dt class="unmod"></dt><dd>Unmodified</dd>
+            <dt class="add"></dt><dd>Added</dd>
+            <dt class="rem"></dt><dd>Removed</dd>
+            <dt class="mod"></dt><dd>Modified</dd>
+          </dl>
+        </div>
+        <div class="diff">
+  <ul class="entries">
+      <li class="entry">
+        <h2 id="file0">
+          <a href="/wiki/SatelliteBigData?version=64">SatelliteBigData</a>
+        </h2>
+        <table class="inline" summary="Differences" cellspacing="0">
+              <colgroup><col class="lineno" /><col class="lineno" /><col class="content" /></colgroup>
+              <thead>
+                <tr>
+                  <th title="Version 63">
+                    <a href="/wiki/SatelliteBigData?version=63#L67">
+                      v63</a>
+                  </th>
+                  <th title="Version 64">
+                    <a href="/wiki/SatelliteBigData?version=64#L67">
+                      v64</a>
+                  </th>
+                  <th> </th>
+                </tr>
+              </thead>
+            <tbody class="unmod">
+                  <tr>
+                          <th>67</th><th>67</th><td class="l"><span>In contrast to the above, diffraction results, microarray results or next-gen sequencing reads involve a largish number of objects which become more difficult to query. They are typically still stored in RDBMS but might require some tweaking that digresses from a normalized relational database model, for example databases based on a key/value model (e.g. [http://www.oracle.com/technology/products/berkeley-db/index.html BerkeleyDB], [http://tokyocabinet.sourceforge.net/index.html Tokyo Cabinet],&nbsp; BigTable, [http://hadoop.apache.org/core/ Hadoop] ).</span> </td>
+                  </tr><tr>
+                          <th>68</th><th>68</th><td class="l"><span>Apart from obvious things to do such as creating good indices, further optimization can be found by using as few joins as possible and therefore organizing the data so that it can be stored in 2 or 3 tables/indexes (e.g. eeDB). Another alternative could be the usage of specialized storage systems, like the ones used in high energy physics experiments or astronomy (for instance [http://www.hdfgroup.org/HDF5/ HDF5]).</span> </td>
+                  </tr>
+            </tbody><tbody class="add">
+                  <tr class="first">
+                          <th> </th><th>69</th><td class="r"><ins></ins> </td>
+                  </tr><tr class="last">
+                          <th> </th><th>70</th><td class="r"><ins>RIKEN OSC-LSA [http://www.osc.riken.jp/] is producing lots of data, but this data must be managed, manipulated, and mined for biology before it can be published and released to the public.&nbsp; EdgeExpressDB (eeDB) was developed during FANTOM4 project and is now being used for in-house big data management and visualization of big datasets.&nbsp; eeDB is effectively an object-database which is implemented as an API and webservices. The system is currently being ported to C and file indexes, and based on the prototype code, we are expecting around a 20x-100x performance boost.&nbsp; The current version of the eeDB API toolkit and webservices are written in perl with a narrow/deep mysql snowflake schema. This generation1 system of the API can manipulate short-read data for our internal research purposes and is proving to scale very well. eeDB works with node and network, sequence tag, mapping, and expression data at the level of billions of elements very easily.&nbsp; Queries can access individual objects, edges, and work with streams or sets of objects queried by regions, node, or networks. </ins> </td>
+                  </tr>
+            </tbody><tbody class="unmod">
+                  <tr>
+                          <th>69</th><th>71</th><td class="l"><span></span> </td>
+                  </tr><tr>
+                          <th>70</th><th>72</th><td class="l"><span>Several attendees are looking into new ways to store their data because they are hitting the ceiling of their storage capacity. Several technologies were mentioned, including [http://www.ogsadai.org.uk/ OGSADAI] which is a grid-based solution where you can setup several databases that then can be queried as one. Other technologies like the cloud might also provide part of a solution. [http://aws.amazon.com/s3/ Amazon S3] and [http://www.google.com/base/ GoogleBase] allow for storing very large amounts of data (large numbers of large objects) and are relatively cheap. The upload to these systems is however very slow which must be taken into account. In addition, these services are commercial and it might be dangerous to store non-public data there. A possible solution mentioned involves creating an encrypted data image to be uploaded instead of the original dataset. Another issue is that these companies might in the future decide to increase their prices or even stop their activities. Using the cloud for data storage therefore means that you still need a local backup in case this happens.</span> </td>
+                  </tr>
+            </tbody>
+        </table>
+      </li>
+  </ul>
+</div>
+      </div>
+  </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

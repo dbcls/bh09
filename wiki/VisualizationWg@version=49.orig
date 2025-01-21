@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      VisualizationWg – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/VisualizationWg?version=49&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/VisualizationWg" title="View latest version" />
+        <link rel="next" href="/wiki/VisualizationWg?version=50" title="Version 50" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/VisualizationWg?version=48" title="Version 48" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/VisualizationWg?version=48" title="Version 48">Previous Version</a></span></li><li><a href="/wiki/VisualizationWg" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/VisualizationWg?version=50" title="Version 50">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/VisualizationWg?action=diff&amp;version=49">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 49 (modified by jan.aerts, <a class="timeline" href="/timeline?from=2009-03-19T15%3A20%3A08%2B0900&amp;precision=second" title="2009-03-19T15:20:08+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h2 id="Day3:VisualizationWorkgroupDiscussion">Day 3: Visualization Workgroup Discussion</h2>
+<p>
+Hands on: March 19 AM at the seminar room
+</p>
+<h3 id="Tools">Tools</h3>
+<ul><li>Network
+<ul><li>Cytoscape was presented by Keiichiro@UCSD  ( <a class="ext-link" href="http://www.cytoscape.org/index.php"><span class="icon"> </span>http://www.cytoscape.org/index.php</a> )
+</li><li>E-Cell 3D was presented by Kazuharu@Keio ( <a class="ext-link" href="http://ecell3d.iab.keio.ac.jp/"><span class="icon"> </span>http://ecell3d.iab.keio.ac.jp/</a> )
+</li><li>GraphViz
+</li><li>BioCichlid by Soichi@tmd -- <a class="ext-link" href="http://newton.tmd.ac.jp/"><span class="icon"> </span>http://newton.tmd.ac.jp/</a>
+</li><li>EdgeExpressDB (eeDB) was presented by  Jessica@RIKEN ( <a class="ext-link" href="http://fantom.gsc.riken.jp/4/"><span class="icon"> </span>http://fantom.gsc.riken.jp/4/</a> -- currently protected; available soon) 
+</li></ul></li></ul><ul><li>Expression
+<ul><li>Cytoscape * Cytoscape
+<ul><li>kozo-ni's usecase
+<ul><li>retrieve a organism's all metabolic reactions from KEGG
+</li><li>convert node format from [compound -&gt; enzyme -&gt; compound] to [compound -&gt; compound] or [enzyme -&gt; enzyme] like following paper
+<ul><li><a class="ext-link" href="http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767"><span class="icon"> </span>http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767</a>
+</li></ul></li><li>calculate betweeneth and find bottlenecks (currently I use <a class="missing wiki">CentiScaPe?</a> plugin or igraph[R library])
+</li><li>map gene expression to enzyme
+</li></ul></li></ul></li><li>Genespring
+</li><li>TMeV
+</li><li>PREP+07
+</li><li>bluejay
+</li><li>Biocichlid
+</li><li>eeDB
+</li><li>GenoDive (maybe ..)
+</li></ul></li></ul><ul><li>Genome
+<ul><li>Ensembl
+</li><li>UCSC
+</li><li>GBrowse
+</li><li>PARP (multi genomes: m) waspresented by Jan@Sanger  (<a class="ext-link" href="http://github.com/jandot/parp/tree/double_circular"><span class="icon"> </span>http://github.com/jandot/parp/tree/double_circular</a>)
+</li><li>GenoDive was presented by Shinobu@Kazusa and Kunihiro@UT ( <a class="ext-link" href="http://genodive.org/"><span class="icon"> </span>http://genodive.org/</a> -- download page is <i>in prep</i>)
+</li><li>CGAS (m) by Masumi@hokudai ( <a class="ext-link" href="http://cgas.ist.hokudai.ac.jp"><span class="icon"> </span>http://cgas.ist.hokudai.ac.jp</a> )
+</li><li>Genome Projector was presented by Kazuharu@Keio ( <a class="ext-link" href="http://www.g-language.org/GenomeProjector/"><span class="icon"> </span>http://www.g-language.org/GenomeProjector/</a> )
+</li><li>bluejay  ( <a class="ext-link" href="http://bluejay.ucalgary.ca/"><span class="icon"> </span>http://bluejay.ucalgary.ca/</a> )
+</li><li>X..map  ( <a class="ext-link" href="http://xmap.picr.man.ac.uk/"><span class="icon"> </span>http://xmap.picr.man.ac.uk/</a> )
+</li><li>google GenomeBrowser
+</li><li>eeDB
+</li><li>MaDaS ( <a class="ext-link" href="http://madas2.bioinfo.cnio.es/"><span class="icon"> </span>http://madas2.bioinfo.cnio.es/</a> , click on "Go directly to example" in order to see an example)
+</li></ul></li></ul><h2 id="UsecaseData">Usecase/Data</h2>
+<ul><li>Cytoscape
+<ul><li>kozo-ni(kozo-ni@…)
+<ul><li>usecase
+<ul><li>retrieve an organism's all metabolic reactions from KEGG
+</li><li>convert node format from [compound -&gt; enzyme -&gt; compound] to [compound -&gt; compound] or [enzyme -&gt; enzyme] like following paper
+<ul><li><a class="ext-link" href="http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767"><span class="icon"> </span>http://bioinformatics.oxfordjournals.org/cgi/content/full/22/14/1767</a>
+</li></ul></li><li>calculate betweeneth and find bottlenecks (currently I use <a class="missing wiki">CentiScaPe?</a> plugin or igraph[R library])
+</li><li>map gene expression to enzyme
+</li></ul></li><li>data
+<ul><li>affymetrix gene-chip expression data
+</li></ul></li><li>functionality needs
+<ul><li>get an organism's all metabolic reactions from KEGG
+</li><li>draw enzyme or compound centric network. (In enzyme centric network, enzyme nodes share a common compound. In compound centric network, compound nodes share a common enzyme.)
+</li><li>time-series expression mapping function
+</li></ul></li><li>difficulty
+<ul><li>blah,blah,blah 
+</li></ul></li></ul></li></ul></li></ul><ul><li>E-Cell 3D
+<ul><li>show dynamics of cellular simulations as well as the network
+</li><li>debug a simulation model - a molecule could be depleted or too concentrated, steady-state (balanced flux), rhythms
+</li><li>looking at the overall behavior
+</li></ul></li></ul><ul><li>Genome Projector
+<ul><li>look at a feature of interest from several different perspectives (zoom level + context)
+</li><li>overlay data
+</li></ul></li></ul><ul><li>pARP
+<ul><li>show links between several features on one genome, e.g. mappings of readpair data
+</li></ul></li></ul><h2 id="Futuredirections">Future directions</h2>
+<ul><li>semantic zooming
+<ul><li>need for queries (DAS?) to define semantic abstraction of data
+</li><li>server-side implementation to handle semantic abstraction level of returned data 
+</li></ul></li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/VisualizationWg?version=49&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

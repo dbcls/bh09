@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      DDBJ-KEGG-PDBj – BioHackathon 2009
+    </title>
+        <link rel="search" href="../search.1.html" />
+        <link rel="help" href="TracGuide.html" />
+        <link rel="alternate" href="http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj?version=25&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="DDBJ-KEGG-PDBj.1.html" title="View latest version" />
+        <link rel="next" href="DDBJ-KEGG-PDBj@version=26.html" title="Version 26" />
+        <link rel="start" href="../wiki.1.html" />
+        <link rel="stylesheet" href="../chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="../chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="DDBJ-KEGG-PDBj@version=24.html" title="Version 24" />
+        <link rel="shortcut icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="../chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="../search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="../chrome/common/js/jquery.js"></script><script type="text/javascript" src="../chrome/common/js/trac.js"></script><script type="text/javascript" src="../chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="../index.html"><img src="../chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="../search.1.html" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="http://hackathon2.dbcls.jp/login">Login</a></li><li><a href="TracGuide.html">Help/Guide</a></li><li><a href="../about.html">About Trac</a></li><li class="last"><a href="../prefs.html">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="../wiki.1.html">Wiki</a></li><li><a href="../timeline.html">Timeline</a></li><li><a href="../milestone/index.html">Roadmap</a></li><li><a href="../browser.html">Browse Source</a></li><li><a href="../report.html">View Tickets</a></li><li class="last"><a href="../search.1.html">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="DDBJ-KEGG-PDBj@version=24.html" title="Version 24">Previous Version</a></span></li><li><a href="DDBJ-KEGG-PDBj.1.html" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="DDBJ-KEGG-PDBj@version=26.html" title="Version 26">Next Version</a> &rarr;</span></li><li class="last"><a href="DDBJ-KEGG-PDBj@action=diff&amp;version=25.html">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 25 (modified by akinjo, <a class="timeline" href="../timeline@from=2009-03-19T17%253A34%253A30+0900&amp;precision=second.html" title="2009-03-19T17:34:30+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="CreatinganexampleofworkflowsusingDDBJ-KEGG-PDBj">Creating an example of workflows using DDBJ-KEGG-PDBj</h1>
+<p>
+Members:
+</p>
+<ul><li>Yasumasa Shigemoto (WABI/SABI; DDBJ, Japan) 
+</li><li>Akira Kinjo (PDBj, Japan)
+</li><li>Soichi Ogishima (Tokyo Medical and Dental Univ, Japan) 
+</li><li>Masumi Itoh (Hokkaido Univ) 
+</li></ul><p>
+with some help from the KEGG people.
+</p>
+<ul><li><a class="ext-link" href="http://www.ddbj.nig.ac.jp"><span class="icon"> </span>DDBJ</a>
+</li><li><a class="ext-link" href="http://kegg.jp"><span class="icon"> </span>KEGG</a>
+</li><li><a class="ext-link" href="http://www.pdbj.org"><span class="icon"> </span>PDBj</a>
+</li></ul><h2 id="Whatwewanttodo">What we want to do</h2>
+<p>
+Finding pathway components (enzymes) that are expected to form physical contacts as judged from homologous protein structures.
+</p>
+<p>
+In short, find the physical protein-protein interaction networks of homologous pathways in various species.
+</p>
+<h2 id="Theprocedure">The procedure</h2>
+<h3 id="PartI">Part I</h3>
+<p>
+Using KEGG API: <a class="ext-link" href="http://www.genome.jp/kegg/soap/"><span class="icon"> </span>http://www.genome.jp/kegg/soap/</a>
+</p>
+<ol><li>Pick a pathway of a specific organism, say Glycolysis / Gluconeogenesis pathway of Homo sapiens (human).
+</li><li>Get all the amino acid sequences of that pathway component (c<i>1</i>, c<i>2</i>, ..., c<i>m</i>).
+</li></ol><h3 id="PartII">Part II</h3>
+<p>
+Using WABI (DDBJ): <a class="ext-link" href="http://xml.nig.ac.jp/index.html"><span class="icon"> </span>http://xml.nig.ac.jp/index.html</a>
+</p>
+<ol><li>Run blast for each sequence against UniProt(SwissProt / TrEMBL).
+</li><li>Group the blast results according to biological species (s<i>1</i>, s<i>2</i>, ..., s<i>n</i>).
+</li><li>For each pathway component (c<i>i</i>), pick the top hit from each species.
+<ul><li> At this step, you have (at most) an <i>m</i> compoents X <i>n</i> species array of protein sequences: <strong>Homologous Compoenents Matrix</strong> (HCM) or more commonly called <strong>Phylogenetic profile</strong>.
+</li></ul></li></ol><h3 id="PartIII">Part III</h3>
+<p>
+Using Sequence Navigator API (PDBj): <a class="ext-link" href="http://pdbjs3.protein.osaka-u.ac.jp/seqnavix/soap/index.html"><span class="icon"> </span>http://pdbjs3.protein.osaka-u.ac.jp/seqnavix/soap/index.html</a>
+</p>
+<ol><li>Pick one column (species) of the HCM (s<i>j</i>) For each component of that column, run blast against PDB sequences.
+<ul><li>You will have a list of PDBID and Chain ID as a result of this blast search.
+</li></ul></li><li>If the blast results of two components share the same PDB ID but do not share the same Chain ID, they are judged to be in contact.
+<ul><li>By regarding each pathway component as a node,  the inferred physical contacts between two components correspond to an edge in the network.
+</li></ul></li><li>Iterate the above two steps for each column of the HCM.
+</li><li>Finally, show the list of inferred PPI of the pathway for each species.
+</li></ol><h1 id="Outline">Outline</h1>
+<h2 id="Heresapathwayofhuman">Here's a pathway of human</h2>
+<p>
+<a style="padding:0; border:none" href="../attachment/wiki/DDBJ-KEGG-PDBj/hsa00010.gif.html"><img src="../raw-attachment/wiki/DDBJ-KEGG-PDBj/hsa00010.gif" alt="Glycolysis pathway of human" title="Glycolysis pathway of human" /></a>
+</p>
+<h2 id="Pickaminoacidsequencesforthepathwaycomponents">Pick amino acid sequences for the pathway components</h2>
+<pre class="wiki">&gt;comp1
+.....
+&gt;comp2
+....
+&gt;comp3
+....
+</pre><h2 id="Afterrunningblastforeachpathwaycomponent">After running blast for each pathway component</h2>
+<p>
+You will have a list of proteins annotated with species.
+</p>
+<pre class="wiki">Comp1
+  protein1 species1 evalue...
+  protein2 species2 evalue...
+  protein3 species1 evalue...
+  protein4 species2 evalue...
+  protein5 species3 evalue...
+...
+Comp2
+  protein1 species1 evalue...
+...
+</pre><h2 id="Foreachspeciesselectthetophitforeachpathwaycomponent">For each species, select the top hit for each pathway component</h2>
+<p>
+That is, filling the phylogenetic profile.
+In doing so, just select the top hit for each component for each species.
+</p>
+<pre class="wiki">          species1   species2   species3 ... ....... speciesN
+-------+---------------------------
+comp1  | protein11   protein12   ...
+comp2  | protein21   protein22   protein23 ...
+comp3  | ...
+comp4  | ...
+....
+compM
+</pre><h2 id="PickonecolumnandrunblastagainstPDB">Pick one column and run blast against PDB</h2>
+<p>
+Let's pick the species <i>j</i>.
+</p>
+<pre class="wiki">for i = 1 to M
+    result(i) &lt;- run blast protein(i,j) against PDB
+
+aset := () // empty set.
+for i1 = 1 to M-1
+  for i2 = i1 + 1 to M
+     if result(i1).pdbid = result(i2).pdbid 
+         and result(i1).chainID &lt;&gt; result(i2).chainID then
+        push (i1,i2,result(i1).pdbid)  aset
+
+</pre><ul><li>Maybe we should not limit to the condition "pdbid1=pdbid2 and chainID1 &lt;&gt; chainID2". 
+</li><li>Sometimes, two or more genes may be merged in one sequence. In that case, they will match the same chain ID but with non-overlapping regions.
+</li></ul><h1 id="Day3Mar.19">Day 3 (Mar. 19)</h1>
+<p>
+</p><div class="system-message"><strong>Error: Failed to load processor <code>Timestamp</code></strong><pre>No macro or processor named 'Timestamp' found</pre></div><p>
+</p>
+<ul><li>Part I is done. Part II is almost done. working on the routine for filling phylogenetic profile.
+</li><li>Ogishima-san says he can draw the colored pictures of the final output.
+</li><li>Some difficulty with Perl. Switch to Java? 
+</li><li>PDBj's <a class="missing wiki">SeqNavi?</a> SOAP API is out-dated (Axis 1.1). Use perl.
+</li></ul><p>
+</p><div class="system-message"><strong>Error: Failed to load processor <code>Timestamp</code></strong><pre>No macro or processor named 'Timestamp' found</pre></div><p>
+</p>
+<h2 id="Outputformat">Output format</h2>
+<ol><li>After Part II is finished, we have a phylogenetic profile.
+<pre class="wiki">\tab species1\tab species2\tab species3 ... ....... speciesN
+comp1\tab protein11\tab protein12   ...
+comp2\tab protein21\tab protein22   protein23 ...
+comp3\tab ...
+comp4\tab ...
+....
+compM
+</pre></li></ol><p>
+where comp1, comp2, ... are KEGG gene ID's, species1, species2, ... are species names, and protein11, protein12, etc. are UniProt ID's.
+</p>
+<ol start="2"><li>After Part II is finished, we have a interaction network. 
+<pre class="wiki">&gt;species1
+c1\tab c2\tab PDBID\tab chainID1\tab chainID2
+c2\tab c4\tab PDBID\tab chainID2\tab chainID4
+//
+&gt;species2
+c1\tab c3\tab PDBID\tab chainID1\tab chainID3
+...
+//
+&gt;speciesN
+..
+//
+</pre></li></ol>
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/hsa00010.gif.html" title="View attachment">hsa00010.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/hsa00010.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="19220 bytes">18.8 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="../timeline@from=2009-03-17T17%253A30%253A05+0900&amp;precision=second.html" title="2009-03-17T17:30:05+0900 in Timeline">16 years</a> ago.
+                <q>Glycolysis pathway of human</q>
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/pdb_result.tgz.html" title="View attachment">pdb_result.tgz</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/pdb_result.tgz" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="798 bytes">0.8 KB</span>) - added by <em>yshigemo</em>
+      <a class="timeline" href="../timeline@from=2009-03-19T17%253A59%253A50+0900&amp;precision=second.html" title="2009-03-19T17:59:50+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.xls.html" title="View attachment">sp_kegggene_matrix.xls</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.xls" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="336 bytes">336 bytes</span>) - added by <em>yshigemo</em>
+      <a class="timeline" href="../timeline@from=2009-03-19T22%253A22%253A02+0900&amp;precision=second.html" title="2009-03-19T22:22:02+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/species1.gif.html" title="View attachment">species1.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/species1.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="97243 bytes">95.0 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A14%253A55+0900&amp;precision=second.html" title="2009-03-20T08:14:55+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/species2.gif.html" title="View attachment">species2.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/species2.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="97243 bytes">95.0 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A16%253A21+0900&amp;precision=second.html" title="2009-03-20T08:16:21+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/species3.gif.html" title="View attachment">species3.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/species3.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="97243 bytes">95.0 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A16%253A28+0900&amp;precision=second.html" title="2009-03-20T08:16:28+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sp1-3_conservation.gif.html" title="View attachment">sp1-3_conservation.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sp1-3_conservation.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="110974 bytes">108.4 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A16%253A51+0900&amp;precision=second.html" title="2009-03-20T08:16:51+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O1_K1_APEC.gif.html" title="View attachment">Escherichia_coli_O1_K1_APEC.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O1_K1_APEC.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A17%253A25+0900&amp;precision=second.html" title="2009-03-20T08:17:25+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O139_H28_strain_E24377A_ETEC.gif.html" title="View attachment">Escherichia_coli_O139_H28_strain_E24377A_ETEC.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O139_H28_strain_E24377A_ETEC.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A17%253A30+0900&amp;precision=second.html" title="2009-03-20T08:17:30+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7.gif.html" title="View attachment">Escherichia_coli_O157_H7.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A17%253A34+0900&amp;precision=second.html" title="2009-03-20T08:17:34+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7_str_EC4076.gif.html" title="View attachment">Escherichia_coli_O157_H7_str_EC4076.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7_str_EC4076.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A17%253A50+0900&amp;precision=second.html" title="2009-03-20T08:17:50+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7_str_EC4196.gif.html" title="View attachment">Escherichia_coli_O157_H7_str_EC4196.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_O157_H7_str_EC4196.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A17%253A56+0900&amp;precision=second.html" title="2009-03-20T08:17:56+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_strain_UTI89_UPEC.gif.html" title="View attachment">Escherichia_coli_strain_UTI89_UPEC.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Escherichia_coli_strain_UTI89_UPEC.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A18%253A01+0900&amp;precision=second.html" title="2009-03-20T08:18:01+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Citrate_cycle_conservation.gif.html" title="View attachment">Citrate_cycle_conservation.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Citrate_cycle_conservation.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="57084 bytes">55.7 KB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A18%253A14+0900&amp;precision=second.html" title="2009-03-20T08:18:14+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sample.gif.html" title="View attachment">sample.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sample.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="27019 bytes">26.4 KB</span>) - added by <em>itoh</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T08%253A28%253A27+0900&amp;precision=second.html" title="2009-03-20T08:28:27+0900 in Timeline">16 years</a> ago.
+                <q>sample map with artificial data</q>
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.2.xls.html" title="View attachment">sp_kegggene_matrix.2.xls</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.2.xls" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="60482 bytes">59.1 KB</span>) - added by <em>yshigemo</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T10%253A33%253A19+0900&amp;precision=second.html" title="2009-03-20T10:33:19+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/ppi_by_species.txt.html" title="View attachment">ppi_by_species.txt</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/ppi_by_species.txt" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="82285 bytes">80.4 KB</span>) - added by <em>yshigemo</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T11%253A56%253A55+0900&amp;precision=second.html" title="2009-03-20T11:56:55+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.2.tgz.html" title="View attachment">sp_kegggene_matrix.2.tgz</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.2.tgz" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="9864542 bytes">9.4 MB</span>) - added by <em>ogishima</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T11%253A57%253A00+0900&amp;precision=second.html" title="2009-03-20T11:57:00+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.3.xls.html" title="View attachment">sp_kegggene_matrix.3.xls</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/sp_kegggene_matrix.3.xls" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="58826 bytes">57.4 KB</span>) - added by <em>yshigemo</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T11%253A57%253A20+0900&amp;precision=second.html" title="2009-03-20T11:57:20+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Yersinia_pestis.gif.html" title="View attachment">Yersinia_pestis.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Yersinia_pestis.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="25701 bytes">25.1 KB</span>) - added by <em>itoh</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T13%253A50%253A55+0900&amp;precision=second.html" title="2009-03-20T13:50:55+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="../attachment/wiki/DDBJ-KEGG-PDBj/Serratia_proteamaculans_strain_568.gif.html" title="View attachment">Serratia_proteamaculans_strain_568.gif</a>
+      <a href="../raw-attachment/wiki/DDBJ-KEGG-PDBj/Serratia_proteamaculans_strain_568.gif" title="Download" class="trac-rawlink"><img src="../chrome/common/download.png" alt="Download" /></a>
+      (<span title="33263 bytes">32.5 KB</span>) - added by <em>itoh</em>
+      <a class="timeline" href="../timeline@from=2009-03-20T14%253A03%253A50+0900&amp;precision=second.html" title="2009-03-20T14:03:50+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="http://hackathon2.dbcls.jp/wiki/DDBJ-KEGG-PDBj?version=25&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="../chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="../about.html"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

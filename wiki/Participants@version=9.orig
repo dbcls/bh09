@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      Participants – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/Participants?version=9&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/Participants" title="View latest version" />
+        <link rel="next" href="/wiki/Participants?version=10" title="Version 10" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/Participants?version=8" title="Version 8" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/Participants?version=8" title="Version 8">Previous Version</a></span></li><li><a href="/wiki/Participants" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/Participants?version=10" title="Version 10">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/Participants?action=diff&amp;version=9">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 9 (modified by tf, <a class="timeline" href="/timeline?from=2009-03-19T18%3A12%3A39%2B0900&amp;precision=second" title="2009-03-19T18:12:39+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="BioHackathon2009Participants">BioHackathon 2009 Participants</h1>
+<h2 id="Meetingorganizers">Meeting organizers</h2>
+<ul><li><a class="ext-link" href="http://www.linkedin.com/in/toshiakikatayama"><span class="icon"> </span>Toshiaki Katayama</a> (<a class="ext-link" href="http://togodb.dbcls.jp/"><span class="icon"> </span>TogoDB</a>, <a class="ext-link" href="http://togows.dbcls.jp/"><span class="icon"> </span>TogoWS</a>, <a class="ext-link" href="http://www.genome.jp/kegg/soap/"><span class="icon"> </span>KEGG API</a>, <a class="ext-link" href="http://bioruby.org/"><span class="icon"> </span>BioRuby</a>; <a class="ext-link" href="http://www.hgc.jp/"><span class="icon"> </span>HGC</a>, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/shuichikawashima"><span class="icon"> </span>Shuichi Kawashima</a> (<a class="ext-link" href="http://www.genome.jp/kegg/soap/"><span class="icon"> </span>KEGG API</a>, <a class="ext-link" href="http://www.genome.jp/aaindex/"><span class="icon"> </span>AAindex</a>, <a class="ext-link" href="http://fullmite.hgc.jp/"><span class="icon"> </span>FullMite</a>, <a class="ext-link" href="http://magest.hgc.jp/"><span class="icon"> </span>MAGEST</a>; <a class="ext-link" href="http://www.hgc.jp/"><span class="icon"> </span>HGC</a>, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/5/137/71b"><span class="icon"> </span>Takeshi Kawashima</a> (Marine Genomics Unit, OIST, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/nakaomitsuteru"><span class="icon"> </span>Mitsuteru Nakao</a> (TogoWS, BioRuby, Galaxy i18n, <a class="ext-link" href="http://genome.kazusa.or.jp"><span class="icon"> </span>CyanoBase</a>; Kazusa DNA Res, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/10/859/63b"><span class="icon"> </span>Yasunori Yamamoto</a> (DBCLS, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/10/71/3a5"><span class="icon"> </span>Hong-Woo Chun</a> (DBCLS, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/b/773/6a3"><span class="icon"> </span>Atsuko Yamaguchi</a> (DBCLS, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/10/8a0/247"><span class="icon"> </span>Shin Kawano</a> (DBCLS, Japan)
+</li><li>Keiko Sakuma (DBCLS, Japan)
+</li><li>Eiji Ueda (DBCLS, Japan)
+</li><li><a class="ext-link" href="http://www.irp.oist.jp/satoh/"><span class="icon"> </span>Noriyuki Satoh</a> (Director of Marine Genomics Unit, OIST, Japan)
+</li><li><a class="ext-link" href="http://dbcls.rois.ac.jp/en/staff/index.html"><span class="icon"> </span>Toshihisa Takagi</a> (Director of DBCLS, Japan)
+</li><li>Yoshiki Hotta (Director of ROIS, Japan)
+</li></ul><h2 id="Confirmedparticipants">Confirmed participants</h2>
+<ul><li><a class="ext-link" href="http://www.linkedin.com/in/jamespetertaylor"><span class="icon"> </span>James Taylor</a> (Galaxy; Emory Univ, US)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/0/263/342"><span class="icon"> </span>Greg von Kuster</a> (Galaxy; Penn State Univ, US)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/tomoinn"><span class="icon"> </span>Tom Oinn</a> (Taverna2; UK)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/4/807/22"><span class="icon"> </span>Arek Kasprzyk</a> (BioMart; OICR, Canada)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/syedhaider828"><span class="icon"> </span>Syed Haider</a> (BioMart/GMOD; EBI, UK)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/twharris"><span class="icon"> </span>Todd Harris</a> (<a class="ext-link" href="http://www.wormbase.org"><span class="icon"> </span>WormBase</a> / <a class="ext-link" href="http://gmod.org"><span class="icon"> </span>GMOD</a>; Montana, US)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/albertolabarga"><span class="icon"> </span>Alberto Labarga</a> (<a class="ext-link" href="http://www.ebi.ac.uk/webservices"><span class="icon"> </span>EBI</a>, <a class="ext-link" href="http://www.ebi.ac.uk/dasty"><span class="icon"> </span>Dasty</a>, <a class="ext-link" href="http://www.scientifik.info/elsevier"><span class="icon"> </span>Elsevier Grand Challenge</a>,  Univ. of Granada, Spain)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/11/1b2/47a"><span class="icon"> </span>Yulia Kovarskaya</a> (<a class="ext-link" href="http://www.scientifik.info/elsevier"><span class="icon"> </span>Elsevier Grand Challenge</a>, Univ. of Granada, Spain)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/11/3a/b8a"><span class="icon"> </span>Oswaldo Trelles</a> (MOWserv, mAPI, jORCA, Magallanes; Universidad de Málaga, Spain)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/7/213/b28"><span class="icon"> </span>José M. Fernández</a> (<a class="ext-link" href="http://trac.bioinfo.cnio.es/trac/iwwem"><span class="icon"> </span>IWWE&amp;M</a>, <a class="ext-link" href="http://cargo2.bioinfo.cnio.es/"><span class="icon"> </span>CARGO</a>, GOPHER/GOSTER, <a class="ext-link" href="http://ubio.bioinfo.cnio.es/biotools/iHOP/"><span class="icon"> </span>iHOP web services</a>; <a class="ext-link" href="http://www.cnio.es/ing/grupos/plantillas/presentacion.asp?grupo=50006450"><span class="icon"> </span>INB GN2, CNIO</a>, Spain)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/1/674/665"><span class="icon"> </span>Mark Wilkinson</a> (<a class="ext-link" href="http://biomoby.org"><span class="icon"> </span>BioMoby</a>, <a class="ext-link" href="http://sadiframework.org"><span class="icon"> </span>SADI</a>, <a class="ext-link" href="http://cardioshare.icapture.ubc.ca"><span class="icon"> </span>CardioSHARE</a>, Canada)
+</li><li>Luke <a class="missing wiki">McCarthy?</a> (BioMoby, Canada)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/2/579/779"><span class="icon"> </span>Martin Senger</a> (IRRI, Philippines)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/lindenbaum"><span class="icon"> </span>Pierre Lindenbaum</a> (<a class="ext-link" href="http://www.cephb.fr/"><span class="icon"> </span>CEPH</a>, France; <a class="ext-link" href="http://plindenbaum.blogspot.com/"><span class="icon"> </span>mash-up, visualization</a>)
+</li><li>Nicholas Putnam (Genome assembly; Rice University)
+</li><li>Isaac Ho (Cytoscape/GenMAPP; JGI/UCSF Gladstone Institute)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/brunoaranda"><span class="icon"> </span>Bruno Aranda</a> (<a class="ext-link" href="http://www.ebi.ac.uk/intact"><span class="icon"> </span>IntAct</a>, EBI, UK; PSICQUIC)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/6/418/161"><span class="icon"> </span>Keiichiro Ono</a> (Cytoscape; UCSD, U.S.)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/jandot"><span class="icon"> </span>Jan Aerts</a> (Wellcome Trust Sanger Institute, UK; BioRuby, visualization)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/5/569/123"><span class="icon"> </span>Raoul Jean Pierre Bonnal</a> (Fondazione INGM, IT; BioRuby, BioSQL)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/rutgervos"><span class="icon"> </span>Rutger Vos</a> (NEXML)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/paulmkgordon"><span class="icon"> </span>Paul Gordon</a> (Genome Canada Bioinformatics Platform, Canada)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/b/b92/8b1"><span class="icon"> </span>Jan Christian Bryne</a> (EMBRACE, ELIXIR, EuTRACC; The University of Bergen, Norway)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/vachiranee"><span class="icon"> </span>Vachiranee Limviphuvadh</a> (<a class="ext-link" href="http://www.bii.a-star.edu.sg/research/bfd/psa.php"><span class="icon"> </span>ANNOTATOR</a>; Bioinformatics Institute, A*STAR Singapore)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/tobiasgattermayer"><span class="icon"> </span>Tobias Gattermayer</a> (<a class="ext-link" href="http://www.bii.a-star.edu.sg/research/bfd/ann.php"><span class="icon"> </span>ANNOTATOR</a>; Bioinformatics Institute, A*STAR Singapore)
+</li><li>Keun-Joon Park (Center for Genome Science, Korea NIH, Korea)
+</li><li>Yunsun Nam (Center for Genome Science, Korea NIH, Korea)
+</li><li><a class="ext-link" href="http://www.khapmap.org"><span class="icon"> </span>Young Joo Kim</a> (Principal Resercher at <a class="ext-link" href="http://www.kribb.re.kr/"><span class="icon"> </span>KRIBB</a>, <a class="ext-link" href="http://www.ust.ac.kr/"><span class="icon"> </span>UST</a>, Korea)
+</li></ul><ul><li>Tatsuya Nishizawa (TogoDB, TogoWS; IMS Co., Japan)
+</li><li>Takashi Hatakeyama (Galaxy; Eiwa Co., Japan)
+</li><li>Yasumasa Shigemoto (WABI/SABI; DDBJ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/11/b02/a61"><span class="icon"> </span>Akira Kinjo</a> (PDBj, Japan) -&gt; <a class="wiki" href="/wiki/DDBJ-KEGG-PDBj">DDBJ-KEGG-PDBj</a> workflow again
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/12/b4/6a6"><span class="icon"> </span>Chisato Yamasaki</a> (<a class="ext-link" href="http://h-invitational.jp/hinv/hws/doc/"><span class="icon"> </span>H-InvDB Web Service</a> <a class="ext-link" href="http://h-invitational.jp/hinv/ahg-db/"><span class="icon"> </span>H-InvDB</a> <a class="ext-link" href="http://h-invitational.jp/tact/"><span class="icon"> </span>TACT</a> BIRC, AIST, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/9/645/914"><span class="icon"> </span>Kiyoko F. Aoki-Kinoshita</a> (RINGS; Soka Univ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/11/b66/319"><span class="icon"> </span>Shujiro Okuda</a> (<a class="ext-link" href="http://www.glyco.is.ritsumei.ac.jp/epitope/"><span class="icon"> </span>GlycoEpitope</a>; Ritsumeikan Univ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/b/763/a65"><span class="icon"> </span>Masumi Itoh</a> (Hokkaido Univ)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/12/5/a4b"><span class="icon"> </span>Jessica Severin</a> (RIKEN, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/hideyakawaji"><span class="icon"> </span>Hideya Kawaji</a> (RIKEN, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/9/bb1/766"><span class="icon"> </span>Soichi Ogishima</a> (Tokyo Medical and Dental Univ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/12/124/405"><span class="icon"> </span>Riu Yamashita</a> (HGC, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/3/56a/437"><span class="icon"> </span>Fumikazu Konishi</a> (Titech, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/ngoto"><span class="icon"> </span>Naohisa Goto</a> (BioRuby; Osaka Univ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/4/867/87"><span class="icon"> </span>Kazuharu Arakawa</a> (<a class="ext-link" href="http://www.g-language.org/"><span class="icon"> </span>G-language</a>; Inst. Adv. Biosci., Keio Univ., Japan)
+</li><li>Nobuhiro Kido (Inst. Adv. Biosci., Keio Univ., Japan)
+</li><li>Kazuki Oshita (Keio Univ, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/11/5a2/323"><span class="icon"> </span>Kozo Nishida</a> (NAIST, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/pub/5/415/647"><span class="icon"> </span>Kunihiro Nishimura</a> (genoDive; Univ of Tokyo, Japan)
+</li><li>Shinobu Okamoto (genoDive; Kazusa DNA Res, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/takatomofujisawa"><span class="icon"> </span>Takatomo Fujisawa</a> (Kazusa DNA Res, Japan)
+</li><li><a class="ext-link" href="http://www.linkedin.com/in/yaskaz"><span class="icon"> </span>Yasukazu "yaskaz" Nakamura</a> (DDBJ; National Institute of Genetics / Kazusa DNA Res, Japan)
+</li></ul><ul><li>Katsuhiko Murakami (BIRC, Japan)
+</li><li>Kiyoshi Asai (CBRC, Japan)
+</li><li>Hideaki Sugawara (WABI/SABI; DDBJ, Japan)
+</li></ul>
+        
+        
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/Participants?version=9&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

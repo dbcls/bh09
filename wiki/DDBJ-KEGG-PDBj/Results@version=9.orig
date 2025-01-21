@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      DDBJ-KEGG-PDBj/Results – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/DDBJ-KEGG-PDBj/Results?version=9&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/DDBJ-KEGG-PDBj/Results" title="View latest version" />
+        <link rel="next" href="/wiki/DDBJ-KEGG-PDBj/Results?version=10" title="Version 10" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="prev" href="/wiki/DDBJ-KEGG-PDBj/Results?version=8" title="Version 8" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span>&larr; <a class="prev" href="/wiki/DDBJ-KEGG-PDBj/Results?version=8" title="Version 8">Previous Version</a></span></li><li><a href="/wiki/DDBJ-KEGG-PDBj/Results" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/DDBJ-KEGG-PDBj/Results?version=10" title="Version 10">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/DDBJ-KEGG-PDBj/Results?action=diff&amp;version=9">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+      <p class="path noprint">
+        <a class="pathentry" title="View DDBJ-KEGG-PDBj" href="/wiki/DDBJ-KEGG-PDBj">DDBJ-KEGG-PDBj</a><span class="pathentry sep">/</span><a class="pathentry" title="View DDBJ-KEGG-PDBj/Results" href="/wiki/DDBJ-KEGG-PDBj/Results">Results</a>
+        <br style="clear: both" />
+      </p>
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 9 (modified by akinjo, <a class="timeline" href="/timeline?from=2009-03-20T16%3A15%3A43%2B0900&amp;precision=second" title="2009-03-20T16:15:43+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <h1 id="ADDBJ-KEGG-PDBjworkflow:frompathwaystoprotein-proteininteractions">A DDBJ-KEGG-PDBj workflow: from pathways to protein-protein interactions</h1>
+<ul><li>For the details of the project, see <a class="wiki" href="/wiki/DDBJ-KEGG-PDBj">DDBJ-KEGG-PDBj</a>.
+</li></ul><h2 id="Members">Members</h2>
+<ul><li>Yasumasa Shigemoto (WABI/SABI; DDBJ, Japan)
+</li><li>Akira Kinjo (PDBj, Japan)
+</li><li>Soichi Ogishima (Tokyo Medical and Dental Univ, Japan)
+</li><li>Masumi Itoh (Hokkaido Univ)
+</li></ul><h1 id="Theobjective">The objective</h1>
+<p>
+Given a KEGG pathway ID of a specific species, 
+</p>
+<ol><li>Identify homologous proteins of the pathway.
+</li><li>Infer possible protein-protein interactions between components of the homologous pathways.
+</li></ol><h1 id="How">How?</h1>
+<ol><li>Input: KEGG pathway ID
+</li><li>Get amino acid sequences of all the proteins involved in the given pathway. (KEGG API)
+</li><li>For each protein sequence, run BLAST against the UniProt (SwissProt / !TrEMBL) database to identify its homologs. (WABI)
+</li><li>Sort the BLAST results according to species.  (a local program)
+<ul><li>At this point, we will have a phylogenetic profile.
+</li></ul></li><li>For each BLAST hit (a UniProt entry), run BLAST against PDB. (PDBj SeqNavi API).
+</li><li>Find <i>physical</i> interactions between different components. (a local program)
+<ul><li>That is, if two (UniProt) sequences are homologous to different chains of the same PDB entry, they are predicted to be in physical contact.
+</li></ul></li><li>Output the phylogenetic profile and the predicted species-wise PPI.
+</li></ol><h1 id="Anexample">An example</h1>
+<ol><li>KEGG pathway (TCA cycle in <i>E. coli</i>): path:eco00020 <a style="padding:0; border:none" href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/eco00020.gif"><img src="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/eco00020.gif" alt="eco00020" title="eco00020" /></a>.
+</li><li><a href="http://hackathon2.dbcls.jp/attachment/wiki/DDBJ-KEGG-PDBj/Results/sp_kegggene_matrix.2.xls">Phylogenetic profile</a>
+</li><li>The pathway colored according to homologs in <i>Acinetobacter</i> <a style="padding:0; border:none" href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/Acinetobacter_sp._strain_ADP1_..gif"><img src="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/Acinetobacter_sp._strain_ADP1_..gif" alt="pathway colored by phylogenetic profile" title="pathway colored by phylogenetic profile" /></a>
+</li><li><a href="http://hackathon2.dbcls.jp/attachment/wiki/DDBJ-KEGG-PDBj/Results/ppi_by_species.txt">PPI list</a>
+</li><li>The pathway with PPI edges in <i>Yersinia pestis</i>  <a style="padding:0; border:none" href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/Yersinia_pestis.gif"><img src="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/Yersinia_pestis.gif" alt="PPI " title="PPI " /></a>
+</li></ol><h1 id="Whatwelearned">What we learned</h1>
+<ol><li>We had to do a significant amount of coding.
+</li><li>It takes a long time to finish all the flow.
+</li><li>By actually solving biologically inspired problems, we can identify some typical use cases which might be useful for further development of web services.
+</li></ol>
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/sp_kegggene_matrix.2.xls" title="View attachment">sp_kegggene_matrix.2.xls</a>
+      <a href="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/sp_kegggene_matrix.2.xls" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="60482 bytes">59.1 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T15%3A47%3A13%2B0900&amp;precision=second" title="2009-03-20T15:47:13+0900 in Timeline">16 years</a> ago.
+                <q>a phylogenetic profile</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/Acinetobacter_sp._strain_ADP1_..gif" title="View attachment">Acinetobacter_sp._strain_ADP1_..gif</a>
+      <a href="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/Acinetobacter_sp._strain_ADP1_..gif" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="57154 bytes">55.8 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T15%3A53%3A12%2B0900&amp;precision=second" title="2009-03-20T15:53:12+0900 in Timeline">16 years</a> ago.
+                <q>pathway colored by phylogenetic profile</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/Yersinia_pestis.gif" title="View attachment">Yersinia_pestis.gif</a>
+      <a href="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/Yersinia_pestis.gif" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="25701 bytes">25.1 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T15%3A55%3A09%2B0900&amp;precision=second" title="2009-03-20T15:55:09+0900 in Timeline">16 years</a> ago.
+                <q>PPI</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/eco00020.gif" title="View attachment">eco00020.gif</a>
+      <a href="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/eco00020.gif" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="16272 bytes">15.9 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T15%3A58%3A09%2B0900&amp;precision=second" title="2009-03-20T15:58:09+0900 in Timeline">16 years</a> ago.
+                <q>eco00020</q>
+              </li>
+              <li>
+      <a href="/attachment/wiki/DDBJ-KEGG-PDBj/Results/ppi_by_species.txt" title="View attachment">ppi_by_species.txt</a>
+      <a href="/raw-attachment/wiki/DDBJ-KEGG-PDBj/Results/ppi_by_species.txt" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="82278 bytes">80.3 KB</span>) - added by <em>akinjo</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T16%3A14%3A26%2B0900&amp;precision=second" title="2009-03-20T16:14:26+0900 in Timeline">16 years</a> ago.
+                <q>ppi list</q>
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/DDBJ-KEGG-PDBj/Results?version=9&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>

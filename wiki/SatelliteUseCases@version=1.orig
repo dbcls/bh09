@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  
+
+  <head>
+    <title>
+      SatelliteUseCases – BioHackathon 2009
+    </title>
+        <link rel="search" href="/search" />
+        <link rel="help" href="/wiki/TracGuide" />
+        <link rel="alternate" href="/wiki/SatelliteUseCases?version=1&amp;format=txt" type="text/x-trac-wiki" title="Plain Text" />
+        <link rel="up" href="/wiki/SatelliteUseCases" title="View latest version" />
+        <link rel="next" href="/wiki/SatelliteUseCases?version=2" title="Version 2" />
+        <link rel="start" href="/wiki" />
+        <link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/wiki.css" type="text/css" />
+        <link rel="shortcut icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search BioHackathon 2009" />
+    <script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://hackathon2.dbcls.jp/"><img src="/chrome/site/bh2009-logo.jpg" alt="" /></a>
+      </div>
+      <form id="search" action="/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/login">Login</a></li><li><a href="/wiki/TracGuide">Help/Guide</a></li><li><a href="/about">About Trac</a></li><li class="last"><a href="/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/wiki">Wiki</a></li><li><a href="/timeline">Timeline</a></li><li><a href="/roadmap">Roadmap</a></li><li><a href="/browser">Browse Source</a></li><li><a href="/report">View Tickets</a></li><li class="last"><a href="/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><span class="missing">&larr; Previous Version</span></li><li><a href="/wiki/SatelliteUseCases" title="View latest version">View Latest Version</a></li><li><span><a class="next" href="/wiki/SatelliteUseCases?version=2" title="Version 2">Next Version</a> &rarr;</span></li><li class="last"><a href="/wiki/SatelliteUseCases?action=diff&amp;version=1">Last Change</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 1 (modified by vachiranee, <a class="timeline" href="/timeline?from=2009-03-19T18%3A17%3A49%2B0900&amp;precision=second" title="2009-03-19T18:17:49+0900 in Timeline">16 years</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <p>
+<strong>Log</strong>
+</p>
+<p>
+Data
+-SNPs, Affy provided by Prof.Kim
+</p>
+<blockquote>
+<p>
+SNPs data come from Affymatrix chip of stroke patients and normal people (contain 262,338 SNPs)
+</p>
+</blockquote>
+<p>
+  
+</p>
+<ul><li>ANNOTATOR currently cannot analyse on SNPs data directly
+</li><li>Galaxy (<a class="ext-link" href="http://galaxy.esphealth.org/"><span class="icon"> </span>http://galaxy.esphealth.org/</a>) RGenetics
+</li></ul><blockquote>
+<blockquote>
+<p>
+quality control, ancestry and case-control analysis
+</p>
+</blockquote>
+</blockquote>
+<ul><li><a class="wiki" href="/wiki/BioMart">BioMart</a>
+</li></ul><p>
+<a class="wiki" href="/wiki/BioMart">BioMart</a>
+- have to know dataset, filter, attribute
+- can use Perl API,..
+- Martview
+- DAS access
+- Martview
+- can set up server and use in-house
+</p>
+<p>
+Question
+- Takeshi asked about how to annoate in-house data with comparing with public genome data using <a class="wiki" href="/wiki/BioMart">BioMart</a>.
+- For example, how to annotate Halocynthia roretzi or Molgula tectiformis ESTs comparing with Ciona intestinalis and Ciona savigni using <a class="wiki" href="/wiki/BioMart">BioMart</a>.
+Answer
+- Convert Halocynthia data into <a class="wiki" href="/wiki/BioMart">BioMart</a> format. Install <a class="wiki" href="/wiki/BioMart">BioMart</a> server locally. Then merge public DB and local data together.
+- <a class="wiki" href="/wiki/BioMart">BioMart</a> format is simple.
+</p>
+<p>
+Takeshi present
+- minor animal (closet animal Ciona)
+- how can analyze Halocynthia roretzi and M.tectiformis which are rare annotation.
+- type of data is ESTs, assembled EST cluster<sub>,etc</sub>
+- potential flow: <a class="wiki" href="/wiki/BioMart">BioMart</a> -&gt; ANNOTATOR -&gt; TogoDB
+</p>
+<p>
+DL ESTs of Halocynthia roretzi from NCBI/Taxonomy
+</p>
+<p>
+TogoDB by Toshiaki
+- upload table format  (table services for uploading data will be able to access using WS)
+</p>
+<p>
+jORCA by Oswaldo
+</p>
+<p>
+-mapped WABI services
+- jORCA: WABI WSDL application can run in local machine after installation
+- jORCA can tell which kind of analysis can do with our multifasta format file or anykind of format. For example, using Magallanes: INB*,
+if put "FASTA" in Find box, the result come up with 23 tools that can use for analysis. For analysis use myexperiment.org
+*Magallanes: INB (Services discovering that discover what kind of analysis can provide for your data format)
+</p>
+<p>
+ANNOTATOR
+</p>
+<p>
+- how different between ANNOTATOR and <a class="missing wiki">InterProscan?</a>
+- how can I know the version of each DB use in Prim-seq-algorithm
+- it would be nice if user can save result in xml format
+</p>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf" title="View attachment">bh2009-usecase_1.pdf</a>
+      <a href="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_1.pdf" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="242982 bytes">237.3 KB</span>) - added by <em>shuichi</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A57%3A49%2B0900&amp;precision=second" title="2009-03-20T14:57:49+0900 in Timeline">16 years</a> ago.
+              </li>
+              <li>
+      <a href="/attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf" title="View attachment">bh2009-usecase_2.pdf</a>
+      <a href="/raw-attachment/wiki/SatelliteUseCases/bh2009-usecase_2.pdf" title="Download" class="trac-rawlink"><img src="/chrome/common/download.png" alt="Download" /></a>
+      (<span title="242615 bytes">236.9 KB</span>) - added by <em>shuichi</em>
+      <a class="timeline" href="/timeline?from=2009-03-20T14%3A59%3A54%2B0900&amp;precision=second" title="2009-03-20T14:59:54+0900 in Timeline">16 years</a> ago.
+              </li>
+          </ul>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/wiki/SatelliteUseCases?version=1&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">
+        Powered by <a href="/about"><strong>Trac 0.11.6</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>
